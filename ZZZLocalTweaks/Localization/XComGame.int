@@ -776,14 +776,14 @@ ClassSummary = "Combat Engineers excel at providing both offensive and defensive
 ;  /////////////////////
 ;  //   Viper Sneak   //
 ;  /////////////////////
-[ViperRecruit X2SoldierClassTemplate]
+[ViperClass X2SoldierClassTemplate]
 !DisplayName = ()
 +DisplayName = "Viper Sneak"
 +ClassSummary = "Viper Sneaks specialize in covert operation and assassination."
 !AbilityTreeTitles = ()
 +AbilityTreeTitles[0] = "Stalker"
 +AbilityTreeTitles[1] = "Killer"
-+AbilityTreeTitles[2] = "Crunch"
++AbilityTreeTitles[2] = "Shooter"
 +AbilityTreeTitles[3] = "XCOM"
 
 !RankIcons=()
