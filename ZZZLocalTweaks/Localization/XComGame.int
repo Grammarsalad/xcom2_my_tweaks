@@ -846,6 +846,40 @@ ClassSummary = "Combat Engineers excel at providing both offensive and defensive
 +PhotoboothSoloBLines_Female[14]="She's the last thing you'll never see."
 +PhotoboothSoloBLines_Female[15]="If death takes a vacation, she'll pick up the slack."
 
+;  /////////////////////
+;  //   Viper Brute   //
+;  /////////////////////
+[ViperClass X2SoldierClassTemplate]
+!DisplayName = ()
++DisplayName = "Viper Brute"
++ClassSummary = "Viper Brutes specialize in mid to close range combat, and are often able to eliminate single targets with ease."
+!AbilityTreeTitles = ()
++AbilityTreeTitles[0] = "Zapper"
++AbilityTreeTitles[1] = "Poisoner"
++AbilityTreeTitles[2] = "Grappler"
++AbilityTreeTitles[3] = "XCOM"
+
+!RankIcons=()
++RankIcons[0]="UILibrary_Common.rank_rookie"
++RankIcons[1]="UILibrary_WOTC_APA_Class_Pack.ranks_Squaddie_Level1"
++RankIcons[2]="UILibrary_WOTC_APA_Class_Pack.ranks_Corporal_Level1"
++RankIcons[3]="UILibrary_WOTC_APA_Class_Pack.ranks_Sergeant_Level2"
++RankIcons[4]="UILibrary_WOTC_APA_Class_Pack.ranks_Lieutenant_Level2"
++RankIcons[5]="UILibrary_WOTC_APA_Class_Pack.ranks_Captain_Level2"
++RankIcons[6]="UILibrary_WOTC_APA_Class_Pack.ranks_Major_Level3"
++RankIcons[7]="UILibrary_WOTC_APA_Class_Pack.ranks_Colonel_Level3"
+
+;ALPHABETICAL ORDER
++RandomNickNames[0]="Shortfuse"
++RandomNickNames[1]="Toothy"
++RandomNickNames[2]="Brawler"
++RandomNickNames[3]="Irontooth"
++RandomNickNames[4]="Bad Breath"
++RandomNickNames[5]="Drago"
++RandomNickNames[6]="Snaggletooth"
++RandomNickNames[7]="Crusher"
+
+
 ;  ///////////////////////////
 ;  //        Zealot        //
 ;  ///////////////////////////
