@@ -1650,6 +1650,18 @@ TacticalText="<Bullet/> This variant is the most we will ever get out of the com
 AbilityDescName="shotgun"
 
 ;------------------------------
+;	Verge's Special Gun
+
+[TLP_V_2_Shotgun_CV X2WeaponTemplate]
+FriendlyName="Verge's Special Gun"
+FriendlyNamePlural="Verge's Special Gun"
+BriefSummary="This is an experimental upgrade of a standard Sectoid Blaster that Verge somehow managed to get ahold of. It packs quite a punch, but is difficult to aim due to it's size and bulk.<Bullet/> Not usable by human soldiers -- DNA check is tuned for Sectoids"
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn.\n<Bullet/> The range of this weapon is comparible to a shotgun. It's extremely effective at close range, but accuracy drops off quickly at longer range."
+AbilityDescName="Blaster"
+
+
+
+;------------------------------
 ;			Sniper Rifles
 
 [TLE_SniperRifle_CV X2WeaponTemplate]
