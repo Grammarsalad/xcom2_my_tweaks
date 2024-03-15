@@ -1361,15 +1361,6 @@ FriendlyNamePlural="Prototype Heavy Integrated Armor"
 BriefSummary="This is a first attempt to integrate alien alloys with existing heavy kevlar armor. The result is a bit more protection and greater freedom of movement; a definite improvement."
 TacticalText="This is a first attempt to integrate alien alloys with existing heavy kevlar armor. The result is a bit more protection and greater freedom of movement; a definite improvement."
 
-;	==========================================
-;	==	Stukov's War - Utility Items Pack	==
-;	==========================================
-
-[SKV_Respirator_Implant X2EquipmentTemplate]
-FriendlyName="<font color='#ecb6dc'>Respirator</font>"
-FriendlyNamePlural="<font color='#ecb6dc'>Respirator</font>"
-BriefSummary="We can fabricate a module that will automatically detect chemical and physical threats to a soldier's oxygen supply, and deploy uncomfortable but potentially life-saving oxygen tube shunts in a matter of seconds."
-TacticalText="<Bullet/> Provides Immunity to Viper Crush and Poison. Also gives one bonus HP. <Bullet/> We can fabricate a module that will automatically detect chemical and physical threats to a soldier's oxygen supply, and deploy uncomfortable but potentially life-saving oxygen tube shunts in a matter of seconds."
 
 ;--------------------------------------------
 ; 
@@ -1741,3 +1732,54 @@ ThrownAbilityName="Throw Plasma Grenade"
 ThrownAbilityHelpText="Throw a plasma grenade at target area. Shreds armor."
 LaunchedAbilityname="Launch Plasma Grenade"
 LaunchedAbilityHelpText="Launch a plasma grenade at target area. Shreds armor."
+
+;	==========================================
+;	==	Stukov's War - Utility Items Pack	==
+;	==========================================
+; --------------------------------
+;        Respirator
+; --------------------------------
+
+[SKV_Respirator_Implant X2EquipmentTemplate]
+FriendlyName="<font color='#ecb6dc'>Respirator</font>"
+FriendlyNamePlural="<font color='#ecb6dc'>Respirator</font>"
+BriefSummary="We can fabricate a module that will automatically detect chemical and physical threats to a soldier's oxygen supply, and deploy uncomfortable but potentially life-saving oxygen tube shunts in a matter of seconds."
+TacticalText="<Bullet/> Provides Immunity to Viper Crush and Poison. <Bullet/> We can fabricate a module that will automatically detect chemical and physical threats to a soldier's oxygen supply, and deploy uncomfortable but potentially life-saving oxygen tube shunts in a matter of seconds."
+
+; --------------------------------
+;        Sidearm Holster
+; --------------------------------
+[SKV_SideArmHolster X2EquipmentTemplate]
+FriendlyName="Sidearm Holster"
+FriendlyNamePlural="Sidearm Holsters"
+BriefSummary="Allows you to draw your weapon in an instant as needed. Effectively allows a bit more mobility."
+TacticalText="Provides +1 mobility"
+
+; --------------------------------
+;         Viper Trophy
+; --------------------------------
+[GS_Viper_Trophy X2EquipmentTemplate]
+FriendlyName="<font color='#ecb6de'>Viper Trophy</font>"
+FriendlyNamePlural="<font color='#ecb6dc'>Viper Trophies</font>"
+BriefSummary="A viper skull. It shows us we can beat them. Gives immunity to Panic."
+TacticalText="<Bullet/> Grants Immunity to Panic"
+
+; --------------------------------
+;         Muton Trophy
+; --------------------------------
+[GS_Muton_Trophy X2EquipmentTemplate]
+FriendlyName="<font color='#ecb6de'>Muton Trophy</font>"
+FriendlyNamePlural="<font color='#ecb6dc'>Muton Trophies</font>"
+BriefSummary="A muton skull. It shows us we can beat them. Gives immunity to Panic."
+TacticalText="<Bullet/> Grants Immunity to Panic"
+
+; --------------------------------
+;        Infiltrator Pack
+; --------------------------------
+[SKV_BurglarPack X2EquipmentTemplate]
+FriendlyName="<font color='#ecb6dc'>Infiltrator Pack</font>"
+FriendlyNamePlural="<font color='#ecb6dc'>Infiltrator Packs</font>"
+BriefSummary="Gain Lightning Reflexes and +40 hacking."
+TacticalText="<Bullet/>Gain Lightning Reflexes and +40 hacking."
+
+
