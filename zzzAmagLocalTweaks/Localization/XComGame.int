@@ -1,0 +1,1785 @@
+﻿
+
+;  ////////////////////////////////////
+;  // Changes to Base-Game Abilities //
+;  ////////////////////////////////////
+
+
+;  ////////////////////////////////
+;  // Changes to Items & Weapons //
+;  ////////////////////////////////
+
+
+;  ///////////////////////
+;  // General Abilities //
+;  ///////////////////////
+
+
+
+;  //////////////////////
+;  // Assault Infantry //
+;  //////////////////////
+
+;  //////////////////////
+;  // Assault Technical//
+;  //////////////////////
+; - Class Template -
+
+[WOTC_APA_FlameAssault X2SoldierClassTemplate]
+DisplayName = "Gadgeteer"
+ClassSummary = "A jack of all trades, the Gadgeteer specializes in problem solving.<br/><br/><font color='#CA7200'>Can use Shotguns or Bullpups and The Gauntlet.</font>"
+!AbilityTreeTitles = ()
++AbilityTreeTitles = "Rogue"
++AbilityTreeTitles = "Bastion"
++AbilityTreeTitles = "Immolator"
++AbilityTreeTitles = "XCOM"
+
+; - Encyclopedia Entry -
+
+[WOTC_APA_FlameAssault X2EncyclopediaTemplate]
+ListTitle = "Gadgeteer Class"
+DescriptionTitle = "Gadgeteer Class"
+DescriptionEntry = "A jack of all trades, the Gadgeteer specializes in problem solving."
+
+;  /////////////////
+;  // Field Medic //
+;  /////////////////
+
+; - Class Template -
+; No changes 
+
+;  ////////////
+;  // Marine //
+;  ////////////
+
+; - Class Template -
+
+[GS_WOTC_APA_Gunner X2SoldierClassTemplate]
+DisplayName = "Gunner"
+ClassSummary = "A heavy weapons specialist, the Gunners specialize in taking and holding positions.<br/><br/><font color='#CA7200'>Can use Cannons, and the Sawed-Off Shotgun.</font>"
++AbilityTreeTitles = "Sentry"
++AbilityTreeTitles = "Trooper"
++AbilityTreeTitles = "Machinegunner"
++AbilityTreeTitles = "XCOM"
+
++RankIcons[0]="UILibrary_Common.rank_rookie"
++RankIcons[1]="UILibrary_WOTC_APA_Class_Pack.ranks_Squaddie_Level1"
++RankIcons[2]="UILibrary_WOTC_APA_Class_Pack.ranks_Corporal_Level1"
++RankIcons[3]="UILibrary_WOTC_APA_Class_Pack.ranks_Sergeant_Level2"
++RankIcons[4]="UILibrary_WOTC_APA_Class_Pack.ranks_Lieutenant_Level2"
++RankIcons[5]="UILibrary_WOTC_APA_Class_Pack.ranks_Captain_Level2"
++RankIcons[6]="UILibrary_WOTC_APA_Class_Pack.ranks_Major_Level3"
++RankIcons[7]="UILibrary_WOTC_APA_Class_Pack.ranks_Colonel_Level3"
+
++RandomNickNames="Alamo"
++RandomNickNames="Albatross"
++RandomNickNames="Alleycat"
++RandomNickNames="Anvil"
++RandomNickNames="Avalanche"
++RandomNickNames="Badger"
++RandomNickNames="Badlands"
++RandomNickNames="Bang Bang"
++RandomNickNames="Banjo"
++RandomNickNames="Barracuda"
++RandomNickNames="Bearcat"
++RandomNickNames="Broadside"
++RandomNickNames="Brutal"
++RandomNickNames="Chainsaw"
++RandomNickNames="Cactus"
++RandomNickNames="Cobalt"
++RandomNickNames="Commando"
++RandomNickNames="Crossfire"
++RandomNickNames="Cyclone"
++RandomNickNames="Double Down"
++RandomNickNames="Falcon"
++RandomNickNames="Flinch"
++RandomNickNames="Frosty"
++RandomNickNames="Hammerhead"
++RandomNickNames="Harrier"
++RandomNickNames="Husker"
++RandomNickNames="Lineback"
++RandomNickNames="Marathon"
++RandomNickNames="Marshal"
++RandomNickNames="Mustang"
++RandomNickNames="Mutt"
++RandomNickNames="Pathfinder"
++RandomNickNames="Payback"
++RandomNickNames="Relentless"
++RandomNickNames="Spartan"
++RandomNickNames="Stryker"
++RandomNickNames="Tomahawk"
++RandomNickNames="Tracer"
++RandomNickNames="Werewolf"
++RandomNickNames="Wolfhound"
++RandomNickNames="Wolverine"
++RandomNickNames_Female="Athena"
++RandomNickNames_Female="Valkyrie"
++RandomNickNames_Male="Duke"
++RandomNickNames_Male="Rocky"
++RandomNickNames_Male="Shelter"
+
+PhotoboothSoloBLines_Female="Bullets: the more the merrier!"
+PhotoboothSoloBLines_Female="Once more into the breach!"
+PhotoboothSoloBLines_Female="Hero to the Resistance.  Nightmare to its Enemies."
+
+PhotoboothSoloBLines_Male="Bullets: the more the merrier!"
+PhotoboothSoloBLines_Male="Once more into the breach!"
+PhotoboothSoloBLines_Male="Hero to the Resistance.  Nightmare to its Enemies."
+
+;  ////////////
+;  // Marine //
+;  ////////////
+
+; - Class Template -
+
+[WOTC_APA_Marine X2SoldierClassTemplate]
+DisplayName = "Marine"
+ClassSummary = "The backbone of XCOM's military forces, the Marines are mobile infantry skilled in the use of automatic weapons and bounding maneuvers.<br/><br/><font color='#CA7200'>Can use Assault Rifles, and the Sawed-Off Shotgun.</font>"
++AbilityTreeTitles = "Rifleman"
++AbilityTreeTitles = "Trooper"
++AbilityTreeTitles = "Fusileer"
++AbilityTreeTitles = "XCOM"
+
++RankIcons[0]="UILibrary_Common.rank_rookie"
++RankIcons[1]="UILibrary_WOTC_APA_Class_Pack.ranks_Squaddie_Level1"
++RankIcons[2]="UILibrary_WOTC_APA_Class_Pack.ranks_Corporal_Level1"
++RankIcons[3]="UILibrary_WOTC_APA_Class_Pack.ranks_Sergeant_Level2"
++RankIcons[4]="UILibrary_WOTC_APA_Class_Pack.ranks_Lieutenant_Level2"
++RankIcons[5]="UILibrary_WOTC_APA_Class_Pack.ranks_Captain_Level2"
++RankIcons[6]="UILibrary_WOTC_APA_Class_Pack.ranks_Major_Level3"
++RankIcons[7]="UILibrary_WOTC_APA_Class_Pack.ranks_Colonel_Level3"
+
++RandomNickNames="Alamo"
++RandomNickNames="Albatross"
++RandomNickNames="Alleycat"
++RandomNickNames="Anvil"
++RandomNickNames="Avalanche"
++RandomNickNames="Badger"
++RandomNickNames="Badlands"
++RandomNickNames="Bang Bang"
++RandomNickNames="Banjo"
++RandomNickNames="Barracuda"
++RandomNickNames="Bearcat"
++RandomNickNames="Broadside"
++RandomNickNames="Brutal"
++RandomNickNames="Chainsaw"
++RandomNickNames="Cactus"
++RandomNickNames="Cobalt"
++RandomNickNames="Commando"
++RandomNickNames="Crossfire"
++RandomNickNames="Cyclone"
++RandomNickNames="Double Down"
++RandomNickNames="Falcon"
++RandomNickNames="Flinch"
++RandomNickNames="Frosty"
++RandomNickNames="Hammerhead"
++RandomNickNames="Harrier"
++RandomNickNames="Husker"
++RandomNickNames="Lineback"
++RandomNickNames="Marathon"
++RandomNickNames="Marshal"
++RandomNickNames="Mustang"
++RandomNickNames="Mutt"
++RandomNickNames="Pathfinder"
++RandomNickNames="Payback"
++RandomNickNames="Relentless"
++RandomNickNames="Spartan"
++RandomNickNames="Stryker"
++RandomNickNames="Tomahawk"
++RandomNickNames="Tracer"
++RandomNickNames="Werewolf"
++RandomNickNames="Wolfhound"
++RandomNickNames="Wolverine"
++RandomNickNames_Female="Athena"
++RandomNickNames_Female="Valkyrie"
++RandomNickNames_Male="Duke"
++RandomNickNames_Male="Rocky"
++RandomNickNames_Male="Shelter"
+
+PhotoboothSoloBLines_Female="Bullets: the more the merrier!"
+PhotoboothSoloBLines_Female="Once more into the breach!"
+PhotoboothSoloBLines_Female="Hero to the Resistance.  Nightmare to its Enemies."
+
+PhotoboothSoloBLines_Male="Bullets: the more the merrier!"
+PhotoboothSoloBLines_Male="Once more into the breach!"
+PhotoboothSoloBLines_Male="Hero to the Resistance.  Nightmare to its Enemies."
+
+; - Encyclopedia Entry -
+
+[WOTC_APA_Marine X2EncyclopediaTemplate]
+ListTitle = "Marine Class"
+DescriptionTitle = "Marine Class"
+DescriptionEntry = "The backbone of XCOM's military forces, the Marines are mobile infantry skilled in the use of automatic weapons and bounding maneuvers."
+
+; - GTS Unlocks -
+
+[WOTC_APA_MarineUnlock1 X2SoldierAbilityUnlockTemplate]
+DisplayName = "Marine: Automatic Weapon Expertise I"
+Summary = "All Marine soldiers' Fire Discipline proficiency will now start at level 2, regardless of rank."
+
+[WOTC_APA_MarineUnlock2 X2SoldierAbilityUnlockTemplate]
+DisplayName = "Marine: Automatic Weapon Expertise II"
+Summary = "All Marine soldiers' Fire Discipline proficiency will now start at level 3, regardless of rank.<br/><br/><font color='#CA7200'>Requires Automatic Weapon Expertise I</font>"
+
+
+
+;  //////////////
+;  // Marksman //
+;  //////////////
+
+; - Class Template -
+; change name of second ability tree (not sure if I can just insert it, so I'll keep everything)
+
+[WOTC_APA_Marksman X2SoldierClassTemplate]
+DisplayName = "Marksman"
+ClassSummary = "Stealthy and precise, the Marksman excels in reconnaissance and priority target elimination.<br/><br/><font color='#CA7200'>Can use Sniper or Vektor Rifles and the Holotargeter or Pistols.</font>"
+!AbilityTreeTitles = ()
++AbilityTreeTitles = "Sniper"
++AbilityTreeTitles = "Pistoleer"
++AbilityTreeTitles = "Scout"
++AbilityTreeTitles = "XCOM"
+
+
+;  ////////////
+;  // Sapper //
+;  ////////////
+
+; - Class Template -
+
+
+;  /////////////////////
+;  // Dark Specialist //
+;  /////////////////////
+
+; - Class Template -
+
+[LightSpecialist X2SoldierClassTemplate]
+DisplayName="Specialist"
+ClassSummary="Specialists are crafty technicians who have utilized cutting edge technology against our best troops."
+!AbilityTreeTitles = ()
+AbilityTreeTitles[0]="Hacker"
+AbilityTreeTitles[1]="Medic"
+AbilityTreeTitles[2]="Informant"
+AbilityTreeTitles[3]="XCOM"
+
+;  /////////////////////
+;  // Tech Specialist //
+;  /////////////////////
+
+; - Class Template -
+
+[WOTC_APA_Specialist X2SoldierClassTemplate]
+DisplayName = "Operator"
+ClassSummary = "The Operator embraces the most advanced technology, using an array of high-tech utilities to disrupt their enemies and support their allies from afar.<br/><br/><font color='#CA7200'>Can use Bullpups or Sniper Rifles and the Gremlin.</font>"
+!AbilityTreeTitles = ()
++AbilityTreeTitles = "Saboteur"
++AbilityTreeTitles = "Technician"
++AbilityTreeTitles = "Operative"
++AbilityTreeTitles = "XCOM"
+
+; Dark Classes
+
+;  /////////////////////
+;  //  Dark Ranger    //
+;  /////////////////////
+
+; - Class Template -
+
+[LightRanger X2SoldierClassTemplate]
+DisplayName="Ranger"
+ClassSummary="Rangers are brutal frontline fighters who have honed their deadly craft."
+!AbilityTreeTitles = ()
++AbilityTreeTitles = "Assault"
++AbilityTreeTitles = "Gladiator"
++AbilityTreeTitles = "Scout"
++AbilityTreeTitles = "XCOM"
+
+;  ////////////////////////////
+;  //    Dark Sharpshooter   //
+;  ////////////////////////////
+
+; - Class Template -
+
+[LightSharpshooter X2SoldierClassTemplate]
+DisplayName="Sharpshooter"
+ClassSummary="Sharpshooters are deadly snipers who have perfected the art of the long distance kill."
+
+;  ////////////////////////////
+;  //     Dark Grenadier     //
+;  ////////////////////////////
+
+; - Class Template -
+
+[LightGrenadier X2SoldierClassTemplate]
+DisplayName="Grenadier"
+ClassSummary="Dark Grenadiers are devastating demolitionists."
+!AbilityTreeTitles = ()
++AbilityTreeTitles = "Demolitionist"
++AbilityTreeTitles = "Gunner"
++AbilityTreeTitles = "Support"
++AbilityTreeTitles = "XCOM"
+
+;  ////////////////////////////
+;  //     Dark Specialist    //
+;  ////////////////////////////
+
+; - Class Template -
+
+[LightSpecialist X2SoldierClassTemplate]
+DisplayName="Specialist"
+ClassSummary="Specialists are crafty technicians who make devastating use of cutting edge technology."
+
+;  ////////////////
+;  //  Dark Psi  //
+;  ////////////////
+
+; - Class Template -
+
+[LightPsiOperative X2SoldierClassTemplate]
+DisplayName="Mystic"
+ClassSummary="Mystics are naturally gifted psions that specialize in powers that manipulate or control their enemies. They have a preternatural connection to all living things, making them natural healers and medics."
+!AbilityTreeTitles = ()
++AbilityTreeTitles = "Healer"
++AbilityTreeTitles = "Resonant"
++AbilityTreeTitles = "Telepath"
++AbilityTreeTitles = "XCOM"
+
+;  ////////////////////////////
+;  //     Electroraider      //
+;  ////////////////////////////
+
+; - Class Template -
+[WOTCElectroScrapper X2SoldierClassTemplate]
+DisplayName = "Electroraider"
+ClassSummary = "A technical genius that specializes in the creative delivery of electricty."
+!AbilityTreeTitles = ()
+AbilityTreeTitles[0] = "Soldiering"
+AbilityTreeTitles[1] = "ElectroSupport"
+AbilityTreeTitles[2] = "ArcDestroyer"
+AbilityTreeTitles[3] = "XCOM"
+
++RankIcons[0]="UILibrary_Common.rank_rookie"
++RankIcons[1]="UILibrary_WOTC_APA_Class_Pack.ranks_Squaddie_Level1"
++RankIcons[2]="UILibrary_WOTC_APA_Class_Pack.ranks_Corporal_Level1"
++RankIcons[3]="UILibrary_WOTC_APA_Class_Pack.ranks_Sergeant_Level2"
++RankIcons[4]="UILibrary_WOTC_APA_Class_Pack.ranks_Lieutenant_Level2"
++RankIcons[5]="UILibrary_WOTC_APA_Class_Pack.ranks_Captain_Level2"
++RankIcons[6]="UILibrary_WOTC_APA_Class_Pack.ranks_Major_Level3"
++RankIcons[7]="UILibrary_WOTC_APA_Class_Pack.ranks_Colonel_Level3"
+
+RandomNickNames[0]="Whiplash"
+RandomNickNames[1]="sparky"
+RandomNickNames[2]="Nerd"
+RandomNickNames[3]="Geek"
+RandomNickNames[4]="Gearhead"
+RandomNickNames[5]="Genius"
+RandomNickNames[6]="Bookworm"
+RandomNickNames[7]="Scholar"
+RandomNickNames[8]="Brain"
+RandomNickNames[9]="Egghead"
+RandomNickNames[10]="Whiz"
+RandomNickNames[11]="Wizard"
+RandomNickNames_Male[0]="Gates"
+RandomNickNames_Male[1]="Jobs"
+RandomNickNames_Male[2]="Gygax"
+RandomNickNames_Male[3]="Sherlock"
+RandomNickNames_Male[4]="Frankenstein"
+RandomNickNames_Male[5]="Spock"
+RandomNickNames_Male[6]="Newton"
+RandomNickNames_Male[7]="Moore"
+RandomNickNames_Male[8]="Harwkins"
+RandomNickNames_Male[9]="Socrates"
+RandomNickNames_Female[0]="Currie"
+RandomNickNames_Female[1]="Woolf"
+RandomNickNames_Female[2]="Hypatia"
+RandomNickNames_Female[3]="Shelley"
+RandomNickNames_Female[4]="Austen"
+RandomNickNames_Female[5]="Earhart"
+RandomNickNames_Female[6]="Kahlo"
+
+[WOTC_APA_Harass X2AbilityTemplate]
+LocFriendlyName = "Self Preservation"
+LocHelpText = "The Electroraider Combat abilitities improve with continued training"
+LocLongDescription = "The Electroraider's training improves the effectiveness of his weapons and the ability to avoid retaliation."
+LocFlyOverText="Self Preservation"
+LocPromotionPopupText = "<font color='#CA7200'>LEVEL I</font> (gained at <Ability:RANKNAME1/> rank [1])<br/><Bullet/> Defensive Mine.<br/><Bullet/> Gain 2 to Pierce to primary weapon.<br/><Bullet/> Gain 10 to Dodge.<br/><br/><br/><font color='#CA7200'>LEVEL II</font> (gained at <Ability:RANKNAME3/> rank [3])<br/><Bullet/> Primary weapon can’t graze.<br/><Bullet/> Honed Edge skill. <br/><Bullet/> Gain 15 to Dodge.<br/><br/><br/><font color='#CA7200'>LEVEL III</font> (gained at <Ability:RANKNAME6/> rank [6]<br/><Bullet/> Gain 2 to Pierce to primary weapon.<br/><Bullet/> Gain 15 to Dodge. <br/><Bullet/> Gain the Ruthless perk.<br/><)"
+
+;  ////////////////////////////////
+;  //   Field Support --> Scout  //
+;  ////////////////////////////////
+
+; - Class Template -
+
+[Wotc_apa_FieldSupport X2SoldierClassTemplate]
+DisplayName="Scout"
+ClassSummary="Scouts are experts in the field of battlefield stealth and support."
+!AbilityTreeTitles = ()
+AbilityTreeTitles[0]="Sneak"
+AbilityTreeTitles[1]="Support"
+AbilityTreeTitles[2]="Spotter"
+AbilityTreeTitles[3]="XCOM"
+
+
+RandomNickNames[0]=Hush
+RandomNickNames[1]=Ninja
+RandomNickNames[2]=Outlaw
+RandomNickNames[3]=Pathfinder	
+RandomNickNames[4]=Vanguard
+RandomNickNames[5]=Shadow
+RandomNickNames[6]=Silence
+RandomNickNames[7]=Snoop
+RandomNickNames[8]=Solo
+RandomNickNames[9]=Watcher
+RandomNickNames_Male[0]=Bond
+RandomNickNames_Male[1]=Creep
+RandomNickNames_Male[2]=Maverick
+RandomNickNames_Male[3]=Scoundrel
+RandomNickNames_Male[4]=Sly
+RandomNickNames_Female[0]=Cat
+RandomNickNames_Female[1]=Mystery
+RandomNickNames_Female[2]=Quiet
+RandomNickNames_Female[3]=Rogue
+RandomNickNames_Female[4]=Scamp
+
+[WOTC_Wandering_Eye X2AbilityTemplate]
+LocFriendlyName = "Scout's Eye"
+LocHelpText = "The scout's ability to be see but be seen"
+LocLongDescription = "This ability allows the scout to safely move around the battle field and to find the enemy before they enemy finds them"
+LocFlyOverText="Scout's Eye"
+LocPromotionPopupText = "<font color='#CA7200'>LEVEL I</font> (gained at <Ability:RANKNAME1/> rank [1])<br/><Bullet/> 1 tile sight range increase.<br/><Bullet/> Gain Phantom perk.<br/><br/><br/><font color='#CA7200'>LEVEL II</font> (gained at <Ability:RANKNAME3/> rank [3])<br/><Bullet/>  1 tile sight range increase.<br/><Bullet/> Gain Blend perk.<br/><Bullet/> Gain Combat Scanner perk.<br/><br/><br/><font color='#CA7200'>LEVEL III</font> (gained at <Ability:RANKNAME6/> rank [6]<br/><Bullet/>  1 tile sight range increase.<br/><Bullet/> Gain Conceal perk. <br/><)"
+
+; - GTS Unlocks -
+
+[WOTCWandererUnlock1 X2SoldierAbilityUnlockTemplate]
+DisplayName = "Scout: To see"
+Summary = "All Scout soldiers' gain Advanced Effectiveness Training, at level 2, regardless of rank.""
+
+[WOTCWandererUnlock2 X2SoldierAbilityUnlockTemplate]
+DisplayName = "Scout: To be unseen"
+Summary = "All Scout soldiers' gain Superior Effectiveness Training, at level 3, regardless of rank."<br/><br/><font color='#CA7200'>Requires Advanced Effectiveness Training</font>"
+
+;  ///////////////////////////
+;  //   Resistance Leader   //
+;  ///////////////////////////
+
+[WOTC_APA_DirectorKelly X2SoldierClassTemplate]
+DisplayName = "Resistance Leader"
+ClassSummary = "The Reistance Leader specializes in command and keeping their soldiers focused on the mission. Their presence greatly improves morale, allowing soldiers under their command to do things they wouldn't normally be able to do in combat.<br/><br/><font color='#CA7200'>Uses Bullpups, Rifles, Shotguns, and Handguns.</font>"
+!AbilityTreeTitles = ()
+AbilityTreeTitles[0] = "Director"
+AbilityTreeTitles[1] = "Anchor"
+AbilityTreeTitles[1] = "Avatar"
+AbilityTreeTitles[3] = "XCOM"
+
+[WOTC_KPP_SeverTheConnection X2AbilityTemplate]
+LocFriendlyName = "Snap out of it!"
+LocHelpText = "Remove all Mental Afflictions, including Mind Control, from all Allies, costs 3 Command Stacks."
+LocLongDescription = "The <Ability:ClassName/> removes all Mental Afflictions, including Mind Control, from all Allies, costs 3 Command Stacks."
+
+[WOTC_KPP_EmpoweredRounds X2AbilityTemplate]
+LocFriendlyName = "Empowered Rounds"
+LocHelpText = "Provide all Allies, including the user, +2 Damage for 3 turns, Costs 4 Command Stacks."
+LocLongDescription = "The <Ability:ClassName/> provides all Allies, including the user, +2 Damage for 3 turns, Costs 4 Command Stacks."
+LocPromotionPopupText = "The <Ability:ClassName/> provides all Allies, including the user, +2 Damage for 3 turns, 10 Turn Cooldown, Command 4 Command Stacks."
+
+;  ////////////////////
+;  //    Agent     //
+;  //////////////////
+
+;The Class information, the DisplayName is the true name of the class, which will show up whenever you recruit them, the ClassSummary is text that shows up in the Promotion Screen, and the AbilityTreeTitles are on the left side of Community Promotion Screen
+
+[WOTC_GS_Agent X2SoldierClassTemplate]
+DisplayName = "Agent"
+ClassSummary = "The Agent specializes in infultration and stealth. They are masters of infultrating enemy cities, gathering intelligence, and assisinating important enemies. They are less skilled in the wilderness or during heavy firefights.<br/><br/><font color='#CA7200'>Uses Pistols, and Gremlins.</font>"
++AbilityTreeTitles = "Assassin"
++AbilityTreeTitles = "Infiltrator"
++AbilityTreeTitles = "Operator"
++AbilityTreeTitles = "XCOM"
+
+;These add the funny rank icons, you won't need to change these.
++RankIcons[0]="UILibrary_Common.rank_rookie"
++RankIcons[1]="UILibrary_WOTC_APA_Class_Pack.ranks_Squaddie_Level1"
++RankIcons[2]="UILibrary_WOTC_APA_Class_Pack.ranks_Corporal_Level1"
++RankIcons[3]="UILibrary_WOTC_APA_Class_Pack.ranks_Sergeant_Level2"
++RankIcons[4]="UILibrary_WOTC_APA_Class_Pack.ranks_Lieutenant_Level2"
++RankIcons[5]="UILibrary_WOTC_APA_Class_Pack.ranks_Captain_Level2"
++RankIcons[6]="UILibrary_WOTC_APA_Class_Pack.ranks_Major_Level3"
++RankIcons[7]="UILibrary_WOTC_APA_Class_Pack.ranks_Colonel_Level3"
+
+;These edit the nicknames, you'll need to change these to what you want (or take them from base game or other proficiency classes)
++RandomNickNames = "007"
++RandomNickNames = "Danger"
++RandomNickNames = "Alias"
++RandomNickNames = "Spymaster"
++RandomNickNames = "Sleuth"
++RandomNickNames = "Detective"
++RandomNickNames = "Birdwatcher"
++RandomNickNames = "Blowback"
++RandomNickNames = "Cipher"
++RandomNickNames = "Clandestine"
++RandomNickNames = "Handler"
++RandomNickNames = "Cleaner"
++RandomNickNames = "Enigma"
++RandomNickNames = "Ghoul"
++RandomNickNames = "KGB"
++RandomNickNames = "Stasi"
++RandomNickNames = "Ultra"
++RandomNickNames = "Cipher"
++RandomNickNames = "Cipher"
+
++RandomNicknames_Female = "Black Widow"
++RandomNicknames_Female = "Scully"
++RandomNicknames_Female = "Black Cat"
++RandomNicknames_Female = "Jinx"
++RandomNicknames_Female = "Mystique"
++RandomNicknames_Female = "Six"
++RandomNicknames_Female = "Ahsoka"
++RandomNicknames_Female = "Nancy Drew"
++RandomNicknames_Female = "La Femme"
++RandomNicknames_Female = "Honey Trap"
++RandomNickNames_Male = "James"
++RandomNickNames_Male = "Bond"
++RandomNickNames_Male = "Mulder"
++RandomNickNames_Male = "Borne"
++RandomNickNames_Male = "Wick"
++RandomNickNames_Male = "Archer"
++RandomNickNames_Male = "Bauer"
++RandomNickNames_Male = "Fury"
++RandomNickNames_Male = "Holmes"
++RandomNickNames_Male = "Raven"
++RandomNickNames_Male = "Uncle"
+
+;Photobooth stuff, change them to what you want
++PhotoboothSoloBLines_Female = "I don't condone this sexy yet reckless behavior."
++PhotoboothSoloBLines_Female = "Some aliens are coming to kill us. We’re going to kill them first."
+
++PhotoboothSoloBLines_Male = "Shaken, not stirred."
++PhotoboothSoloBLines_Male = "Some aliens are coming to kill us. We’re going to kill them first."
+
+; - GTS Unlocks -
+
+; orig: [WOTC_KPP_TemplateUnlock1 X2SoldierAbilityUnlockTemplate] etc.
+
+[WOTC_GS_AgentUnlock1 X2SoldierAbilityUnlockTemplate]
+DisplayName = "Agent: Proficiency I"
+Summary = "All Agents' Operations Proficiency Ability Squaddie proficiency will now start at level 2, regardless of rank."
+
+[WOTC_GS_AgentUnlock2 X2SoldierAbilityUnlockTemplate]
+DisplayName = "Agent: Proficiency II"
+Summary = "All Agents' Operations Proficiency Ability Squaddie proficiency will now start at level 3, regardless of rank.<br/><br/><font color='#CA7200'>Requires Template: Proficiency I</font>"
+
+; - Ability Templates -
+
+; Start with intelligence officer's stealth ability
+
+[WOTC_APA_IntelligenceOfficer X2AbilityTemplate]
+LocFriendlyName = "Operations"
+LocHelpText = "The <Ability:ClassName/> ability to infiltrate enemy territory, providing scouting support improves with experience."
+LocLongDescription = "The <Ability:ClassName/> gains ability to infiltrate enemy territory, providing scouting support improves with experience."
+LocPromotionPopupText = "<font color='#CA7200'>LEVEL I</font> (gained at <Ability:RANKNAME1/> rank [1])<br/><Bullet/> Remain concealed when the squad breaks concealment.<br/><Bullet/> Reduce enemies' detection radius against you by <font color='#3ABD23'><Ability:INTEL_OFFICER_DETECTION_MODIFIER_1/>%</font>.<br/><br/><font color='#CA7200'>LEVEL II</font> (gained at <Ability:RANKNAME3/> rank [3])<br/><Bullet/> Gain Ambush, an ability that allows toggling whether or not to take overwatch shots while concealed.<br/><Bullet/> Gain the ability to re-conceal with a <font color='#CA7200'><Ability:INTEL_OFFICER_CONCEAL_COOLDOWN/></font>-turn cooldown.<br/><Bullet/> The radius that enemies will detect you is now reduced by a total of <font color='#3ABD23'><Ability:INTEL_OFFICER_DETECTION_MODIFIER_2/>%</font>.<br/><br/><font color='#CA7200'>LEVEL III</font> (gained at <Ability:RANKNAME6/> rank [6])<br/><Bullet/> Gain a bonus to vision range of <font color='#3ABD23'>+<Ability:INTEL_OFFICER_VISION_TILE_BONUS/></font> Tiles.<br/><Bullet/> The radius that enemies will detect you is now reduced by a total of <font color='#3ABD23'><Ability:INTEL_OFFICER_DETECTION_MODIFIER_3/>%</font>.<br/><br/>NOTES<br/><Bullet/> Reconceal has a cooldown instead of limited charges, but requires 1 action to use. It can be activated with<br/> either a standard or movement-only action point."
+
+;For the ability above, search TEMPLATE for perks, SMALL DESCRIPTION for what you should write explaining the ability, and STATBONUS1, STATBONUS2, and STATBONUS3 for explaining the stat bonus provided by the Proficiency perk
+
+;  ////////////////////////////
+;  //        Assault         //
+;  ////////////////////////////
+
+; - Class Template -
+[WOTC_APA_Assault X2SoldierClassTemplate]
+DisplayName = "Assault Infantry"
+ClassSummary = "A dominating force in close quarters combat, the resilient and aggresive Assault Infantry specializes in taking and holding ground.<br/><br/><font color='#CA7200'>Can use Shotguns or Bullpups and Swords or Combat Knives.</font>"
+!AbilityTreeTitles = ()
++AbilityTreeTitles = "Skirmisher"
++AbilityTreeTitles = "Stormtrooper"
++AbilityTreeTitles = "Vanguard"
++AbilityTreeTitles = "XCOM"
+
+;  /////////////////////
+;  //     Shinobi     //
+;  /////////////////////
+
+; - Class Template -
+
+[WOTC_GS_Shinobi X2SoldierClassTemplate]
+DisplayName = "Shinobi"
+ClassSummary = "The Shinobi specializes in melee and stealth, with a secondary focus on infultration and assassination. <br/><br/><font color='#CA7200'>Uses Blades, and Pistols.</font>"
++AbilityTreeTitles = "Defender"
++AbilityTreeTitles = "Sneak"
++AbilityTreeTitles = "Fénnid"
++AbilityTreeTitles = "XCOM"
+
+;These add the funny rank icons, you won't need to change these.
++RankIcons[0]="UILibrary_Common.rank_rookie"
++RankIcons[1]="UILibrary_WOTC_APA_Class_Pack.ranks_Squaddie_Level1"
++RankIcons[2]="UILibrary_WOTC_APA_Class_Pack.ranks_Corporal_Level1"
++RankIcons[3]="UILibrary_WOTC_APA_Class_Pack.ranks_Sergeant_Level2"
++RankIcons[4]="UILibrary_WOTC_APA_Class_Pack.ranks_Lieutenant_Level2"
++RankIcons[5]="UILibrary_WOTC_APA_Class_Pack.ranks_Captain_Level2"
++RankIcons[6]="UILibrary_WOTC_APA_Class_Pack.ranks_Major_Level3"
++RankIcons[7]="UILibrary_WOTC_APA_Class_Pack.ranks_Colonel_Level3"
+
+;These edit the nicknames, you'll need to change these to what you want (or take them from base game or other proficiency classes)
++RandomNickNames[0]="Slayer"
++RandomNickNames[1]="Lumberjack"
++RandomNickNames[2]="Gladiator"
++RandomNickNames[3]="Shatterer"
++RandomNickNames[4]="Spaniard"
++RandomNickNames[5]="Wrecker"
++RandomNickNames[6]="Ragnarok"
++RandomNickNames[7]="Havoc"
++RandomNickNames[8]="Ardent"
++RandomNickNames[9]="Fortress"
++RandomNickNames[10]="Devastator"
++RandomNickNames[11]="Proximo"
++RandomNickNames[12]="Claymore"
++RandomNickNames[13]="Raven"
++RandomNickNames[14]="Interceptor"
++RandomNickNames[15]="Raiden"
++RandomNickNames[16]="Hellion"
++RandomNickNames[17]="Swordsinger"
++RandomNickNames[18]="Defiant"
++RandomNickNames[19]="Shockblast"
++RandomNickNames[20]="Weissheim"
++RandomNickNames[21]="Razor"
++RandomNickNames[22]="Blitz"
++RandomNickNames[23]="Crackle"
++RandomNickNames[24]="Crimson"
++RandomNickNames[25]="Redrumm"
++RandomNickNames[26]="Shockerface"
+RandomNickNames_Male[0]="Thor"
+RandomNickNames_Male[1]="Thunderlord"
+RandomNickNames_Male[2]="Axeman"
+RandomNickNames_Male[3]="Magnus"
+RandomNickNames_Female[0]="Valkyrie"
+RandomNickNames_Female[1]="Scarlett"
+RandomNickNames_Female[2]="Queenblade"
+RandomNickNames_Female[3]="Shieldmaiden"
+
+;  /////////////////////
+;  // Sangheili Elite //
+;  /////////////////////
+
+; - Class Template -
+
+[RM_Elite X2SoldierClassTemplate]
+DisplayName="Elite"
+ClassSummary="When fully trained, a Sangheili warrior can be one of the most dangerous or inspiring things on the battlefield, depending on which end of their blade you're on."
+!LeftAbilityTreeTitle = ()
+!RightAbilityTreeTitle = ()
+!AbilityTreeTitles = ()
++AbilityTreeTitles = "Skirmisher"
++AbilityTreeTitles = "Stormtrooper"
++AbilityTreeTitles = "Zealot"
++AbilityTreeTitles = "XCOM"
+
+;  //////////////
+;  // Wanderer //
+;  //////////////
+
+; - Class Template -
+
+[WOTCWanderer X2SoldierClassTemplate]
+DisplayName = "Mercinary"
+ClassSummary = "Mercinaries are experienced in war, filling gaps in existing militaries. As a result, they pick up various useful skills, making each one different."
+!AbilityTreeTitles = ()
++AbilityTreeTitles = "Killer"
++AbilityTreeTitles = "Mobility"
++AbilityTreeTitles = "Utility"
++AbilityTreeTitles = "Techy"
+
+;  ///////////////////////////
+;  //    Combat Engineer    //
+;  ///////////////////////////
+
+[MrC_APA_CombatEngineer X2SoldierClassTemplate]
+DisplayName = "Combat Engineer"
+ClassSummary = "Combat Engineers excel at providing both offensive and defensive support on the battlefield using their gauntlet, gadgets, and either a shotgun or cannon."
+!AbilityTreeTitles = ()
++AbilityTreeTitles = "Technical"
++AbilityTreeTitles = "Commando"
++AbilityTreeTitles = "Pyro"
++AbilityTreeTitles = "XCOM"
+
+;  ///////////////////////////
+;  //   Reaper Infiltrator  //
+;  ///////////////////////////
+[LightReaper X2SoldierClassTemplate]
++DisplayName = "Reaper Infiltrators"
++ClassSummary = "Reaper Infiltrators are elite stealth operatives who specialize in infiltration and sabotage."
+!AbilityTreeTitles = ()
++AbilityTreeTitles[0] = "Operative"
++AbilityTreeTitles[1] = "Wraith"
++AbilityTreeTitles[2] = "Glitch"
++AbilityTreeTitles[3] = "XCOM"
+
+!RankIcons=()
++RankIcons[0]="UILibrary_Common.rank_rookie"
++RankIcons[1]="UILibrary_WOTC_APA_Class_Pack.ranks_Squaddie_Level1"
++RankIcons[2]="UILibrary_WOTC_APA_Class_Pack.ranks_Corporal_Level1"
++RankIcons[3]="UILibrary_WOTC_APA_Class_Pack.ranks_Sergeant_Level2"
++RankIcons[4]="UILibrary_WOTC_APA_Class_Pack.ranks_Lieutenant_Level2"
++RankIcons[5]="UILibrary_WOTC_APA_Class_Pack.ranks_Captain_Level2"
++RankIcons[6]="UILibrary_WOTC_APA_Class_Pack.ranks_Major_Level3"
++RankIcons[7]="UILibrary_WOTC_APA_Class_Pack.ranks_Colonel_Level3"
+
+;ALPHABETICAL ORDER
++RandomNickNames[0]="Shadow"
++RandomNickNames[1]="Ghost"
++RandomNickNames[2]="Stalker"
++RandomNickNames[3]="Haunt"
++RandomNickNames[4]="Wraith"
++RandomNickNames[5]="Raven"
++RandomNickNames[6]="Scythe"
++RandomNickNames[7]="Bones"
++RandomNickNames[8]="Stiletto"
++RandomNickNames[9]="Nightwalker"
++RandomNickNames[10]="Final"
+;ALPHABETICAL ORDER
++RandomNickNames_Male[0]="Sandman"
+;ALPHABETICAL ORDER
++RandomNickNames_Female[0]="Valkyrie"
++PhotoboothSoloBLines_Male[0]="Shadow stalker.  Death dealer."
++PhotoboothSoloBLines_Male[1]="From the shadows... he STRIKES!"
++PhotoboothSoloBLines_Male[2]="Stay out of the shadows.  They can be DEADLY."
++PhotoboothSoloBLines_Male[3]="Death from the darkness."
++PhotoboothSoloBLines_Male[4]="In the shadows, no one will hear your scream..."
++PhotoboothSoloBLines_Male[5]="Hunter. Killer."
++PhotoboothSoloBLines_Male[6]="Master of Shadows"
++PhotoboothSoloBLines_Male[7]="The Darkness is His Domain"
++PhotoboothSoloBLines_Male[8]="When Darkness Falls, So Will His Enemies!"
++PhotoboothSoloBLines_Male[9]="Fear the Reaper."
++PhotoboothSoloBLines_Male[10]="Even death fears him."
++PhotoboothSoloBLines_Male[11]="First he'll kill them.  Then he'll eat them."
++PhotoboothSoloBLines_Male[12]="You can't kill what you can't see."
++PhotoboothSoloBLines_Male[13]="\"We do not fear the night, for we are the shadow.\""
++PhotoboothSoloBLines_Male[14]="He's the last thing you'll never see."
++PhotoboothSoloBLines_Male[15]="If death takes a vacation, he'll pick up the slack."
+
++PhotoboothSoloBLines_Female[0]="Shadow stalker.  Death dealer."
++PhotoboothSoloBLines_Female[1]="From the shadows... she STRIKES!"
++PhotoboothSoloBLines_Female[2]="Stay out of the shadows.  They can be DEADLY."
++PhotoboothSoloBLines_Female[3]="Death from the darkness."
++PhotoboothSoloBLines_Female[4]="In the shadows, no one will hear your scream..."
++PhotoboothSoloBLines_Female[5]="Hunter. Killer."
++PhotoboothSoloBLines_Female[6]="Master of Shadows"
++PhotoboothSoloBLines_Female[7]="Queen of Shadows"
++PhotoboothSoloBLines_Female[8]="The Darkness is Her Domain"
++PhotoboothSoloBLines_Female[9]="When Darkness Falls, So Will Her Enemies!"
++PhotoboothSoloBLines_Female[10]="Even death fears her."
++PhotoboothSoloBLines_Female[11]="First she'll kill them.  Then she'll eat them."
++PhotoboothSoloBLines_Female[12]="You can't kill what you can't see."
++PhotoboothSoloBLines_Female[13]="\"We do not fear the night, for we are the shadow.\""
++PhotoboothSoloBLines_Female[14]="She's the last thing you'll never see."
++PhotoboothSoloBLines_Female[15]="If death takes a vacation, she'll pick up the slack."
+
+
+;  /////////////////////
+;  //   Viper Sneak   //
+;  /////////////////////
+[ViperClass X2SoldierClassTemplate]
+!DisplayName = ()
++DisplayName = "Viper Sneak"
++ClassSummary = "Viper Sneaks specialize in covert operation and assassination."
+!AbilityTreeTitles = ()
++AbilityTreeTitles[0] = "Stalker"
++AbilityTreeTitles[1] = "Killer"
++AbilityTreeTitles[2] = "Shooter"
++AbilityTreeTitles[3] = "XCOM"
+
+!RankIcons=()
++RankIcons[0]="UILibrary_Common.rank_rookie"
++RankIcons[1]="UILibrary_WOTC_APA_Class_Pack.ranks_Squaddie_Level1"
++RankIcons[2]="UILibrary_WOTC_APA_Class_Pack.ranks_Corporal_Level1"
++RankIcons[3]="UILibrary_WOTC_APA_Class_Pack.ranks_Sergeant_Level2"
++RankIcons[4]="UILibrary_WOTC_APA_Class_Pack.ranks_Lieutenant_Level2"
++RankIcons[5]="UILibrary_WOTC_APA_Class_Pack.ranks_Captain_Level2"
++RankIcons[6]="UILibrary_WOTC_APA_Class_Pack.ranks_Major_Level3"
++RankIcons[7]="UILibrary_WOTC_APA_Class_Pack.ranks_Colonel_Level3"
+
+;ALPHABETICAL ORDER
++RandomNickNames[0]="Shadow"
++RandomNickNames[1]="Ghost"
++RandomNickNames[2]="Stalker"
++RandomNickNames[3]="Haunt"
++RandomNickNames[4]="Wraith"
++RandomNickNames[5]="Raven"
++RandomNickNames[6]="Scythe"
++RandomNickNames[7]="Bones"
++RandomNickNames[8]="Stiletto"
++RandomNickNames[9]="Nightwalker"
++RandomNickNames[10]="Final"
+;ALPHABETICAL ORDER
++RandomNickNames_Male[0]="Sandman"
+;ALPHABETICAL ORDER
++RandomNickNames_Female[0]="Valkyrie"
++PhotoboothSoloBLines_Male[0]="Shadow stalker.  Death dealer."
++PhotoboothSoloBLines_Male[1]="From the shadows... he STRIKES!"
++PhotoboothSoloBLines_Male[2]="Stay out of the shadows.  They can be DEADLY."
++PhotoboothSoloBLines_Male[3]="Death from the darkness."
++PhotoboothSoloBLines_Male[4]="In the shadows, no one will hear your scream..."
++PhotoboothSoloBLines_Male[5]="Hunter. Killer."
++PhotoboothSoloBLines_Male[6]="Master of Shadows"
++PhotoboothSoloBLines_Male[7]="The Darkness is His Domain"
++PhotoboothSoloBLines_Male[8]="When Darkness Falls, So Will His Enemies!"
++PhotoboothSoloBLines_Male[9]="Fear the Reaper."
++PhotoboothSoloBLines_Male[10]="Even death fears him."
++PhotoboothSoloBLines_Male[11]="First he'll kill them.  Then he'll eat them."
++PhotoboothSoloBLines_Male[12]="You can't kill what you can't see."
++PhotoboothSoloBLines_Male[13]="\"We do not fear the night, for we are the shadow.\""
++PhotoboothSoloBLines_Male[14]="He's the last thing you'll never see."
++PhotoboothSoloBLines_Male[15]="If death takes a vacation, he'll pick up the slack."
+
++PhotoboothSoloBLines_Female[0]="Shadow stalker.  Death dealer."
++PhotoboothSoloBLines_Female[1]="From the shadows... she STRIKES!"
++PhotoboothSoloBLines_Female[2]="Stay out of the shadows.  They can be DEADLY."
++PhotoboothSoloBLines_Female[3]="Death from the darkness."
++PhotoboothSoloBLines_Female[4]="In the shadows, no one will hear your scream..."
++PhotoboothSoloBLines_Female[5]="Hunter. Killer."
++PhotoboothSoloBLines_Female[6]="Master of Shadows"
++PhotoboothSoloBLines_Female[7]="Queen of Shadows"
++PhotoboothSoloBLines_Female[8]="The Darkness is Her Domain"
++PhotoboothSoloBLines_Female[9]="When Darkness Falls, So Will Her Enemies!"
++PhotoboothSoloBLines_Female[10]="Even death fears her."
++PhotoboothSoloBLines_Female[11]="First she'll kill them.  Then she'll eat them."
++PhotoboothSoloBLines_Female[12]="You can't kill what you can't see."
++PhotoboothSoloBLines_Female[13]="\"We do not fear the night, for we are the shadow.\""
++PhotoboothSoloBLines_Female[14]="She's the last thing you'll never see."
++PhotoboothSoloBLines_Female[15]="If death takes a vacation, she'll pick up the slack."
+
+;  /////////////////////
+;  //   Viper Brute   //
+;  /////////////////////
+[ViperClass X2SoldierClassTemplate]
+!DisplayName = ()
++DisplayName = "Viper Brute"
++ClassSummary = "Viper Brutes specialize in mid to close range combat, and are often able to eliminate single targets with ease."
+!AbilityTreeTitles = ()
++AbilityTreeTitles[0] = "Zapper"
++AbilityTreeTitles[1] = "Poisoner"
++AbilityTreeTitles[2] = "Grappler"
++AbilityTreeTitles[3] = "XCOM"
+
+!RankIcons=()
++RankIcons[0]="UILibrary_Common.rank_rookie"
++RankIcons[1]="UILibrary_WOTC_APA_Class_Pack.ranks_Squaddie_Level1"
++RankIcons[2]="UILibrary_WOTC_APA_Class_Pack.ranks_Corporal_Level1"
++RankIcons[3]="UILibrary_WOTC_APA_Class_Pack.ranks_Sergeant_Level2"
++RankIcons[4]="UILibrary_WOTC_APA_Class_Pack.ranks_Lieutenant_Level2"
++RankIcons[5]="UILibrary_WOTC_APA_Class_Pack.ranks_Captain_Level2"
++RankIcons[6]="UILibrary_WOTC_APA_Class_Pack.ranks_Major_Level3"
++RankIcons[7]="UILibrary_WOTC_APA_Class_Pack.ranks_Colonel_Level3"
+
+;ALPHABETICAL ORDER
++RandomNickNames[0]="Shortfuse"
++RandomNickNames[1]="Toothy"
++RandomNickNames[2]="Brawler"
++RandomNickNames[3]="Irontooth"
++RandomNickNames[4]="Bad Breath"
++RandomNickNames[5]="Drago"
++RandomNickNames[6]="Snaggletooth"
++RandomNickNames[7]="Crusher"
+
+
+;  ///////////////////////////
+;  //        Zealot        //
+;  ///////////////////////////
+
+[LightTemplar X2SoldierClassTemplate]
+DisplayName = "Zealot"
+ClassSummary = "Zealots are devoted savants who have mastered dark powers."
+
+RandomNickNames[0]="Ether"
+RandomNickNames[1]="Nightmare"
+RandomNickNames[2]="Spook"
+RandomNickNames[3]="Demon"
+RandomNickNames[4]="Raven"
+RandomNickNames[5]="Midnight"
+RandomNickNames[6]="Warden"
+RandomNickNames[7]="Scorch"
+RandomNickNames[8]="Prophet"
+RandomNickNames[9]="Omen"
+RandomNickNames[10]="Mystic"
+RandomNickNames[11]="Xeno"
+RandomNickNames[12]="Psion"
+
+RandomNickNames_Male[0]="Warlock"
+RandomNickNames_Male[1]="Wizard"
+RandomNickNames_Male[2]="Sorcerer"
+RandomNickNames_Male[3]="Q"
+
+RandomNickNames_Female[0]="Witch"
+RandomNickNames_Female[1]="Sorceress"
+RandomNickNames_Female[2]="Hecate"
+
+PhotoboothSoloBLines_Male[0]="His Deadliest Weapon... Is His Mind!"
+PhotoboothSoloBLines_Male[1]="Strength Through Sacrifice"
+PhotoboothSoloBLines_Male[2]="Nature Bows to His Will. So shall ADVENT!"
+PhotoboothSoloBLines_Male[3]="Space and Time At His Command!"
+PhotoboothSoloBLines_Male[4]="If He Is With Us, Who Can Stand Against Us?"
+PhotoboothSoloBLines_Male[5]="Like the Laws of Nature, ADVENT Will BREAK!"
+PhotoboothSoloBLines_Male[6]="A Storm is Coming."
+PhotoboothSoloBLines_Male[7]="\"I do not fear the storm.  I am the storm.\""
+PhotoboothSoloBLines_Male[8]="If the ADVENT have gods, then it's time to pray."
+PhotoboothSoloBLines_Male[9]="Feel his POWER."
+
+PhotoboothSoloBLines_Female[0]="Her Deadliest Weapon... Is Her Mind!"
+PhotoboothSoloBLines_Female[1]="Strength Through Sacrifice"
+PhotoboothSoloBLines_Female[2]="Nature Bows to Her WIll.  So shall ADVENT!"
+PhotoboothSoloBLines_Female[3]="Space and Time At Her Command!"
+PhotoboothSoloBLines_Female[4]="If She Is With Us, Who Can Stand Against Us?"
+PhotoboothSoloBLines_Female[5]="Like the Laws of Nature, ADVENT Will BREAK!"
+PhotoboothSoloBLines_Female[6]="A Storm is Coming."
+PhotoboothSoloBLines_Female[7]="\"I do not fear the storm.  I am the storm.\""
+PhotoboothSoloBLines_Female[8]="If the ADVENT have gods, then it's time to pray."
+PhotoboothSoloBLines_Female[9]="Feel her POWER."
+
+[RM_Biotic X2SoldierClassTemplate]
++DisplayName="Savant"
++ClassSummary="The Savant manipulates dark energy for offensive and defensive purposes."
+
++RandomNickNames[0]="Overlord"
++RandomNickNames[1]="Battlemaster"
++RandomNickNames[2]="Gladiator"
++RandomNickNames[3]="Cabal"
++RandomNickNames[4]="Relativity"
++RandomNickNames[5]="Machina"
++RandomNickNames[6]="Big Bang"
++RandomNickNames[7]="Hawking"
++RandomNickNames[8]="Kerr"
++RandomNickNames[9]="Cosmic"
++RandomNickNames[10]="Quantum"
++RandomNickNames[11]="Mass Effect"
++RandomNickNames[12]="Fracture"
++RandomNickNames[13]="Force"
+
+[RustyPsionic X2SoldierClassTemplate]
+DisplayName="Telepath"
+ClassSummary="The Telepath is a potent psionic, utilizing their mental abilities to great effect to boosting their allies and crippling the will of enemies."
+
+;  ///////////////////////////
+;  //      Reaper Monk      //
+;  ///////////////////////////
+
+[ReaperMonk X2SoldierClassTemplate]
++DisplayName="Reaper Scythe"
++ClassSummary="The Scythe has trained extensively in the hand-to-hand combat, killing enemies from the shadows."
+!AbilityTreeTitles = ()
++AbilityTreeTitles[0] = "Blade"
++AbilityTreeTitles[1] = "Shadow"
++AbilityTreeTitles[2] = "Momentum"
++AbilityTreeTitles[3] = "XCOM"
+
+
+;  ///////////////////////////
+;  //      Reaper Psi       //
+;  ///////////////////////////
+
+[ReaperCryptic X2SoldierClassTemplate]
+DisplayName="Reaper Phantom"
+ClassSummary="Using a subtle and unatural power, Phantoms provide support from the shadows."
+AbilityTreeTitles[0]="From the Dark"
+AbilityTreeTitles[1]="Unnatural Whispers"
+AbilityTreeTitles[2]="The Presence"
+AbilityTreeTitles[3]="XCOM"
+
+RandomNickNames[0]="Whisper"
+RandomNickNames[1]="Susurrus"
+RandomNickNames[2]="Murmur"
+RandomNickNames[3]="Rumour"
+RandomNickNames[4]="Enigma"
+RandomNickNames[5]="Codex"
+RandomNickNames[6]="Visage"
+RandomNickNames[7]="Domino"
+RandomNickNames[8]="Spook"
+RandomNickNames[9]="Poltergeist"
+RandomNickNames[10]="Haunter"
+RandomNickNames[11]="Chessmaster"
+
+RandomNickNames_Male[0]="Night King"
+RandomNickNames_Male[1]="Dark Prince"
+RandomNickNames_Male[2]="Zuul"
+
+RandomNickNames_Female[0]="Banshee"
+RandomNickNames_Female[1]="Night Queen"
+RandomNickNames_Female[2]="Dark Princess"
+
++RankNames[0]="Rookie"
++RankNames[1]="Initiate"
++RankNames[2]="Acolyte"
++RankNames[3]="Adept"
++RankNames[4]="Disciple"
++RankNames[5]="Mystic"
++RankNames[6]="Warlock"
++RankNames[7]="Magus"
+
++ShortNames[0]="Rk."
++ShortNames[1]="Int."
++ShortNames[2]="Acl."
++ShortNames[3]="Adp."
++ShortNames[4]="Dsc."
++ShortNames[5]="Mys."
++ShortNames[6]="War."
++ShortNames[7]="Mag."
+
++RankIcons[0]= "UILibrary_Common.rank_rookie"
++RankIcons[1]= "UILibrary_Common.psirank_initiate"
++RankIcons[2]= "UILibrary_Common.psirank_acolyte"
++RankIcons[3]= "UILibrary_Common.psirank_adept"
++RankIcons[4]= "UILibrary_Common.psirank_disciple"
++RankIcons[5]= "UILibrary_Common.psirank_mystic"
++RankIcons[6]= "UILibrary_Common.psirank_warlock"
++RankIcons[7]= "UILibrary_Common.psirank_magus"
+
+;  ///////////////////////////
+;  //      Reaper Sniper    //
+;  ///////////////////////////
+
+[GS_Reaper_Sniper X2SoldierClassTemplate]
+DisplayName="Reaper Sniper"
+ClassSummary="The Reaper Sniper specializes in death from afar, often trading their signature vector rifle for a standard sniper rifle."
+AbilityTreeTitles[0]="Striker"
+AbilityTreeTitles[1]="Prowler"
+AbilityTreeTitles[2]="Hunter"
+AbilityTreeTitles[3]="XCOM"
+
+RandomNickNames[0]="Shadow"
+RandomNickNames[1]="Ghost"
+RandomNickNames[2]="Stalker"
+RandomNickNames[3]="Haunt"
+RandomNickNames[4]="Wraith"
+RandomNickNames[5]="Raven"
+RandomNickNames[6]="Samurai"
+RandomNickNames[7]="Scorpion"
+RandomNickNames[8]="Stiletto"
+RandomNickNames[9]="Nightwalker"
+RandomNickNames[10]="Icepick"
+
+RandomNickNames_Male[0]="Axeman"
+RandomNickNames_Male[1]="Duke"
+RandomNickNames_Male[2]="Hunter"
+
+RandomNickNames_Female[0]="Valkyrie"
+RandomNickNames_Female[1]="Duchess"
+RandomNickNames_Female[2]="Huntress"
+
+PhotoboothSoloBLines_Male[0]="His blade... THEIR BLOOD!"
+PhotoboothSoloBLines_Male[1]="From the shadows... he STRIKES!"
+PhotoboothSoloBLines_Male[2]="Stay out of the shadows.  They can be DEADLY."
+PhotoboothSoloBLines_Male[3]="Death from the darkness."
+PhotoboothSoloBLines_Male[4]="In the shadows, no one will hear your scream..."
+PhotoboothSoloBLines_Male[5]="Hunter. Killer."
+PhotoboothSoloBLines_Male[6]="Master of Shadows"
+PhotoboothSoloBLines_Male[7]="The Darkness is His Domain"
+PhotoboothSoloBLines_Male[8]="When Darkness Falls, So Will His Enemies!"
+PhotoboothSoloBLines_Male[9]="Fear the Reaper."
+PhotoboothSoloBLines_Male[10]="Even death fears him."
+PhotoboothSoloBLines_Male[11]="First he'll kill them.  Then he'll eat them."
+PhotoboothSoloBLines_Male[12]="You can't kill what you can't see."
+PhotoboothSoloBLines_Male[13]="\"We do not fear the night, for we are the shadow.\""
+PhotoboothSoloBLines_Male[14]="He's the last thing you'll never see."
+PhotoboothSoloBLines_Male[15]="If death takes a vacation, he'll pick up the slack."
+
+PhotoboothSoloBLines_Female[0]="Her blade... THEIR BLOOD!"
+PhotoboothSoloBLines_Female[1]="From the shadows... she STRIKES!"
+PhotoboothSoloBLines_Female[2]="Stay out of the shadows.  They can be DEADLY."
+PhotoboothSoloBLines_Female[3]="Death from the darkness."
+PhotoboothSoloBLines_Female[4]="In the shadows, no one will hear your scream..."
+PhotoboothSoloBLines_Female[5]="Hunter. Killer."
+PhotoboothSoloBLines_Female[6]="Master of Shadows"
+PhotoboothSoloBLines_Female[7]="Queen of Shadows"
+PhotoboothSoloBLines_Female[8]="The Darkness is Her Domain"
+PhotoboothSoloBLines_Female[9]="When Darkness Falls, So Will Her Enemies!"
+PhotoboothSoloBLines_Female[10]="Even death fears her."
+PhotoboothSoloBLines_Female[11]="First she'll kill them.  Then she'll eat them."
+PhotoboothSoloBLines_Female[12]="You can't kill what you can't see."
+PhotoboothSoloBLines_Female[13]="\"We do not fear the night, for we are the shadow.\""
+PhotoboothSoloBLines_Female[14]="She's the last thing you'll never see."
+PhotoboothSoloBLines_Female[15]="If death takes a vacation, she'll pick up the slack."
+
+
+;  ///////////////////////////
+;  //Reaper Hunter			//
+;  ///////////////////////////
+
+[BountyHunter X2SoldierClassTemplate]
+DisplayName = "Reaper Hunter"
+ClassSummary = "The Reaper Hunter specializes in eliminating priority targets by ambushing them with surprise attacks and explosives."
+
+LeftAbilityTreeTitle = "Raider"
+RightAbilityTreeTitle = "Chaser"
++AbilityTreeTitles = "Raider"
++AbilityTreeTitles = "Chaser"
++AbilityTreeTitles = "Hitman"
++AbilityTreeTitles = "XCOM"
+
+;RankNames
+;ShortNames
+
+;RankIcons
+;RandomNickNames
+;RandomNickNames_Female
+;RandomNickNames_Male
+;PhotoboothSoloBLines_Female
+;PhotoboothSoloBLines_Male
+
++RandomNickNames = "Redrum"
++RandomNickNames = "Huntsman"
++RandomNickNames = "Bloodhound"
++RandomNickNames = "Owl"
++RandomNickNames = "Pathfinder"
++RandomNickNames = "Stalker"
++RandomNickNames = "Hired Gun"
++RandomNickNames = "Undertaker"
++RandomNickNames = "Vampire"
++RandomNickNames = "Outlaw"
++RandomNickNames = "Mercenary"
++RandomNickNames = "Bandit"
+
++RandomNickNames_Male = "Man in Black"
+
+;  ///////////////////////////
+;  //Skirmisher Knight		//
+;  ///////////////////////////
+
+[SkirmisherKnight X2SoldierClassTemplate]
+DisplayName="Skirmisher Spy"
+ClassSummary="A Skirmisher who specializes in infiltration, espionage, and sabotage."
+AbilityTreeTitles[0]="Executioner"
+AbilityTreeTitles[1]="Stealth"
+AbilityTreeTitles[2]="Combat"
+AbilityTreeTitles[3]=  "XCOM"
+
+;  ///////////////////////////
+;  //Sangheili Hunter		//
+;  ///////////////////////////
+
+
+[RM_Elite X2SoldierClassTemplate]
+DisplayName="Sangheili Hunter"
+ClassSummary="When fully trained, a Sangheili warrior can be one of the most dangerous or inspiring things on the battlefield, depending on which end of their blade you're on."
+LeftAbilityTreeTitle="Zealot"
+RightAbilityTreeTitle="General"
+
+AbilityTreeTitles[0]="Zealot"
+AbilityTreeTitles[1]="General"
+AbilityTreeTitles[2]="XCOM"
+
+RandomNickNames[0]="Bandit"
+RandomNickNames[1]="Blitz"
+RandomNickNames[2]="Brick"
+RandomNickNames[3]="Butcher"
+RandomNickNames[4]="Buzzsaw"
+RandomNickNames[5]="Cajun"
+RandomNickNames[6]="Chops"
+RandomNickNames[7]="Cobra"
+RandomNickNames[8]="Cougar"
+RandomNickNames[9]="Coyote"
+RandomNickNames[10]="Crash"
+RandomNickNames[11]="Diamond"
+RandomNickNames[12]="Enforcer"
+RandomNickNames[13]="Fatal"
+RandomNickNames[14]="Flash"
+RandomNickNames[15]="Fury"
+RandomNickNames[16]="Gator"
+RandomNickNames[17]="Ghost"
+RandomNickNames[18]="Gunner"
+RandomNickNames[19]="Hound Dog"
+RandomNickNames[20]="Ice"
+RandomNickNames[21]="Icepick"
+RandomNickNames[22]="Jaws"
+RandomNickNames[23]="Judgment Day"
+RandomNickNames[24]="Knuckles"
+RandomNickNames[25]="Monster"
+RandomNickNames[26]="Mustang"
+RandomNickNames[27]="Paladin"
+RandomNickNames[28]="Pitbull"
+RandomNickNames[29]="Predator"
+RandomNickNames[30]="Razor"
+RandomNickNames[31]="Samurai"
+RandomNickNames[32]="Scorpion"
+RandomNickNames[33]="Shogun"
+RandomNickNames[34]="Shadow"
+RandomNickNames[35]="Slayer"
+RandomNickNames[36]="Snake"
+RandomNickNames[37]="Snake Eyes"
+RandomNickNames[38]="Solo"
+RandomNickNames[39]="Specter"
+RandomNickNames[40]="Spider"
+RandomNickNames[41]="Stalker"
+RandomNickNames[42]="Steel"
+RandomNickNames[43]="Stinger"
+RandomNickNames[44]="Terminator"
+RandomNickNames[45]="Trojan"
+RandomNickNames[46]="Vandal"
+RandomNickNames[47]="Viking"
+RandomNickNames[48]="Warden"
+RandomNickNames[49]="Warlord"
+RandomNickNames[50]="Wolverine"
+RandomNickNames[51]="Wildchild"
+RandomNickNames[52]="Wildling"
+RandomNickNames[53]="Zulu"
+
+;ALPHABETICAL ORDER
+RandomNickNames_Male[0]="Axeman"
+RandomNickNames_Male[1]="Duke"
+RandomNickNames_Male[2]="Rocky"
+RandomNickNames_Male[3]="Stallion"
+RandomNickNames_Male[4]="Wolfman"
+;ALPHABETICAL ORDER
+RandomNickNames_Female[0]="Athena"
+RandomNickNames_Female[1]="Duchess"
+RandomNicknames_Female[2]="Iron Lady"
+RandomNicknames_Female[3]="Iron Maiden"
+RandomNicknames_Female[4]="Shieldmaiden"
+RandomNickNames_Female[5]="Valkyrie"
+;ALPHABETICAL ORDER
+PhotoboothSoloBLines_Male[0]="His blade... THEIR BLOOD!"
+PhotoboothSoloBLines_Male[1]="Close quarters, no mercy."
+PhotoboothSoloBLines_Male[2]="His blade will bring JUSTICE!"
+PhotoboothSoloBLines_Male[3]="Close, Personal, and DEADLY!"
+PhotoboothSoloBLines_Male[4]="Blademaster. Death Dealer."
+PhotoboothSoloBLines_Female[0]="Her blade... THEIR BLOOD!"
+PhotoboothSoloBLines_Female[1]="Close quarters, no mercy."
+PhotoboothSoloBLines_Female[2]="Her blade will bring JUSTICE!"
+PhotoboothSoloBLines_Female[3]="Close, Personal, and DEADLY!"
+PhotoboothSoloBLines_Female[4]="Blademaster. Death Dealer."
+
+
+
+;***************************************
+;New Ability Descriptions
+;***************************************
+
+[WOTC_APA_Brawl X2AbilityTemplate]
+LocFriendlyName = "Force of Will"
+LocHelpText = "Force of Will helps keep you in the fight for longer"
+LocLongDescription = "The Heretic's Force of Will helps keep them in the fight for longer."
+LocPromotionPopupText = "<font color='#CA7200'>LEVEL I</font> (gained at <Ability:RANKNAME1/> rank [1])<br/><Bullet/> Immunity to Viper crush<br/><Bullet/> Gain 1 armour.<br/><br/><br/><font color='#CA7200'>LEVEL II</font> (gained at <Ability:RANKNAME3/> rank [3])<br/><Bullet/> Immunity to Bleeding.<br/><Bullet/> Immunity to Disorientation.<br/><Bullet/> Gain 15 will.<br/><br/><br/><font color='#CA7200'>LEVEL III</font> (gained at <Ability:RANKNAME6/> rank [6]<br/><Bullet/> Immunity to Panic.<br/><Bullet/> Gains the survivor perk. <br/><Bullet/> Gain 1 armour.)"
+
+; - GTS Unlocks -
+
+[WOTCbrawlUnlock1 X2SoldierAbilityUnlockTemplate]
+DisplayName = "Heretic: Initiate"
+Summary = "All Heretic soldiers' gain level 2 training, regardless of rank.""
+
+[WOTCbrawlUnlock2 X2SoldierAbilityUnlockTemplate]
+DisplayName = "Heretic: Risen"
+Summary = "All Heretic soldiers' gain level 3 training, regardless of rank."<br/><br/><font color='#CA7200'>Requires Heretic Initiate Training</font>"
+
+[GrenadeLauncher_BM X2GrenadeLauncherTemplate]
+FriendlyName="Superior Grenade Launcher"
+FriendlyNamePlural="Superior Grenade Launchers"
+BriefSummary="The Superior Grenade Launcher combines our latest breakthroughs in beam technology to further enhance our launchers' range and to increase the effect radius of launched projectiles."
+TacticalText="<Bullet/> The Superior Grenade Launcher has an increased range over the Advanced Grenade Launcher."
+AbilityDescName="grenade launcher"
+
+[Inquisitor_RightBackAtYou X2AbilityTemplate]
+LocFriendlyName = "Right back at you!"
+LocHelpText = "The <Ability:ClassName/> returns fire at any visible target that directly damages them."
+LocLongDescription = "Upon being hit by any attack, return fire with your primary weapon. This shot has a <font color='#3ABD23'>+10%</font>/<font color='#b7bd1c'>+20%</font>/<font color='#d48013'>+30%</font> chance to hit, and can trigger once per individual enemy."
+LocPromotionPopupText = "<font color='#CA7200'>LEVEL I</font> (gained at Squaddie rank [1])<br/>Upon taking damage from an attack directly targeted at you, if visible, return fire with a <font color='#3ABD23'>+10%</font> chance to hit. This can trigger once per individual enemy.<br/><br/><font color='#CA7200'>LEVEL II</font> (gained at Captain rank [5])<br/><Bullet/>The bonus to hit is increased to <font color='#b7bd1c'>+20%</font>.<br/><br/><font color='#CA7200'>LEVEL III</font> (gained at Brigadier rank [8])<br/><Bullet/>The bonus to hit is further increased to <font color='#b7bd1c'>+30%</font>."
+
+
+;--------------------------------------------
+; 
+;			        STANCES
+;
+;--------------------------------------------
+
+[StanceGuard X2AbilityTemplate]
+LocFriendlyName="Guard"
+LocLongDescription="Get into a defensive position, boosting defense(+15) and dodge(+30), but at the cost of 2 will/turn, aim(-10), crit(50%) and mobility(70%)."
+LocHelpText="Get into a defensive position, boosting defense(+15) and dodge(+30), but at the cost of 2 will/turn, aim(-10), crit(50%) and mobility(70%)."
+LocFlyOverText="Guard"
+LocPromotionPopupText="Guard"
+
+[StanceFocus X2AbilityTemplate]
+LocFriendlyName="Aggression"
+LocLongDescription="Enter an aggressive state, boosting aim(+25), crit(+25), but at the cost of 5 will/turn, defense(-20) and mobility(70%)."
+LocHelpText="Enter an aggressive state, boosting aim (+25), crit(+25), but at the cost of 5 will/turn, defense(-20) and mobility(70%)."
+LocFlyOverText="Aggression"
+LocPromotionPopupText="Aggression"
+
+[StanceMeditate X2AbilityTemplate]
+LocFriendlyName="Meditate"
+LocLongDescription="Reach deep within to find calm and focus, boosting psi(125%), will(+20) and hack defense(+20), but at the cost of 4 will/turn and mobility(80%)."
+LocHelpText="Reach deep within to find calm and focus, boosting psi(+20), will(+20) and hack defense(+20), but at the cost of 4 will/turn and mobility(80%)."
+LocFlyOverText="Meditate"
+LocPromotionPopupText="Meditate"
+
+[StanceRush X2AbilityTemplate]
+LocFriendlyName="Rush"
+LocLongDescription="Push past your limits, boosting mobility(150%) and dodge(+10) but at the cost of 5 will/turn, stealth(+ 0.5 detection), aim(-10), psi(-10) and hacking(-10)."
+LocHelpText="Push past your limits, boosting mobility(150%) and dodge(+10) but at the cost of 5 will/turn, stealth(+ 0.5 tile detection), aim(-10), psi(-10) and hacking(-10)."
+LocFlyOverText="Rush"
+LocPromotionPopupText="Rush"
+
+[StanceSneak X2AbilityTemplate]
+LocFriendlyName="Frosty"
+LocLongDescription="Stay alert, boosting sight(180%) and awareness(150%), but at the cost of 2 will/turn."
+LocHelpText="Stay alert and quiet, boosting stealth (-1.5 detection), sight (180%), awareness (150%), but at the cost of 2 will/turn and mobility(80%)."
+LocFlyOverText="Frosty"
+LocPromotionPopupText="Frosty"
+
+[NerdFocus X2AbilityTemplate]
+LocFriendlyName="Egghead"
+LocLongDescription="Focus on your studies, boosting hacking(150%), but at the cost of 5 will/turn and mobility(50%)."
+LocHelpText="Focus on your studies, boosting hacking(150%), but at the cost of 5 will/turn and mobility(50%)."
+LocFlyOverText="Egghead"
+LocPromotionPopupText="Egghead"
+
+;--------------------------------------------
+; 
+;			        ARMOR
+;
+;--------------------------------------------
+
+
+
+
+[ZGS_Dozer_Armor X2ArmorTemplate]
+FriendlyName="Bulldozer Armor"
+FriendlyNamePlural="Bulldozer Armors"
+BriefSummary="The pinnacle of pre-invasion protection. Huge survivability, slows you to a crawl, and makes you easier to hit."
+TacticalText="The pinnacle of pre-invasion protection. Huge survivability, slows you to a crawl, and makes you easier to hit."
+
+[GS_Proto_Light_Alloy_Armor X2ArmorTemplate]
+FriendlyName="Prototype Light Integrated Armor"
+FriendlyNamePlural="Prototype Light Integrated Armor"
+BriefSummary="This is a first attempt to integrate alien alloys with existing light kevlar armor. The result is a bit more protection with the same freedom of movement; a definite improvement."
+TacticalText="This is a first attempt to integrate alien alloys with existing light kevlar armor. The result is a bit more protection with the same freedom of movement; a definite improvement."
+
+[GS_Proto_Dozer_Alloy_Armor X2ArmorTemplate]
+FriendlyName="Prototype Dozer Integrated Armor"
+FriendlyNamePlural="Prototype Dozer Integrated Armor"
+BriefSummary="This is a first attempt to integrate alien alloys with existing dozer armor. The result is the same first-rate protection in a lighter frame, granting some additional freedom of movement; a definite improvement."
+TacticalText="This is a first attempt to integrate alien alloys with existing dozer armor. The result is the same first-rate protection in a lighter frame, granting some additional freedom of movement; a definite improvement."
+
+[GS_Proto_Heavy_Alloy_Armor X2ArmorTemplate]
+FriendlyName="Prototype Heavy Integrated Armor"
+FriendlyNamePlural="Prototype Heavy Integrated Armor"
+BriefSummary="This is a first attempt to integrate alien alloys with existing heavy kevlar armor. The result is a bit more protection and greater freedom of movement; a definite improvement."
+TacticalText="This is a first attempt to integrate alien alloys with existing heavy kevlar armor. The result is a bit more protection and greater freedom of movement; a definite improvement."
+
+
+;--------------------------------------------
+; 
+;			      WEAPONS
+;
+;--------------------------------------------
+
+;------------------------------
+;			Armor
+
+[SectoidArmor X2ArmorTemplate]
+FriendlyName="Sectoid Coating"
+BriefSummary="Sectoid Coating"
+TacticalText="<Bullet/>Sectoid coating is psionically reinforced to prevent bullets from penetrating."
+AbilityDescName="Sectoid Coating"
+
+[PlatedSectoidArmor X2ArmorTemplate]
+FriendlyName="Sectoid Reinforced Coating"
+BriefSummary="Sectoid Reinforced Coating"
+TacticalText="<Bullet/>Sectoid coating is psionically reinforced to prevent bullets from penetrating. The coating now has a thin layer of alien alloys over it."
+AbilityDescName="Sectoid Reinforced Coating"
+
+[PoweredSectoidArmor X2ArmorTemplate]
+FriendlyName="Sectoid Elerium Coating"
+BriefSummary="Sectoid Elerium Coating"
+TacticalText="<Bullet/>Sectoid coating is psionically reinforced to prevent bullets from penetrating. The coating now has a thin weave of alien alloys and elerium, boosting the psionic reinforcement."
+AbilityDescName="Sectoid Elerium Coating"
+
+[ViperArmor X2ArmorTemplate]
+FriendlyName="Viper Armor"
+BriefSummary="Viper Armor"
+TacticalText="<Bullet/>Standard issue armour given to the average Viper operative."
+AbilityDescName="Viper Armor"
+
+[PlatedViperArmor X2ArmorTemplate]
+FriendlyName="Viper Alloy Armor"
+BriefSummary="Viper Alloy Armor"
+TacticalText="<Bullet/>Viper armour reinforced with XCOM application of alien alloys. This does raise questions why this isn't given to normal Viper operatives..."
+AbilityDescName="Viper Alloy Armor"
+
+[PoweredViperArmor X2ArmorTemplate]
+FriendlyName="Powered Viper Armor"
+BriefSummary="Powered Viper Armor"
+TacticalText="<Bullet/>Viper armour on par with XCOM's powered armour designs. The Vipers working with us can make quick mockery of their counterparts with this."
+AbilityDescName="Powered Viper Armor"
+
+;------------------------------
+;			Pistols
+
+[IRI_NoahRevolver X2WeaponTemplate]
+FriendlyName="Big-Bore Revolver"
+FriendlyNamePlural="Big-Bore Revolvers"
+BriefSummary="This is a high caliber revolver with impressive stopping power."
+TacticalText="This is a high caliber revolver with impressive stopping power.<br/><Bullet/> Pistols can be much more than a sidearm in the hands of a trained Sharpshooter.\n<Bullet/> Unlike the sniper rifle, pistols can be fired with a single action.\n<Bullet/> Sharpshooters can train several abilities that dramatically enhance their use of pistols."
+AbilityDescName="pistol"
+
+[High_Cal_Pistol_CV X2WeaponTemplate]
+FriendlyName="Snubnose Pistol"
+FriendlyNamePlural="Snubnose Pistols"
+BriefSummary="This weapon is light, easily concealable and accurate, but falls short in penetration and stopping power."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Pistol's tactical effectiveness."
+AbilityDescName="pistol"
+
+[High_Cal_Pistol_MG X2WeaponTemplate]
+FriendlyName="Ballistic Snubnose"
+FriendlyNamePlural="Ballistic Snubnose Pistols"
+BriefSummary="This weapon is light, easily concealable and accurate, but pack a surprisingly strong punch for such a little weapon."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Pistol's tactical effectiveness."
+AbilityDescName="pistol"
+
+[High_Cal_Pistol_BM X2WeaponTemplate]
+FriendlyName="High Caliber Ballistic Snubnose"
+FriendlyName="High Caliber Ballistic Snubnoses"
+BriefSummary="This weapon is light, easily concealable and accurate, but pack a surprisingly devastating punch for such a little weapon."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Pistol's tactical effectiveness."
+AbilityDescName="pistol"
+
+
+[WP_M5Phalanx X2WeaponTemplate]
+FriendlyName="Phalanx Heavy Pistol"
+FriendlyNamePlural="Phalanx Heavy Pistols"
+BriefSummary="The Phalanx is the product of the Alliance's Offensive Handgun Project, an alien design of some unknown or lost species. The weapon propels an exceptionally small projectile at extremely high velocity, resulting in slightly less stopping power, but with increased penetration."
+TacticalText="<Bullet/> Firing this gun will the end soldiers turn, unless they have special training.\n<Bullet/>\n<Bullet/>"
+AbilityDescName="M-5 Phalanx Heavy Pistol"
+
+[WP_M5Phalanx_MG X2WeaponTemplate]
+FriendlyName="Phalanx Pistol MK II"
+FriendlyNamePlural="Phalanx MK II Heavy Pistols"
+BriefSummary="Advanced Ballistic capabilites allows the Phalanx to shoot higher velocity rounds with greater penetration power."
+TacticalText="<Bullet/> Firing this gun will the end soldiers turn, unless they have special training.\n<Bullet/>\n<Bullet/>"
+AbilityDescName="M-5 Phalanx Heavy Pistol"
+
+[WP_M5Phalanx_BM X2WeaponTemplate]
+FriendlyName="Phalanx Heavy Pistol MK III"
+FriendlyNamePlural="Phalanx MK III Heavy Pistols"
+BriefSummary="Advanced Beam capabilites allows the Phalanx to shoot higher velocity rounds with greater penetration power."
+TacticalText="<Bullet/> Firing this gun will the end soldiers turn, unless they have special training.\n<Bullet/>\n<Bullet/>"
+AbilityDescName="M-5 Phalanx Heavy Pistol"
+
+[TLP_V_Pistol_CV X2WeaponTemplate]
+FriendlyName="XCOM Handgun"
+FriendlyNamePlural="XCOM Handguns"
+BriefSummary="This weapon is of an old design, the same as XCOM's old arsenal; it's a heavy caliber, designed for maximum damage if not reliability or concealment. Normally they would be too old to equip modern upgrades, but modern techniques good old fashion elbow grease has made them better than before."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Pistol's tactical effectiveness."
+AbilityDescName="pistol"
+
+[TLP_V_Pistol_MG X2WeaponTemplate]
+FriendlyName="XCOM Handgun MK II"
+FriendlyNamePlural="XCOM MK II Handguns"
+BriefSummary="This weapon is of an old design, the same as XCOM's old arsenal; it's a heavy caliber, designed for maximum damage if not reliability or concealment. Normally they would be too old to equip modern upgrades, but modern techniques good old fashion elbow grease has made them better than before."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Pistol's tactical effectiveness."
+AbilityDescName="pistol"
+
+[TLP_V_Pistol_BM X2WeaponTemplate]
+FriendlyName="XCOM Handgun MK III"
+FriendlyNamePlural="XCOM MK III Handguns"
+BriefSummary="This weapon is of an old design, the same as XCOM's old arsenal; it's a heavy caliber, designed for maximum damage if not reliability or concealment. Normally they would be too old to equip modern upgrades, but modern techniques good old fashion elbow grease has made them better than before."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Pistol's tactical effectiveness."
+AbilityDescName="pistol"
+
+
+;------------------------------
+;			Assault Rifles
+
+[TLE_AssaultRifle_CV X2WeaponTemplate]
+FriendlyName="Old-world Assault Rifle"
+FriendlyNamePlural="Old-world Assault Rifles"
+BriefSummary="We've managed to salvage a variety of standard infantry small arms; this is the most common variety, similar to the rifle used twenty years before. Compared to the standard assault rifle, it does lower if more consistant damage, but with a higher capacity and easier infiltration."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Old-world Assault Rifle"
+
+[TLE_AssaultRifle_MG X2WeaponTemplate]
+FriendlyName="Improvised Magnetic Rifle"
+FriendlyNamePlural="Improvised Magnetic Rifles"
+BriefSummary="Magnetized projectile tech has enabled us to create rifle-style slugthrowers. They represent a substantial improvement in power relative to conventional assault rifles."
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn, in the absence of special training.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Improvised Magnetic Rifle"
+
+[TLE_AssaultRifle_BM X2WeaponTemplate]
+FriendlyName="Prototype Plasma Rifle"
+FriendlyNamePlural="Prototype Plasma Rifles"
+BriefSummary="Now that we've finally deciphered the aliens' devastating weapon technology and can develop beam weapons of our own, we can build rifles that will be the match of any enemy our soldiers encounter in the field."
+TacticalText="<Bullet/> The Plasma Rifle is a general purpose, supremely powerful primary infantry weapons system.\n<Bullet/> Firing the primary weapon always ends the soldier's turn.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Prototype Plasma Rifle"
+
+[TLP_V_Rifle_CV X2WeaponTemplate]
+FriendlyName="XCOM Assault Rifle"
+FriendlyNamePlural="XCOM Assault Rifles"
+BriefSummary="This weapon is of an old design, the same as XCOM's old arsenal; it's a heavy caliber, designed for maximum damage if not reliability or concealment. Normally they would be too old to equip modern upgrades, but modern techniques good old fashion elbow grease has made them better than before."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Assault Rifle's tactical effectiveness."
+AbilityDescName="assault rifle"
+
+[TLP_V_Rifle_MG X2WeaponTemplate]
+FriendlyName="XCOM Assault Rifle MK II"
+FriendlyNamePlural="XCOM MK II Assault Rifles"
+BriefSummary="This weapon is of an old design, the same as XCOM's old arsenal; it's a heavy caliber, designed for maximum damage if not reliability or concealment. Normally they would be too old to equip modern upgrades, but modern techniques good old fashion elbow grease has made them better than before."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Assault Rifle's tactical effectiveness."
+AbilityDescName="assault rifle"
+
+[TLP_V_Rifle_BM X2WeaponTemplate]
+FriendlyName="XCOM Assault Rifle MK III"
+FriendlyNamePlural="XCOM MK III Assault Rifles"
+BriefSummary="This weapon is of an old design, the same as XCOM's old arsenal; it's a heavy caliber, designed for maximum damage if not reliability or concealment. Normally they would be too old to equip modern upgrades, but modern techniques good old fashion elbow grease has made them better than before."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Assault Rifle's tactical effectiveness."
+AbilityDescName="assault rifle"
+
+[TLP_V_2_AssaultRifle_CV X2WeaponTemplate]
+FriendlyName="XCOM Magnetic Assault Rifle"
+FriendlyNamePlural="XCOM Magnetic Assault Rifles"
+BriefSummary="This weapon is of an old design, the same as XCOM's old arsenal; it's a heavy caliber, designed for maximum damage if not reliability or concealment. Normally they would be too old to equip modern upgrades, but modern techniques good old fashion elbow grease has made them better than before."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Assault Rifle's tactical effectiveness."
+AbilityDescName="assault rifle"
+
+[TLP_V_2_AssaultRifle_MG X2WeaponTemplate]
+FriendlyName="XCOM Magnetic Assault Rifle MK II"
+FriendlyNamePlural="XCOM MK II Magnetic Assault Rifles"
+BriefSummary="This weapon is of an old design, the same as XCOM's old arsenal; it's a heavy caliber, designed for maximum damage if not reliability or concealment. Normally they would be too old to equip modern upgrades, but modern techniques good old fashion elbow grease has made them better than before."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Assault Rifle's tactical effectiveness."
+AbilityDescName="assault rifle"
+
+[TLP_V_2_AssaultRifle_BM X2WeaponTemplate]
+FriendlyName="XCOM Magnetic Assault Rifle MK III"
+FriendlyNamePlural="XCOM MK III Magnetic Assault Rifles"
+BriefSummary="This weapon is of an old design, the same as XCOM's old arsenal; it's a heavy caliber, designed for maximum damage if not reliability or concealment. Normally they would be too old to equip modern upgrades, but modern techniques good old fashion elbow grease has made them better than before."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Assault Rifle's tactical effectiveness."
+AbilityDescName="assault rifle"
+
+[TLP_V_3_Rifle_CV X2WeaponTemplate]
+FriendlyName="XCOM Plasma Assault Rifle"
+FriendlyNamePlural="XCOM Plasma Assault Rifles"
+BriefSummary="This weapon is of an old design, the same as XCOM's old arsenal; it's a heavy caliber, designed for maximum damage if not reliability or concealment. Normally they would be too old to equip modern upgrades, but modern techniques good old fashion elbow grease has made them better than before."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Assault Rifle's tactical effectiveness."
+AbilityDescName="assault rifle"
+
+[TLP_V_3_Rifle_MG X2WeaponTemplate]
+FriendlyName="XCOM Plasma Assault Rifle MK II"
+FriendlyNamePlural="XCOM MK II Plasma Assault Rifles"
+BriefSummary="This weapon is of an old design, the same as XCOM's old arsenal; it's a heavy caliber, designed for maximum damage if not reliability or concealment. Normally they would be too old to equip modern upgrades, but modern techniques good old fashion elbow grease has made them better than before."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Assault Rifle's tactical effectiveness."
+AbilityDescName="assault rifle"
+
+[TLP_V_3_Rifle_BM X2WeaponTemplate]
+FriendlyName="XCOM Plasma Assault Rifle MK III"
+FriendlyNamePlural="XCOM MK III Plasma Assault Rifles"
+BriefSummary="This weapon is of an old design, the same as XCOM's old arsenal; it's a heavy caliber, designed for maximum damage if not reliability or concealment. Normally they would be too old to equip modern upgrades, but modern techniques good old fashion elbow grease has made them better than before."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Assault Rifle's tactical effectiveness."
+AbilityDescName="assault rifle"
+
+;------------------------------
+;			Cannons
+
+[TLE_Cannon_CV X2WeaponTemplate]
+FriendlyName="Light Machine Gun"
+FriendlyNamePlural="Light Machine Guns"
+BriefSummary="The Cannon is the heaviest portible weapon available, specialized for high volume fire. Compared to the standard LMG, the cannon does more damage and can even shred some armor, though it impedes movement slightly more than normal and is harder to conceal."
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Light Machine Gun"
+
+[TLE_Cannon_MG X2WeaponTemplate]
+FriendlyName="Magnetic Support Machine Gun"
+FriendlyNamePlural="Magnetic Support Machine Guns"
+BriefSummary="Magnetic weapons tech will let us deploy a rapid-fire version of the cannon. Our soldiers will be able to lay down a much deadlier volume of fire."
+TacticalText="<Bullet/> The Magnetic Support Cannon is a much more powerful, yet equally deployable, version of the conventional LMG.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Magnetic Support Machine Gun"
+
+[TLE_Cannon_BM X2WeaponTemplate]
+FriendlyName="Energy Machine Gun"
+FriendlyNamePlural="Energy Machine Guns"
+BriefSummary="Devising a more powerful, high-volume beam weapon for our soldiers required substantial effort, but the firepower it brings is unquestioned."
+TacticalText="<Bullet/> The Energy Cannon is the most powerful combat support weapon human forces can deploy.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Energy Machine Gun"
+
+
+;------------------------------
+;			Shotguns
+
+[TLE_Shotgun_CV X2WeaponTemplate]
+FriendlyName="Scattergun"
+FriendlyNamePlural="Scatterguns"
+BriefSummary="We've managed to salvage a variety of standard infantry small arms; this is a specialized weapon for close range engagement. Compared to the standard shotgun, it is more accurate, doing marginally more damage, though with a bit less consistancy."
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn.\n<Bullet/> Shotguns are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Scattergun"
+
+[TLE_Shotgun_MG X2WeaponTemplate]
+FriendlyName="Augmented Shotgun"
+FriendlyNamePlural="Augmented Shotguns"
+BriefSummary="Magnetic weapons technology will let us synthesize alien alloy fragments into a spray-style projectile, and our Rangers can use it to dramatic effect: the closer the better."
+TacticalText="<Bullet/> Magnetized weapon technology makes for an especially effective improvement of XCOM's combat shotgun.\n<Bullet/> Shotgun-style weapons are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Augmented Shotgun"
+
+[TLE_Shotgun_BM X2WeaponTemplate]
+FriendlyName="Energy Sweeper"
+FriendlyNamePlural="Energy Sweepers"
+BriefSummary="The Energy Sweeper fires a concentrated set of beam pulses, piercing and melting the target across a substantial surface area."
+TacticalText="<Bullet/> This is the most advanced shotgun-style weapon available in the XCOM arsenal.\n<Bullet/> Shotgun-style weapons are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Energy Sweeper"
+
+
+[LongShotgun_SA_CV X2WeaponTemplate]
+FriendlyName="Combat Shotgun"
+FriendlyNamePlural="Combat Shotguns"
+BriefSummary="We've managed to salvage a variety of standard infantry small arms; this is a specialized weapon for close range engagement. Compared to the standard shotgun, this weapon does substantially more damage, if less accurate."
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn.\n<Bullet/> Shotguns are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Use upgrades looted from enemies to improve the Shotgun's tactical effectiveness."
+AbilityDescName="shotgun"
+
+[LongShotgun_SA_MG X2WeaponTemplate]
+FriendlyName="Combat Shotgun MK II"
+FriendlyNamePlural="MK II Combat Shotguns"
+BriefSummary="We've managed to salvage a variety of standard infantry small arms; this is a specialized weapon for close range engagement. Compared to the standard shotgun, this weapon does substantially more damage, if less accurate."
+TacticalText="<Bullet/> Using knowledge gained from magnetized weapon technology we've managed to improve the effectiveness of XCOM's combat shotguns.\n<Bullet/> Shotgun-style weapons are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Use upgrades looted from enemies to improve the Shard Gun's tactical effectiveness."
+AbilityDescName="shotgun"
+
+[LongShotgun_SA_BM X2WeaponTemplate]
+FriendlyName="Combat Shotgun MK III"
+FriendlyNamePlural="MK III Combat Shotguns"
+BriefSummary="We've managed to salvage a variety of standard infantry small arms; this is a specialized weapon for close range engagement. Compared to the standard shotgun, this weapon does substantially more damage, if less accurate."
+TacticalText="<Bullet/> This variant is the most we will ever get out of the combat shotgun.\n<Bullet/> Shotgun-style weapons are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Use upgrades looted from enemies to improve the Storm Gun's tactical effectiveness."
+AbilityDescName="shotgun"
+
+;------------------------------
+;	Verge's Special Gun
+
+[TLP_V_2_Shotgun_CV X2WeaponTemplate]
+FriendlyName="Verge's Special Gun"
+FriendlyNamePlural="Verge's Special Gun"
+BriefSummary="This is an experimental upgrade of a standard Sectoid Blaster that Verge somehow managed to get ahold of. It packs quite a punch, but is difficult to aim due to it's size and bulk.<Bullet/> Not usable by human soldiers -- DNA check is tuned for Sectoids"
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn.\n<Bullet/> The range of this weapon is comparible to a shotgun. It's extremely effective at close range, but accuracy drops off quickly at longer range."
+AbilityDescName="Blaster"
+
+
+
+;------------------------------
+;			Sniper Rifles
+
+[TLE_SniperRifle_CV X2WeaponTemplate]
+FriendlyName="Marksman's Rifle"
+FriendlyNamePlural="Marksman's Rifles"
+BriefSummary="We've managed to salvage a variety of standard infantry small arms; this is a specialized weapon for medium to long range engagement. Compared to the standard shotgun, this weapon does somewhat more damage, though is less accurate and has fewer rounds."
+TacticalText="<Bullet/> The sniper rifle always takes two actions to fire.\n<Bullet/> The sniper rifle suffers a penalty to hit at close range.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Marksman's Rifle"
+
+[TLE_SniperRifle_MG X2WeaponTemplate]
+FriendlyName="Anti-Materiel Rifle"
+FriendlyNamePlural="Anti-Materiel Rifles"
+BriefSummary="We've managed to salvage a variety of standard infantry small arms; this is a specialized weapon for medium to long range engagement. Compared to the standard shotgun, this weapon does somewhat more damage, though is less accurate and has fewer rounds."
+TacticalText="<Bullet/> Sniper rifles always require both actions to fire.\n<Bullet/> They are less accurate at close range, but deadly at a distance.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Anti-Materiel Rifle"
+
+[TLE_SniperRifle_BM X2WeaponTemplate]
+FriendlyName="Energy AMR"
+FriendlyNamePlural="Energy AMRs"
+BriefSummary="We've managed to salvage a variety of standard infantry small arms; this is a specialized weapon for medium to long range engagement. Compared to the standard shotgun, this weapon does somewhat more damage, though is less accurate and has fewer rounds."
+TacticalText="<Bullet/> This is the apex of sniper rifle technology.\n<Bullet/> Sniper rifles always require both actions to fire.\n<Bullet/> They are less accurate at close range, but deadly at a distance.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Energy AMR"
+
+;------------------------------
+;			Grenades
+
+;BriefSummary="A high explosive grenade that deals extra damage to environments and shreds armor."
+;TacticalText="<Bullet/> HE grenades are useful for removing, or \"shredding\" enemy armor.<br><Bullet/> They do only little damage, but do devastating damage to the environment.<br><Bullet/> Grenades can destroy targets' equipment, so relying on grenades too much will reduce our salvage opportunities."
+
+
+[FragGrenade X2GrenadeTemplate]
+FriendlyName="Frag Grenade"
+FriendlyNamePlural="Frag Grenades"
+BriefSummary="A standard issue grenade that deals moderate to high damage to unarmored enemies, and is also moderately effective at shredding armor. Deals moderate damage to structres and the environment."
+TacticalText="<Bullet/> Frag grenades are moderately useful for both antipersonnel purposes or \"shredding\" enemy armor.<br><Bullet/> Deals moderate damage to structres and the environment.<br><Bullet/> Grenades can destroy targets' equipment, so relying on grenades too much will reduce our salvage opportunities."
+ThrownAbilityName="Throw Frag Grenade"
+ThrownAbilityHelpText="Throw a frag grenade at target area. Shreds armor, destroys cover."
+LaunchedAbilityname="Launch Frag Grenade"
+LaunchedAbilityHelpText="Launch a frag grenade at target area. Shreds armor, destroys cover."
+
+[FlechetteGrenade X2GrenadeTemplate]
+FriendlyName="Flechette Grenade"
+FriendlyNamePlural="Flechette Grenades"
+BriefSummary="A shrapnel grenade that deals high damage to enemies, piercing their armor. Deals less damage to environment, even compared to frag grenades."
+TacticalText="<Bullet/> Flechette grenades can deal a lot of damage to multiple enemies.<br><Bullet/> Flechette grenades pierce enemy armor through weak points, and do not shred armor.<br><Bullet/> Grenades can destroy targets' equipment, so relying on grenades too much will reduce our salvage opportunities."
+ThrownAbilityName="Throw Flechette Grenade"
+ThrownAbilityHelpText="Throw a flechette grenade at target area. Pierces armor, moderate to low cover damage."
+LaunchedAbilityname="Launch Flechette Grenade"
+LaunchedAbilityHelpText="Launch a flechette grenade at target area. Pierces armor, moderate to low cover damage."
+
+[RM_APGrenade X2GrenadeTemplate]
+FriendlyName="HE Grenade"
+FriendlyNamePlural="HE Grenades"
+BriefSummary="A high explosive grenade that deals extra damage to environments and shreds armor."
+TacticalText="<Bullet/> HE grenades are useful for removing, or \"shredding\" enemy armor.<br><Bullet/> They do relatively little damage, but do devastating damage to the environment.<br><Bullet/> Grenades can destroy targets' equipment, so relying on grenades too much will reduce our salvage opportunities."
+ThrownAbilityName="Throw HE Grenade"
+ThrownAbilityHelpText="Throw an HE grenade at target area."
+LaunchedAbilityname="Launch HE Grenade"
+LaunchedAbilityHelpText="Launch an HE grenade at target area."
+
+[RM_APGrenade_MK2 X2GrenadeTemplate]
+FriendlyName="Alloy Grenade"
+FriendlyNamePlural="Alloy Grenades"
+BriefSummary="A high explosive anti-personnel grenade augmented with scavenged alien alloys, and an Elerium-based detonator."
+TacticalText="<Bullet/> Alloy grenades are on the frag grenade's damage capabilities."
+ThrownAbilityName="Throw Alloy Grenade"
+ThrownAbilityHelpText="Throw an Alloy grenade at target area."
+LaunchedAbilityname="Launch Alloy Grenade"
+LaunchedAbilityHelpText="Launch an Alloy grenade at target area."
+
+[AlienGrenade X2GrenadeTemplate]
+FriendlyName="Plasma Grenade"
+FriendlyNamePlural="Plasma Grenades"
+BriefSummary="A concussive grenade augmented by alien energy pulse tech, the Plasma Grenade does more damage than the standard Frag or Alloy Grenade, and is more effective at shredding enemy armor."
+TacticalText="<Bullet/> Plasma grenades improve on the frag grenade's damage and armor shredding capabilities."
+ThrownAbilityName="Throw Plasma Grenade"
+ThrownAbilityHelpText="Throw a plasma grenade at target area. Shreds armor."
+LaunchedAbilityname="Launch Plasma Grenade"
+LaunchedAbilityHelpText="Launch a plasma grenade at target area. Shreds armor."
+
+;	==========================================
+;	==	Stukov's War - Utility Items Pack	==
+;	==========================================
+; --------------------------------
+;        Respirator
+; --------------------------------
+
+[SKV_Respirator_Implant X2EquipmentTemplate]
+FriendlyName="<font color='#ecb6dc'>Respirator</font>"
+FriendlyNamePlural="<font color='#ecb6dc'>Respirator</font>"
+BriefSummary="We can fabricate a module that will automatically detect chemical and physical threats to a soldier's oxygen supply, and deploy uncomfortable but potentially life-saving oxygen tube shunts in a matter of seconds."
+TacticalText="<Bullet/> Provides Immunity to Viper Crush and Poison. <Bullet/> We can fabricate a module that will automatically detect chemical and physical threats to a soldier's oxygen supply, and deploy uncomfortable but potentially life-saving oxygen tube shunts in a matter of seconds."
+
+; --------------------------------
+;        Sidearm Holster
+; --------------------------------
+[SKV_SideArmHolster X2EquipmentTemplate]
+FriendlyName="Sidearm Holster"
+FriendlyNamePlural="Sidearm Holsters"
+BriefSummary="Allows you to draw your weapon in an instant as needed. Effectively allows a bit more mobility."
+TacticalText="Provides +1 mobility"
+
+; --------------------------------
+;         Viper Trophy
+; --------------------------------
+[GS_Viper_Trophy X2EquipmentTemplate]
+FriendlyName="<font color='#ecb6de'>Viper Trophy</font>"
+FriendlyNamePlural="<font color='#ecb6dc'>Viper Trophies</font>"
+BriefSummary="A viper skull. It shows us we can beat them. Gives immunity to Panic."
+TacticalText="<Bullet/> Grants Immunity to Panic"
+
+; --------------------------------
+;         Muton Trophy
+; --------------------------------
+[GS_Muton_Trophy X2EquipmentTemplate]
+FriendlyName="<font color='#ecb6de'>Muton Trophy</font>"
+FriendlyNamePlural="<font color='#ecb6dc'>Muton Trophies</font>"
+BriefSummary="A muton skull. It shows us we can beat them. Gives immunity to Panic."
+TacticalText="<Bullet/> Grants Immunity to Panic"
+
+; --------------------------------
+;        Infiltrator Pack
+; --------------------------------
+[SKV_BurglarPack X2EquipmentTemplate]
+FriendlyName="<font color='#ecb6dc'>Infiltrator Pack</font>"
+FriendlyNamePlural="<font color='#ecb6dc'>Infiltrator Packs</font>"
+BriefSummary="Gain Lightning Reflexes and +40 hacking."
+TacticalText="<Bullet/>Gain Lightning Reflexes and +40 hacking."
+
+
