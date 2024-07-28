@@ -1,0 +1,120 @@
+;***************************************
+;Primary Classes 
+;***************************************
+
+
+;  //////////////////////
+;  // Assault Infantry //
+;  //////////////////////
+
+
+[Assault]
+SpecName="Assault"
+SpecSummary="The Assault serves as our front line unit, delivering devastating close range firepower against unsuspecting aliens."
+
+;  ////////////////
+;  // Gunslinger //
+;  ////////////////
+
+[Gunny]
+SpecName="Gunslinger"
+SpecSummary="The Gunslinger is a wild card, unmatched with a handgun, and able to wield two guns simultaneously to deadly effect."
+
+
+[Infantry]
+SpecName="Infantry"
+SpecSummary="The Infantry is the backbone of the resistance, taking and holding position without the need for specialized weaponry."
+
+[Gunner]
+SpecName="Gunner"
+SpecSummary="The Gunner is trained in heavy armaments and excels at establishing fire superiority with ample use of munitions."
+
+[Sharpshooter]
+SpecName="Sharpshooter"
+SpecSummary="The Sharpshooter specializes in handling heavy rifles capable of delivering accurate fire over great distances."
+
+[Marauder]
+SpecName="Marauder"
+SpecSummary="The Marauder can operate their primary weapon with utmost efficiency, shooting twice as often compared to other specializations."
+
+[Shadow]
+SpecName="Shadow"
+SpecSummary="The Shadow is our primary reconnaissance unit, providing crucial battlefield intelligence while waiting for the opportune moment to strike."
+
+; Secondaries
+
+[Grenadier]
+SpecName="Grenadier"
+SpecSummary="The Grenadier bears no regard for the environment, covering the battlefield in varying degrees of what were once considered war crimes."
+
+[Support]
+SpecName="Support"
+SpecSummary="The Support provides non-lethal countermeasures against enemy personnel in form of defensive smoke and offensive stun grenades."
+
+[Techspert]
+SpecName="Techspert"
+SpecSummary="The Techspert operates the Gremlin to infiltrate enemy systems and carry out surprise attacks from within."
+
+[CombatMedic]
+SpecName="Combat Medic"
+SpecSummary="The Combat Medic is not equipped to provide extensive medical treatment, but you can count on him to keep you alive in the heat of battle."
+
+[Corpsman]
+SpecName="Corpsman"
+SpecSummary="The Corpsman's bag is a mobile hospital. No injury shall be left untended given time between confrontations."
+
+[Gunslinger]
+SpecName="Gunslinger"
+SpecSummary="The Gunslinger prefers to carry a secondary firearm over our more advanced equipment. While not the most common choice, it can definitely save you in a pinch."
+
+[Blademaster]
+SpecName="Blademaster"
+SpecSummary="Intrigued by the eastern regions of the old world, the Blademaster prefers cold hard steel over conventional firearms."
+
+; Tertiaries
+
+[Officer]
+SpecName="Officer"
+SpecSummary="The Officer uses the Holo-Targeter to coordinate fire on the battlefield which allows for a more cohesive operation for the whole squad."
+
+[Commando]
+SpecName="Commando"
+SpecSummary="The Commando carries a Combat Knife for unexpected close range encounters and is trained in some of our more unconventional combat tactics."
+
+[Executioner]
+SpecName="Executioner"
+SpecSummary="The Executioner prefers to avoid pointless suffering. For this he carries a Sawed-Off Shotgun sure to end the life of whatever it's pointed at."
+
+[Engineer]
+SpecName="Engineer"
+SpecSummary="The Engineer wields the Arc Thrower to pacify enemy personnel with shocking efficiency."
+
+[Heavy]
+SpecName="Heavy"
+SpecSummary="The Heavy operates both flamethrower and rocket launcher integrated in the Gauntlet to provide area denial and explosive force."
+
+[Sentinel]
+SpecName="Sentinel"
+SpecSummary="The Sentinel opts for a more defensive approach, providing accurate reaction fire across the battlefield."
+
+; Localization for GTS UI weapon categories
+
+[UIWeaponCat]
+shotgun="Shotgun"
+rifle="Assault Rifle"
+cannon="Cannon"
+sniper_rifle="Sniper Rifle"
+bullpup="Bullpup"
+vektor_rifle="Vektor Rifle"
+
+grenade_launcher="Grenade Launcher"
+gremlin="Gremlin"
+sidearm="Autopistol"
+pistol="Pistol"
+sword="Sword"
+
+holotargeter="Holotargeter"
+combatknife="Combat Knife"
+sawedoffshotgun="Sawed-Off"
+ArcThrower="Arc Thrower"
+lw_gauntlet="Gauntlet"
