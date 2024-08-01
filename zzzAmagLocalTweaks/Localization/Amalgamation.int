@@ -7,10 +7,18 @@
 ;  // Assault Infantry //
 ;  //////////////////////
 
-
 [Assault]
 SpecName="Assault"
 SpecSummary="The Assault serves as our front line unit, delivering devastating close range firepower against unsuspecting aliens."
+
+;  /////////////////////
+;  // Combat Engineer //
+;  /////////////////////
+
+[ComEng]
+SpecName="Combat_Engineer"
+SpecSummary="The Combat Engineer is a problem solver employing a diverse set of tools to solve problems on the battlefield."
+
 
 ;  ////////////////
 ;  // Gunslinger //
