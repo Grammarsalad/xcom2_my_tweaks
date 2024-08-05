@@ -28,14 +28,41 @@ SpecSummary="The Combat Engineer is a problem solver employing a diverse set of 
 SpecName="Gunslinger"
 SpecSummary="The Gunslinger is a wild card, unmatched with a handgun, and able to wield two guns simultaneously to deadly effect."
 
+;  //////////////
+;  // Infantry //
+;  //////////////
 
 [Infantry]
 SpecName="Infantry"
 SpecSummary="The Infantry is the backbone of the resistance, taking and holding position without the need for specialized weaponry."
 
+;  //////////////
+;  //  Scout   //
+;  //////////////
+
+[Shadow]
+SpecName="Scout"
+SpecSummary="The Scout is a reconnaissance unit, providing crucial battlefield intelligence while waiting for the opportune moment to strike."
+
+;  //////////////
+;  //  Gunner  //
+;  //////////////
+
 [Gunner]
 SpecName="Gunner"
 SpecSummary="The Gunner is trained in heavy armaments and excels at establishing fire superiority with ample use of munitions."
+
+;  /////////////////////////
+;  //  Resistance Leader  //
+;  /////////////////////////
+
+[Occifer]
+SpecName="Resistance Leader"
+SpecSummary="The Resistance Leader leads other troops in battle, supporting them, and raising morale."
+
+;  ////////////////////
+;  //  Sharpshooter  //
+;  ////////////////////
 
 [Sharpshooter]
 SpecName="Sharpshooter"
@@ -45,9 +72,6 @@ SpecSummary="The Sharpshooter specializes in handling heavy rifles capable of de
 SpecName="Marauder"
 SpecSummary="The Marauder can operate their primary weapon with utmost efficiency, shooting twice as often compared to other specializations."
 
-[Shadow]
-SpecName="Shadow"
-SpecSummary="The Shadow is our primary reconnaissance unit, providing crucial battlefield intelligence while waiting for the opportune moment to strike."
 
 ; Secondaries
 
