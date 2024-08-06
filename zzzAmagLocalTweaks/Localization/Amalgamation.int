@@ -19,13 +19,14 @@ SpecSummary="The Assault serves as our front line unit, delivering devastating c
 SpecName="Combat_Engineer"
 SpecSummary="The Combat Engineer is a problem solver employing a diverse set of tools to solve problems on the battlefield."
 
-;  ////////////////
-;  // Gadgeteer  //
-;  ////////////////
+;  //////////////////
+;  //  Drone Pilot //
+;  //////////////////
 
-[Gadgetz]
-SpecName="Gadgeteer"
-SpecSummary="The Gadgeteer makes use of specialized technology to get the job done in any situation."
+[Dronz]
+SpecName="Drone_Pilot"
+SpecSummary="The Drone Pilot embraces the most advanced technology, using a high-tech BIT to take the fight to their enemies and support their allies from afar."
+;SpecSummary="The Gadgeteer makes use of specialized technology to get the job done in any situation."
 
 ;  ////////////////
 ;  // Gunslinger //
@@ -64,7 +65,7 @@ SpecSummary="The Gunner is trained in heavy armaments and excels at establishing
 ;  /////////////////////////
 
 [Occifer]
-SpecName="Resistance Leader"
+SpecName="Resistance_Leader"
 SpecSummary="The Resistance Leader leads other troops in battle, supporting them, and raising morale."
 
 ;  ////////////////////
