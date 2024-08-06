@@ -19,6 +19,13 @@ SpecSummary="The Assault serves as our front line unit, delivering devastating c
 SpecName="Combat_Engineer"
 SpecSummary="The Combat Engineer is a problem solver employing a diverse set of tools to solve problems on the battlefield."
 
+;  ////////////////
+;  // Gadgeteer  //
+;  ////////////////
+
+[Gadgetz]
+SpecName="Gadgeteer"
+SpecSummary="The Gadgeteer makes use of specialized technology to get the job done in any situation."
 
 ;  ////////////////
 ;  // Gunslinger //
