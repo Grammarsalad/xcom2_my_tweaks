@@ -44,6 +44,14 @@ SpecSummary="The Gunslinger is a wild card, unmatched with a handgun, and able t
 SpecName="Infantry"
 SpecSummary="The Infantry is the backbone of the resistance, taking and holding position without the need for specialized weaponry."
 
+;  //////////////////////
+;  //     Phalanx      //
+;  //////////////////////
+
+[ShieldGuy]
+SpecName="Phalanx"
+SpecSummary="Using a shield to protect themselves or others via Shield Wall/Hunker Down, the Phalanx specialises in holding ground or rushing in to objectives otherwise too dangerous for other units."
+
 ;  //////////////
 ;  //  Scout   //
 ;  //////////////
