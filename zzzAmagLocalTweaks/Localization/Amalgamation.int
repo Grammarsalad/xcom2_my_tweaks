@@ -2,6 +2,13 @@
 ;Primary Classes 
 ;***************************************
 
+;  ///////////////
+;  // Alchemist //
+;  ///////////////
+
+[Alchy]
+SpecName="Alchemist"
+SpecSummary="The Alchemist has a love for mixing mundane chemicals to create wide-spreading effects. They are equally adept at supporting their allies and controlling and damaging their foes."
 
 ;  //////////////////////
 ;  // Assault Infantry //
