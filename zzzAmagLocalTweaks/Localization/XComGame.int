@@ -7,7 +7,7 @@
 [WOTC_APA_Brawl X2AbilityTemplate]
 LocFriendlyName = "Force of Will"
 LocHelpText = "Force of Will helps keep you in the fight for longer"
-LocLongDescription = "The Heretic's Force of Will helps keep them in the fight for longer."
+LocLongDescription = "The <Ability:ClassName/>'s Force of Will helps keep them in the fight for longer."
 LocPromotionPopupText = "<font color='#CA7200'>LEVEL I</font> (gained at <Ability:RANKNAME1/> rank [1])<br/><Bullet/> Immunity to Viper crush<br/><Bullet/> Gain 1 armour.<br/><br/><br/><font color='#CA7200'>LEVEL II</font> (gained at <Ability:RANKNAME3/> rank [3])<br/><Bullet/> Immunity to Bleeding.<br/><Bullet/> Immunity to Disorientation.<br/><Bullet/> Gain 15 will.<br/><br/><br/><font color='#CA7200'>LEVEL III</font> (gained at <Ability:RANKNAME6/> rank [6]<br/><Bullet/> Immunity to Panic.<br/><Bullet/> Gains the survivor perk. <br/><Bullet/> Gain 1 armour.)"
 
 ; - GTS Unlocks -
