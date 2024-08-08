@@ -91,6 +91,16 @@ SpecSummary="The Resistance Leader leads other troops in battle, supporting them
 SpecName="Sharpshooter"
 SpecSummary="The Sharpshooter specializes in handling heavy rifles capable of delivering accurate fire over great distances."
 
+;  ///////////////
+;  //  Shinobi  //
+;  ///////////////
+
+[Shinobi]
+SpecName="Shinobi"
+SpecSummary="The Shinobi specializes in melee and stealth, with a secondary focus on infultration and assassination."
+
+
+
 [Marauder]
 SpecName="Marauder"
 SpecSummary="The Marauder can operate their primary weapon with utmost efficiency, shooting twice as often compared to other specializations."
