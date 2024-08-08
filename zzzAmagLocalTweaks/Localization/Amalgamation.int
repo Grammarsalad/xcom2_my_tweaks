@@ -59,6 +59,14 @@ SpecSummary="The Infantry is the backbone of the resistance, taking and holding 
 SpecName="Phalanx"
 SpecSummary="Using a shield to protect themselves or others via Shield Wall/Hunker Down, the Phalanx specialises in holding ground or rushing in to objectives otherwise too dangerous for other units."
 
+;  //////////////////////
+;  //    Rocketeer     //
+;  //////////////////////
+
+[Rocky]
+SpecName="Rocketeer"
+SpecSummary="Rocketeers are heavy weapons units that support their team through the application of overwhelming heavy ordnance."
+
 ;  //////////////
 ;  //  Scout   //
 ;  //////////////
