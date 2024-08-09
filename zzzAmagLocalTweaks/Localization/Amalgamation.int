@@ -67,13 +67,6 @@ SpecSummary="Using a shield to protect themselves or others via Shield Wall/Hunk
 SpecName="Rocketeer"
 SpecSummary="Rocketeers are heavy weapons units that support their team through the application of overwhelming heavy ordnance."
 
-;  //////////////
-;  //  Scout   //
-;  //////////////
-
-[Shadow]
-SpecName="Scout"
-SpecSummary="The Scout is a reconnaissance unit, providing crucial battlefield intelligence while waiting for the opportune moment to strike."
 
 ;  //////////////
 ;  //  Gunner  //
@@ -103,7 +96,7 @@ SpecSummary="The Sharpshooter specializes in handling heavy rifles capable of de
 ;  //  Shinobi  //
 ;  ///////////////
 
-[Shinobi]
+[Shadow]
 SpecName="Shinobi"
 SpecSummary="The Shinobi specializes in melee and stealth, with a secondary focus on infultration and assassination."
 
@@ -115,6 +108,14 @@ SpecSummary="The Marauder can operate their primary weapon with utmost efficienc
 
 
 ; Secondaries
+
+;  //////////////
+;  //  Scout   //
+;  //////////////
+
+[Scout]
+SpecName="Scout"
+SpecSummary="The Scout is a reconnaissance unit, providing crucial battlefield intelligence while waiting for the opportune moment to strike."
 
 [Grenadier]
 SpecName="Grenadier"
