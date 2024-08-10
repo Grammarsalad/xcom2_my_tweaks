@@ -33,11 +33,20 @@ LocHelpText = "The <Ability:ClassName/> returns fire at any visible target that 
 LocLongDescription = "Upon being hit by any attack, return fire with your primary weapon. This shot has a <font color='#3ABD23'>+10%</font>/<font color='#b7bd1c'>+20%</font>/<font color='#d48013'>+30%</font> chance to hit, and can trigger once per individual enemy."
 LocPromotionPopupText = "<font color='#CA7200'>LEVEL I</font> (gained at Squaddie rank [1])<br/>Upon taking damage from an attack directly targeted at you, if visible, return fire with a <font color='#3ABD23'>+10%</font> chance to hit. This can trigger once per individual enemy.<br/><br/><font color='#CA7200'>LEVEL II</font> (gained at Captain rank [5])<br/><Bullet/>The bonus to hit is increased to <font color='#b7bd1c'>+20%</font>.<br/><br/><font color='#CA7200'>LEVEL III</font> (gained at Brigadier rank [8])<br/><Bullet/>The bonus to hit is further increased to <font color='#b7bd1c'>+30%</font>."
 
+; - Perks -
+
 [SKV_ResistFalling33 X2AbilityTemplate]
 LocFriendlyName = "Scouting Expertise"
 LocHelpText = "The <Ability:ClassName/> is experienced in reconnaissance, especially from elevated heights. Gain phantom, a single use of Grapple, and takes 33% less damage from falling."
-LocLongDescription = "Gain phantom, a single use of Grapple, and takes 33% less damage from falling."
+LocLongDescription = "Gain phantom, -1 Detection Radius, a single use of Grapple, and take 33% less damage from falling."
 LocPromotionPopupText = "Gain phantom, a single use of Grapple, and takes 33% less damage from falling."
+
+
+[B_Sneaky X2AbilityTemplate]
+LocFriendlyName="Sneaky"
+LocLongDescription="The soldier gets -1 Detection Radius."
+LocHelpText="The soldier gets -1 Detection Radius."
+
 
 ;***************************************
 ;Equipment
