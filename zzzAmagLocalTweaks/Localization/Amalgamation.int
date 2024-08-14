@@ -33,7 +33,15 @@ SpecSummary="The Combat Engineer is a problem solver employing a diverse set of 
 [Dronz]
 SpecName="Drone_Pilot"
 SpecSummary="The Drone Pilot embraces the most advanced technology, using a high-tech BIT to take the fight to their enemies and support their allies from afar."
-;SpecSummary="The Gadgeteer makes use of specialized technology to get the job done in any situation."
+
+;  ////////////////////////////
+;  //     Electroraider      //
+;  ////////////////////////////
+
+[Dronz]
+SpecName="Electroraider"
+SpecSummary="The Electroraider is a technical genius that specializes in the creative delivery of electricty."
+
 
 ;  ////////////////
 ;  // Gunslinger //
