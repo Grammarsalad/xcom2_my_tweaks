@@ -125,6 +125,15 @@ SpecSummary="The Marauder can operate their primary weapon with utmost efficienc
 SpecName="Scout"
 SpecSummary="The Scout is a reconnaissance unit, providing crucial battlefield intelligence while waiting for the opportune moment to strike."
 
+;  //////////////
+;  //  Witch   //
+;  //////////////
+
+[Witchy]
+SpecName="Witch"
+SpecSummary="The Witch is a rare natural psionic, specializing in mental manipulation and control."
+
+
 [Grenadier]
 SpecName="Grenadier"
 SpecSummary="The Grenadier bears no regard for the environment, covering the battlefield in varying degrees of what were once considered war crimes."
