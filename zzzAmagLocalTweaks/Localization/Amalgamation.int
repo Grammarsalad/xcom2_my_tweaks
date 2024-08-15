@@ -23,7 +23,7 @@ SpecSummary="The Assault serves as our front line unit, delivering devastating c
 ;  /////////////////////
 
 [ComEng]
-SpecName="Combat_Engineer"
+SpecName="Combat Engineer"
 SpecSummary="The Combat Engineer is a problem solver employing a diverse set of tools to solve problems on the battlefield."
 
 ;  //////////////////
@@ -31,7 +31,7 @@ SpecSummary="The Combat Engineer is a problem solver employing a diverse set of 
 ;  //////////////////
 
 [Dronz]
-SpecName="Drone_Pilot"
+SpecName="Drone Pilot"
 SpecSummary="The Drone Pilot embraces the most advanced technology, using a high-tech BIT to take the fight to their enemies and support their allies from afar."
 
 ;  ////////////////////////////
@@ -89,7 +89,7 @@ SpecSummary="The Gunner is trained in heavy armaments and excels at establishing
 ;  /////////////////////////
 
 [Occifer]
-SpecName="Resistance_Leader"
+SpecName="Resistance Leader"
 SpecSummary="The Resistance Leader leads other troops in battle, supporting them, and raising morale."
 
 ;  ////////////////////
