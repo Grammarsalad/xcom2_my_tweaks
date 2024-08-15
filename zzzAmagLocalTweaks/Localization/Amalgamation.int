@@ -38,7 +38,7 @@ SpecSummary="The Drone Pilot embraces the most advanced technology, using a high
 ;  //     Electroraider      //
 ;  ////////////////////////////
 
-[Dronz]
+[Electro]
 SpecName="Electroraider"
 SpecSummary="The Electroraider is a technical genius that specializes in the creative delivery of electricty."
 
@@ -137,7 +137,7 @@ SpecSummary="The Witch is a rare natural psionic, specializing in mental manipul
 ;  //  Tesla   //
 ;  //////////////
 
-[B_Tesla]
+[BTesla]
 SpecName="Tesla Trooper"
 SpecSummary="When this Scientist went seemingly mad with power while toying with an Experimental Weapons Technology retrieved from a destroyed XCOM Base in Russia, Bradford ordered this questionably sane Crewmember to the front lines."
 
