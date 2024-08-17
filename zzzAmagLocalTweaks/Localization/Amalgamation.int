@@ -113,6 +113,15 @@ SpecSummary="The Shinobi specializes in melee and stealth, with a secondary focu
 
 ; Secondaries
 
+;  ////////////////
+;  //  Rifleman  //
+;  ////////////////
+
+[BInfantry]
+SpecName="Rifleman"
+SpecSummary="The Rifleman trains extensively in om tactics, bringing the fight to the aliens with the trusty rifle."
+
+
 ;  ///////////////
 ;  // Marauder  //
 ;  ///////////////
@@ -139,6 +148,15 @@ SpecName="Scout"
 SpecSummary="The Scout is a reconnaissance unit, providing crucial battlefield intelligence while waiting for the opportune moment to strike."
 
 ;  //////////////
+;  // Scrapper //
+;  //////////////
+
+[BScrapper]
+SpecName="Scrapper"
+SpecSummary="The Scrapper is a mobile warrior, specializing in hit and run tactics."
+
+
+;  //////////////
 ;  //  Witch   //
 ;  //////////////
 
@@ -154,21 +172,38 @@ SpecSummary="The Witch is a rare natural psionic, specializing in mental manipul
 SpecName="Tesla Trooper"
 SpecSummary="When this Scientist went seemingly mad with power while toying with an Experimental Weapons Technology retrieved from a destroyed XCOM Base in Russia, Bradford ordered this questionably sane Crewmember to the front lines."
 
+;  ////////////////
+;  //  Grenadier //
+;  ////////////////
+
 [Grenadier]
 SpecName="Grenadier"
 SpecSummary="The Grenadier bears no regard for the environment, covering the battlefield in varying degrees of what were once considered war crimes."
+
+;  //////////////
+;  // Support  //
+;  //////////////
 
 [Support]
 SpecName="Support"
 SpecSummary="The Support provides non-lethal countermeasures against enemy personnel in form of defensive smoke and offensive stun grenades."
 
+;  /////////////
+;  //  Techie //
+;  /////////////
+
 [Techspert]
-SpecName="Techspert"
-SpecSummary="The Techspert operates the Gremlin to infiltrate enemy systems and carry out surprise attacks from within."
+SpecName="Techie"
+SpecSummary="The Techie operates the Gremlin to infiltrate enemy systems and carry out surprise attacks from within."
+
+;  //////////////////////////
+;  //  Medical Technician  //
+;  //////////////////////////
+
 
 [CombatMedic]
-SpecName="Combat Medic"
-SpecSummary="The Combat Medic is not equipped to provide extensive medical treatment, but you can count on him to keep you alive in the heat of battle."
+SpecName="Medical Technician"
+SpecSummary="The Medical Technician combines high tech medical equipment with experties. They are not equipped to provide extensive medical treatment, but you can count on them to keep you alive in the heat of battle."
 
 [Corpsman]
 SpecName="Corpsman"
