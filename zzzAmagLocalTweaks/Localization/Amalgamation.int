@@ -109,6 +109,10 @@ SpecName="Shinobi"
 SpecSummary="The Shinobi specializes in melee and stealth, with a secondary focus on infultration and assassination."
 
 
+
+
+; Secondaries
+
 ;  ///////////////
 ;  // Marauder  //
 ;  ///////////////
@@ -117,8 +121,14 @@ SpecSummary="The Shinobi specializes in melee and stealth, with a secondary focu
 SpecName="Marauder"
 SpecSummary="The Marauder can operate their primary weapon with utmost efficiency, shooting twice as often compared to other specializations."
 
+;  ////////////////
+;  //  Marksman  //
+;  ////////////////
 
-; Secondaries
+[BSharpshooter]
+SpecName="Marksman"
+SpecSummary="The Marksman is trained in sniper rifles. Give them time to prepare, and they are deadly at long range."
+
 
 ;  //////////////
 ;  //  Scout   //
