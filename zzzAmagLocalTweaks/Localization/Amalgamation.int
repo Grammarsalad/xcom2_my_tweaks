@@ -109,8 +109,11 @@ SpecName="Shinobi"
 SpecSummary="The Shinobi specializes in melee and stealth, with a secondary focus on infultration and assassination."
 
 
+;  ///////////////
+;  // Marauder  //
+;  ///////////////
 
-[Marauder]
+[BMarauder]
 SpecName="Marauder"
 SpecSummary="The Marauder can operate their primary weapon with utmost efficiency, shooting twice as often compared to other specializations."
 
