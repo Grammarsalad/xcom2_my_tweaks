@@ -1,6 +1,4 @@
-﻿
-
-;***************************************
+﻿;***************************************
 ;New Ability Descriptions
 ;***************************************
 
@@ -11,7 +9,7 @@ LocLongDescription = "The <Ability:ClassName/>'s Force of Will helps keep them i
 LocPromotionPopupText = "<font color='#CA7200'>LEVEL I</font> (gained at <Ability:RANKNAME1/> rank [1])<br/><Bullet/> Immunity to Viper crush<br/><Bullet/> Gain 1 armour.<br/><br/><br/><font color='#CA7200'>LEVEL II</font> (gained at <Ability:RANKNAME3/> rank [3])<br/><Bullet/> Immunity to Bleeding.<br/><Bullet/> Immunity to Disorientation.<br/><Bullet/> Gain 15 will.<br/><br/><br/><font color='#CA7200'>LEVEL III</font> (gained at <Ability:RANKNAME6/> rank [6]<br/><Bullet/> Immunity to Panic.<br/><Bullet/> Gains the survivor perk. <br/><Bullet/> Gain 1 armour.)"
 
 [WOTC_APA_ES X2AbilityTemplate]
-LocFriendlyName = " Battery Pack"
+LocFriendlyName = "Battery Pack"
 LocHelpText = "Specialized Battery Pack helps the potency of the arcthrower."
 LocLongDescription = "Battery Pack helps the potency of the arcthrower."
 LocPromotionPopupText = "<font color='#CA7200'>LEVEL I</font> (gained at <Ability:RANKNAME1/> rank [1])<br/><Bullet/> Gains Breaching Maneuver perk.<br/><Bullet/> Gain immunity to electricity<br/><Bullet/> Gain 25 Hacking.<br/><br/><br/><font color='#CA7200'>LEVEL II</font> (gained at <Ability:RANKNAME3/> rank [3])<br/><Bullet/> Gain spare battery perk.<br/><Bullet/> Gains EMPulserPassive perk.<br/><Bullet/> Gain additional 30 Hacking.<br/><br/><br/><font color='#CA7200'>LEVEL III</font> (gained at <Ability:RANKNAME6/> rank [6]<br/><Bullet/> Selected Arcthrower perks no longer end turn.<br/><Bullet/> Gains Honed Edge perk.<br/><Bullet/> Gain additional 35 Hacking."

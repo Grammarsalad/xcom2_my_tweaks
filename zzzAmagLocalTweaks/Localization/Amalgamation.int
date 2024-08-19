@@ -42,6 +42,13 @@ SpecSummary="The Drone Pilot embraces the most advanced technology, using a high
 SpecName="Electroraider"
 SpecSummary="The Electroraider is a technical genius that specializes in the creative delivery of electricty."
 
+;  ////////////////
+;  // Gadgeteer //
+;  ////////////////
+
+[Gunny]
+SpecName="Gadgeteer"
+SpecSummary="A jack of all trades, the Gadgeteer specializes in problem solving. The Gadgeteer always seems to have a trick up his sleeve to save the day."
 
 ;  ////////////////
 ;  // Gunslinger //
