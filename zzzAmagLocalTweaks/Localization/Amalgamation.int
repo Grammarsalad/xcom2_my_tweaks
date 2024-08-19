@@ -99,6 +99,14 @@ SpecSummary="The Gunner is trained in heavy armaments and excels at establishing
 SpecName="Resistance Leader"
 SpecSummary="The Resistance Leader leads other troops in battle, supporting them, and raising morale."
 
+;  /////////////////
+;  //  Scavenger  //
+;  /////////////////
+
+[BScav]
+SpecName="Scavenger"
+SpecSummary="The scavenger is always on the lookout for spare parts, disgarded and broken weapons, alien materials: anything to help the resistance."
+
 ;  ////////////////////
 ;  //  Sharpshooter  //
 ;  ////////////////////
@@ -206,7 +214,6 @@ SpecSummary="The Techie operates the Gremlin to infiltrate enemy systems and car
 ;  //////////////////////////
 ;  //  Medical Technician  //
 ;  //////////////////////////
-
 
 [CombatMedic]
 SpecName="Medical Technician"
