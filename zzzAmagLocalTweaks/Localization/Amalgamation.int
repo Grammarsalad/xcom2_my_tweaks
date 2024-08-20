@@ -69,6 +69,12 @@ SpecSummary="The Electroraider is a technical genius that specializes in the cre
 SpecName="Gadgeteer"
 SpecSummary="A jack of all trades, the Gadgeteer specializes in problem solving. The Gadgeteer always seems to have a trick up his sleeve to save the day."
 
+;  ////////////
+;  // Gunner //
+;  ////////////
+; use orig description
+
+
 ;  ////////////////
 ;  // Gunslinger //
 ;  ////////////////
@@ -76,6 +82,15 @@ SpecSummary="A jack of all trades, the Gadgeteer specializes in problem solving.
 [Gunny]
 SpecName="Gunslinger"
 SpecSummary="The Gunslinger is a wild card, unmatched with a handgun, and able to wield two guns simultaneously to deadly effect."
+
+;  ////////////
+;  // Hunter //
+;  ////////////
+; Get from orig description 
+
+[Hunty]
+SpecName="Hunter"
+SpecSummary=""
 
 ;  //////////////
 ;  // Infantry //
