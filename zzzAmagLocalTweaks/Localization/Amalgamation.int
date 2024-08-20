@@ -16,7 +16,17 @@ SpecSummary="The Alchemist has a love for mixing mundane chemicals to create wid
 
 [Assault]
 SpecName="Assault"
-SpecSummary="The Assault serves as our front line unit, delivering devastating close range firepower against unsuspecting aliens."
+SpecSummary="The Assault serves as our front-line unit, delivering devastating close range firepower against unsuspecting aliens."
+
+;  ////////////////
+;  // Apothecary //
+;  ////////////////
+
+; text credit: stukov
+[BApothecary]
+SpecName="Apothecary"
+SpecSummary="The Apothecary is a support class tasked with healing allies and inflicting status effects on foes."
+
 
 ;  /////////////////////
 ;  // Combat Engineer //
