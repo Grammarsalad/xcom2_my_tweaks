@@ -3,6 +3,15 @@
 ;***************************************
 
 ;  ///////////////
+;  // Agent //
+;  ///////////////
+
+[BAgent]
+SpecName="Agent"
+SpecSummary="The Agent specializes in infultration and stealth. They are masters of infultrating enemy cities, gathering intelligence, and assisinating important enemies."
+
+
+;  ///////////////
 ;  // Alchemist //
 ;  ///////////////
 
