@@ -90,7 +90,8 @@ SpecSummary="The Gunslinger is a wild card, unmatched with a handgun, and able t
 
 [Hunty]
 SpecName="Hunter"
-SpecSummary=""
+SpecSummary="The Hunter specializes in eliminating priority targets by ambushing them with surprise attacks."
+
 
 ;  //////////////
 ;  // Infantry //
