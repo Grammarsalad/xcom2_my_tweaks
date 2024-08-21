@@ -85,14 +85,6 @@ SpecSummary="A heavy weapons specialist, the Gunners specialize in taking and ho
 SpecName="Gunslinger"
 SpecSummary="The Gunslinger is a wild card, unmatched with a handgun, and able to wield two guns simultaneously to deadly effect."
 
-;  ////////////
-;  // Hunter //
-;  ////////////
-; Get from orig description 
-
-[Hunty]
-SpecName="Hunter"
-SpecSummary="The Hunter specializes in eliminating priority targets by ambushing them with surprise attacks."
 
 
 ;  //////////////
@@ -164,6 +156,16 @@ SpecSummary="The Shinobi specializes in melee and stealth, with a secondary focu
 
 
 ; Secondaries
+
+;  ////////////
+;  // Hunter //
+;  ////////////
+; Get from orig description 
+
+[Hunty]
+SpecName="Hunter"
+SpecSummary="The Hunter specializes in eliminating priority targets by ambushing them with surprise attacks."
+
 
 ;  ////////////////
 ;  //  Rifleman  //
