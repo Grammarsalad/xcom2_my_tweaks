@@ -72,8 +72,10 @@ SpecSummary="A jack of all trades, the Gadgeteer specializes in problem solving.
 ;  ////////////
 ;  // Gunner //
 ;  ////////////
-; use orig description
 
+[Gunner]
+SpecName="Gunner"
+SpecSummary="A heavy weapons specialist, the Gunners specialize in taking and holding positions."
 
 ;  ////////////////
 ;  // Gunslinger //
