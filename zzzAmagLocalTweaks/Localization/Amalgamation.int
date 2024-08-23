@@ -226,13 +226,6 @@ SpecSummary="The Witch is a rare natural psionic, specializing in mental manipul
 SpecName="Tesla Trooper"
 SpecSummary="When this Scientist went seemingly mad with power while toying with an Experimental Weapons Technology retrieved from a destroyed XCOM Base in Russia, Bradford ordered this questionably sane Crewmember to the front lines."
 
-;  ////////////////
-;  //  Grenadier //
-;  ////////////////
-
-[Grenadier]
-SpecName="Grenadier"
-SpecSummary="The Grenadier bears no regard for the environment, covering the battlefield in varying degrees of what were once considered war crimes."
 
 ;  //////////////
 ;  // Support  //
@@ -257,6 +250,23 @@ SpecSummary="The Techie operates the Gremlin to infiltrate enemy systems and car
 [CombatMedic]
 SpecName="Medical Technician"
 SpecSummary="The Medical Technician combines high tech medical equipment with experties. They are not equipped to provide extensive medical treatment, but you can count on them to keep you alive in the heat of battle."
+
+; Tertiaries
+
+;  //////////////
+;  //  Pioneer //
+;  //////////////
+
+[Grenadier]
+SpecName="Pioneer"
+SpecSummary="The Pioneer specializes in grenades of all kinds, whether launched or thrown."
+
+
+[Officer]
+SpecName="Officer"
+SpecSummary="The Officer uses the Holo-Targeter to coordinate fire on the battlefield which allows for a more cohesive operation for the whole squad."
+
+
 
 [Corpsman]
 SpecName="Corpsman"
