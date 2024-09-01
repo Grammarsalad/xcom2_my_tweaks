@@ -8,7 +8,121 @@
 
 [BAgent]
 SpecName="Agent"
-SpecSummary="The Agent specializes in infultration and stealth. They are masters of infultrating enemy cities, gathering intelligence, and assisinating important enemies."
+SpecSummary="The Agent specializes in infultration and stealth. They are masters of infiltrating enemy cities, gathering intelligence, and assassinating important targets."
+
+
+;  ////////////
+;  // Gunner //
+;  ////////////
+
+[AGunner]
+SpecName="Gunner"
+SpecSummary="A heavy weapons specialist, the Gunners specialize in taking and holding positions."
+
+;  //////////////
+;  // Infantry //
+;  //////////////
+
+[AInfantry]
+SpecName="Infantry"
+SpecSummary="The Infantry is the backbone of the resistance, taking and holding position without the need for specialized weaponry."
+
+;  //////////////
+;  // Samurai  //
+;  //////////////
+
+[BSammi]
+SpecName="Samurai"
+SpecSummary="The Samurai is a master of melee combat with no equal. Even the most dangerous beasts fall to their blade."
+
+;  ////////////////////
+;  //  Sharpshooter  //
+;  ////////////////////
+
+[ASharpshooter]
+SpecName="Sharpshooter"
+SpecSummary="The Sharpshooter specializes in handling heavy rifles capable of delivering accurate fire over great distances."
+
+;  ////////////////
+;  //  Vanguard  //
+;  ////////////////
+
+[AVanguard]
+SpecName="Vanguard"
+SpecSummary="Trained by Reapers, the Vanguard specializes in slipping through, and striking from, the shadows."
+
+
+;***************************************
+;Secondary Classes 
+;***************************************
+
+;  ////////////////
+;  //  Commando  //
+;  ////////////////
+
+[Aarnold]
+SpecName="Commando"
+SpecSummary="The Commando carries a Combat Knife for unexpected close range encounters and is trained in some of our more unconventional combat tactics."
+
+
+;  ////////////////
+;  //  Outrider  //
+;  ////////////////
+
+[BVanguard]
+SpecName="Outrider"
+SpecSummary="The Outrider can act as both scout and assassin depending on the needs of the squad."
+
+[CVanguard]
+SpecName="Outrider"
+SpecSummary="The Outrider can act as both scout and assassin depending on the needs of the squad."
+
+;  ////////////////
+;  //  Marksman  //
+;  ////////////////
+
+[BSharpshooter]
+SpecName="Marksman"
+SpecSummary="The Marksman is trained in sniper rifles. Give them time to prepare, and they are deadly at long range."
+
+;  ////////////////
+;  //  Rifleman  //
+;  ////////////////
+
+[BInfantry]
+SpecName="Rifleman"
+SpecSummary="The Rifleman trains extensively in om tactics, bringing the fight to the aliens with the trusty rifle."
+
+[CInfantry]
+SpecName="Rifleman"
+SpecSummary="The Rifleman trains extensively in om tactics, bringing the fight to the aliens with the trusty rifle."
+
+;***************************************
+;Tertiary Classes 
+;***************************************
+
+;  //////////////
+;  // Sentinel //
+;  //////////////
+
+
+[ASentinel]
+SpecName="Sentinel"
+SpecSummary="The Sentinel opts for a more defensive approach, providing accurate reaction fire across the battlefield."
+
+
+;  //////////////
+;  //  Sentry  //
+;  //////////////
+
+[ASentry]
+SpecName="Sentry"
+SpecSummary="The Sentry specializes in securing an area with a sniper rifle."
+
+
+; CONTINUE
+
+
 
 
 ;  ///////////////
@@ -69,13 +183,6 @@ SpecSummary="The Electroraider is a technical genius that specializes in the cre
 SpecName="Gadgeteer"
 SpecSummary="A jack of all trades, the Gadgeteer specializes in problem solving. The Gadgeteer always seems to have a trick up his sleeve to save the day."
 
-;  ////////////
-;  // Gunner //
-;  ////////////
-
-[Gunner]
-SpecName="Gunner"
-SpecSummary="A heavy weapons specialist, the Gunners specialize in taking and holding positions."
 
 ;  ////////////////
 ;  // Gunslinger //
@@ -87,13 +194,6 @@ SpecSummary="The Gunslinger is a wild card, unmatched with a handgun, and able t
 
 
 
-;  //////////////
-;  // Infantry //
-;  //////////////
-
-[Infantry]
-SpecName="Infantry"
-SpecSummary="The Infantry is the backbone of the resistance, taking and holding position without the need for specialized weaponry."
 
 ;  //////////////////////
 ;  //     Phalanx      //
@@ -136,13 +236,6 @@ SpecSummary="The Resistance Leader leads other troops in battle, supporting them
 SpecName="Scavenger"
 SpecSummary="The scavenger is always on the lookout for spare parts, disgarded and broken weapons, alien materials: anything to help the resistance."
 
-;  ////////////////////
-;  //  Sharpshooter  //
-;  ////////////////////
-
-[Sharpshooter]
-SpecName="Sharpshooter"
-SpecSummary="The Sharpshooter specializes in handling heavy rifles capable of delivering accurate fire over great distances."
 
 ;  ///////////////
 ;  //  Shinobi  //
@@ -167,13 +260,6 @@ SpecName="Hunter"
 SpecSummary="The Hunter specializes in eliminating priority targets by ambushing them with surprise attacks."
 
 
-;  ////////////////
-;  //  Rifleman  //
-;  ////////////////
-
-[BInfantry]
-SpecName="Rifleman"
-SpecSummary="The Rifleman trains extensively in om tactics, bringing the fight to the aliens with the trusty rifle."
 
 
 ;  ///////////////
@@ -184,13 +270,6 @@ SpecSummary="The Rifleman trains extensively in om tactics, bringing the fight t
 SpecName="Marauder"
 SpecSummary="The Marauder can operate their primary weapon with utmost efficiency, shooting twice as often compared to other specializations."
 
-;  ////////////////
-;  //  Marksman  //
-;  ////////////////
-
-[BSharpshooter]
-SpecName="Marksman"
-SpecSummary="The Marksman is trained in sniper rifles. Give them time to prepare, and they are deadly at long range."
 
 
 ;  //////////////
@@ -286,9 +365,6 @@ SpecSummary="Intrigued by the eastern regions of the old world, the Blademaster 
 SpecName="Officer"
 SpecSummary="The Officer uses the Holo-Targeter to coordinate fire on the battlefield which allows for a more cohesive operation for the whole squad."
 
-[Commando]
-SpecName="Commando"
-SpecSummary="The Commando carries a Combat Knife for unexpected close range encounters and is trained in some of our more unconventional combat tactics."
 
 [Executioner]
 SpecName="Executioner"
@@ -302,9 +378,6 @@ SpecSummary="The Engineer wields the Arc Thrower to pacify enemy personnel with 
 SpecName="Heavy"
 SpecSummary="The Heavy operates both flamethrower and rocket launcher integrated in the Gauntlet to provide area denial and explosive force."
 
-[Sentinel]
-SpecName="Sentinel"
-SpecSummary="The Sentinel opts for a more defensive approach, providing accurate reaction fire across the battlefield."
 
 ; Localization for GTS UI weapon categories
 
