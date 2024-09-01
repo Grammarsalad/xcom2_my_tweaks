@@ -43,6 +43,14 @@ SpecSummary="The Samurai is a master of melee combat with no equal. Even the mos
 SpecName="Sharpshooter"
 SpecSummary="The Sharpshooter specializes in handling heavy rifles capable of delivering accurate fire over great distances."
 
+;  ///////////////
+;  //  Shinobi  //
+;  ///////////////
+
+[AShadow]
+SpecName="Shinobi"
+SpecSummary="The Shinobi specializes in melee and stealth, with a secondary focus on infultration and assassination."
+
 ;  ////////////////
 ;  //  Vanguard  //
 ;  ////////////////
@@ -63,6 +71,18 @@ SpecSummary="Trained by Reapers, the Vanguard specializes in slipping through, a
 [Aarnold]
 SpecName="Commando"
 SpecSummary="The Commando carries a Combat Knife for unexpected close range encounters and is trained in some of our more unconventional combat tactics."
+
+;  ////////////////
+;  //  Fencer  //
+;  ////////////////
+
+[ABlademaster]
+SpecName="Fencer"
+SpecSummary="The Fencer is well trained in melee combat, and often prefers blades to firearms."
+
+[BBlademaster]
+SpecName="Fencer"
+SpecSummary="The Fencer is well trained in melee combat, and often prefers blades to firearms."
 
 
 ;  ////////////////
@@ -237,13 +257,6 @@ SpecName="Scavenger"
 SpecSummary="The scavenger is always on the lookout for spare parts, disgarded and broken weapons, alien materials: anything to help the resistance."
 
 
-;  ///////////////
-;  //  Shinobi  //
-;  ///////////////
-
-[Shadow]
-SpecName="Shinobi"
-SpecSummary="The Shinobi specializes in melee and stealth, with a secondary focus on infultration and assassination."
 
 
 
