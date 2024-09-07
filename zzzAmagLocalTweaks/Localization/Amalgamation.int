@@ -343,6 +343,15 @@ SpecSummary="The Techie operates the Gremlin to infiltrate enemy systems and car
 SpecName="Medical Technician"
 SpecSummary="The Medical Technician combines high tech medical equipment with experties. They are not equipped to provide extensive medical treatment, but you can count on them to keep you alive in the heat of battle."
 
+;  /////////////////
+;  //  Scavenger  //
+;  /////////////////
+
+[BQuartermaster]
+SpecName="Scavenger"
+SpecSummary="The Scavenger is always on the lookout for spare parts, discarded and broken weapons, alien materials: anything to help the resistance."
+
+
 ; Tertiaries
 
 ;  //////////////
