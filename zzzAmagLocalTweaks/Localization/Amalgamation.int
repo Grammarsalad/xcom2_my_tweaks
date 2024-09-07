@@ -249,12 +249,12 @@ SpecName="Resistance Leader"
 SpecSummary="The Resistance Leader leads other troops in battle, supporting them, and raising morale."
 
 ;  /////////////////
-;  //  Scavenger  //
+;  //  Quartermaster  //
 ;  /////////////////
 
 [BScav]
-SpecName="Scavenger"
-SpecSummary="The scavenger is always on the lookout for spare parts, disgarded and broken weapons, alien materials: anything to help the resistance."
+SpecName="Quartermaster"
+SpecSummary="The Quartermaster is responsible for ensuring that the soldiers of XCom are well equipped."
 
 
 
