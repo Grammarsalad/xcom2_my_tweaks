@@ -556,3 +556,287 @@ LocLongDescription="Focus on your studies, boosting hacking(150%), but at the co
 LocHelpText="Focus on your studies, boosting hacking(150%), but at the cost of 5 will/turn and mobility(50%)."
 LocFlyOverText="Egghead"
 LocPromotionPopupText="Egghead"
+
+; from Zelfana's Assorted Fixes Config
+
+[XComPresentationLayer]
+; Changed move to action as it allows more than just moving
+m_strMomentumActionPointRemaining="Momentum action available"
+; Capitalized And to match ability name formatting
+m_strRunAndGunActionPointRemaining="Run And Gun action available"
+
+
+[XComGame.XLocalizedData]
+[XLocalizedData]
+; Some clearer and shortened text to fit without scrolling
+OffenseStat="Base Aim"
+RecoilPenalty="Recoil"
+HeightAdvantage="High Ground"
+HeightDisadvantage="Low Ground"
+WeaponRange="Range"
+FlankingCritBonus="Exposed"
+FlankingAimBonus="Exposed"
+WeaponAimBonus="Weapon Aim"
+CharCritChance="Base Crit"
+SmokeDefenseBonus="Smoke"
+
+; More generalized message for loud noise as they are not always explosions with mods
+LostLoudNoiseMessage="The loud noise draws a Lost Swarm closer!"
+
+
+[XComGame.X2TacticalGameRulesetDataStructures]
+[X2TacticalGameRulesetDataStructures]
+; Adding missing labels for some stats
+CharStatLabels[eStat_Invalid]=INVALID STAT
+CharStatLabels[eStat_UtilityItems]=UTILITY ITEMS
+CharStatLabels[eStat_FlightFuel]=FLIGHT FUEL
+CharStatLabels[eStat_AlertLevel]=ALERT LEVEL
+CharStatLabels[eStat_BackpackSize]=BACKPACK SIZE
+CharStatLabels[eStat_ArmorChance]=ARMOR CHANCE
+CharStatLabels[eStat_ArmorMitigation]=ARMOR
+CharStatLabels[eStat_ArmorPiercing]=ARMOR PIERCE
+CharStatLabels[eStat_HackDefense]=HACK DEFENSE
+CharStatLabels[eStat_DetectionRadius]=DETECTION RADIUS
+CharStatLabels[eStat_DetectionModifier]=DETECTION MODIFIER
+CharStatLabels[eStat_CritChance]=CRIT
+CharStatLabels[eStat_Strength]=STRENGTH
+CharStatLabels[eStat_SeeMovement]=SEE MOVEMENT
+CharStatLabels[eStat_HearingRadius]=HEARING RADIUS
+CharStatLabels[eStat_CombatSims]=PCS SLOTS
+CharStatLabels[eStat_FlankingCritChance]=FLANKING CRIT
+CharStatLabels[eStat_ShieldHP]=SHIELD HP
+CharStatLabels[eStat_Job]=JOB
+CharStatLabels[eStat_FlankingAimBonus]=FLANKING AIM
+
+m_aCharStatLabels[eStat_Invalid]="Invalid Stat"
+m_aCharStatLabels[eStat_UtilityItems]="Utility Items"
+m_aCharStatLabels[eStat_FlightFuel]="Flight Fuel"
+m_aCharStatLabels[eStat_AlertLevel]="Alert Level"
+m_aCharStatLabels[eStat_BackpackSize]="Backpack Size"
+m_aCharStatLabels[eStat_ArmorChance]="Armor Chance"
+m_aCharStatLabels[eStat_ArmorMitigation]="Armor"
+m_aCharStatLabels[eStat_ArmorPiercing]="Armor Pierce"
+m_aCharStatLabels[eStat_HackDefense]="Hack Defense"
+m_aCharStatLabels[eStat_DetectionRadius]="Detection Radius"
+m_aCharStatLabels[eStat_DetectionModifier]="Detection Modifier"
+m_aCharStatLabels[eStat_CritChance]="Crit"
+m_aCharStatLabels[eStat_SeeMovement]="See Movement"
+m_aCharStatLabels[eStat_HearingRadius]="Hearing Radius"
+m_aCharStatLabels[eStat_CombatSims]="PCS Slots"
+m_aCharStatLabels[eStat_FlankingCritChance]="Flanking Crit"
+m_aCharStatLabels[eStat_ShieldHP]="Shield HP"
+m_aCharStatLabels[eStat_Job]="Job"
+m_aCharStatLabels[eStat_FlankingAimBonus]="Flanking Aim"
+
+
+[X2AbilityTemplateManager]
+;AbilityAvailabilityCodes="AA_RunAndGunUsed"
+AbilityAvailabilityStrings[78]="Cannot use after activating Run And Gun."
+
+
+; Battle Scanner was still mentioned as a grenade, lol
+[HeavyOrdnance X2AbilityTemplate]
+LocPromotionPopupText="<Bullet/> All grenades are viable for Heavy Ordnance, even non-offensive grenades like Smoke Grenades.<br/>"
+
+
+; Clarify how Implacable works, it doesn't prevent further attacks
+[Implacable X2AbilityTemplate]
+LocLongDescription="Gain a maximum of one bonus move per turn after scoring a kill."
+LocHelpText="Gain a maximum of one bonus move per turn after scoring a kill."
+LocPromotionPopupText="<Bullet/> Bonus movement is used first if moving with other action points available.<br/><Bullet/> The bonus move is lost if you take a normally turn-ending action without using the move first even if you get to continue the turn by getting actions refunded.<br/><Bullet/> Implacable can only be triggered once per turn.<br/>"
+
+
+; Rapid Fire description was missing its ammo cost and cooldown, took the same text from Chain Shot
+[RapidFire X2AbilityTemplate]
+LocPromotionPopupText="<Bullet/> Rapid Fire requires <Ability:SelfAmmoCost/> ammo points, and has a <Ability:SelfCooldown/> turn cooldown.<br/><Bullet/> Rapid Fire is a devastating ability for dealing ranged damage.<br/>"
+
+
+; Clarify Untouchable
+[Untouchable X2AbilityTemplate]
+LocLongDescription="If you score a kill during your turn, the first attack against you during the enemy turn will miss."
+LocHelpText="If you score a kill during your turn, the first attack against you during the enemy turn will miss."
+LocPromotionPopupText="<Bullet/> When Untouchable is triggered, the <Ability:ClassName/> is immune to the first damage dealing attack directed at them during the enemy turn, even Area of Effect attacks.<br/><Bullet/> Untouchable can only be triggered once per turn.<br/>"
+
+
+; Reword Parry to clarify it can be stacked
+[Parry X2AbilityTemplate]
+LocLongDescription="After attacking with Rend, prevent all damage from an attack made against you during the enemy turn instead of moving."
+LocHelpText="After attacking with Rend, prevent all damage from an attack made against you during the enemy turn instead of moving."
+LocPromotionPopupText="<Bullet/> Parry will prevent damage from both melee and ranged attacks but not Area of Effect attacks.<br/><Bullet/> Parry will use the action granted by Momentum.<br/><Bullet/> Using Parry more than once in the same turn will prevent damage from the same number of attacks during the enemy turn.<br/>"
+
+[ParryActivate X2AbilityTemplate]
+LocLongDescription="Parry a melee or ranged attack made against you during the enemy turn, preventing all damage."
+LocHelpText="Parry a melee or ranged attack made against you during the enemy turn, preventing all damage."
+
+
+; Mention limitations in all mutually exclusive abilities, not just Reaper
+; Also clarify how Run And Gun actually works
+[RunAndGun X2AbilityTemplate]
+LocLongDescription="Gain an additional action point usable on any action except movement."
+LocHelpText="Gain an additional action point usable on any action except movement."
+LocPromotionPopupText="<Bullet/> Run And Gun action point stays available after using both normal actions for movement.<br/><Bullet/> Run And Gun action point is used first if taking actions that do not end the turn.<br/><Bullet/> You can take three actions without moving if the first two are not turn-ending.<br/><Bullet/> Run And Gun has a <Ability:SelfCooldown/> turn cooldown.<br/><Bullet/> Run And Gun cannot be used on the same turn as Reaper or Serial.<br/>"
+
+[Reaper X2AbilityTemplate]
+LocPromotionPopupText="<Bullet/> Reaper has a <Ability:SelfCooldown/> turn cooldown.<br/><Bullet/> Reaper cannot be used on the same turn as Run And Gun or Serial.<br/><Bullet/> As the damage with each successful Reaper strike is reduced, careful ordering of targets may be required to ensure the longest chain of attacks.<br/>"
+
+; Also removing the remark about Serial lowering crit chance as it does not actually do that
+[InTheZone X2AbilityTemplate]
+LocPromotionPopupText="<Bullet/> Serial is meant to chain enemy kills in a single action, as every kill is essentially free.<br/><Bullet/> Serial has a <Ability:SelfCooldown/> turn cooldown.<br/><Bullet/> Serial cannot be used on the same turn as Run And Gun or Reaper.<br/>"
+
+
+; Added missing concealed Kill Zone description
+[KillZone X2AbilityTemplate]
+LocLongDescriptionWhenConcealed="Enhanced squadsight overwatch in a cone of fire but only if revealed."
+
+
+; Changed flyover text to match others, getting it to display a special "Deep Cover: Aim" message would require overwriting a class in code
+[SharpshooterAim X2AbilityTemplate]
+LocFlyOverText="Hunker Down: Aim"
+
+
+; Changed Overdrive and Adaptive Aim descriptions to clarify the aim penalty applies to all shots in case the Spark has other shots added by mods
+[Overdrive X2AbilityTemplate]
+LocLongDescription="Take three actions this turn, and no action is turn-ending. An increasing recoil penalty is incurred after each shot taken."
+LocHelpText="Take three actions this turn, and no action is turn-ending. An increasing recoil penalty is incurred after each shot taken."
+LocPromotionPopupText="<Bullet/> A stacking recoil penalty of <Ability:Overdrive_RecoilPenalty/>% Aim is applied after each shot while Overdrive is active.<br/><Bullet/> Other actions such as moving or firing heavy weapons do not incur penalties.<br/><Bullet/> Overdrive has no cost to activate, but has a <Ability:SelfCooldown/> turn cooldown.<br/>"
+
+[AdaptiveAim X2AbilityTemplate]
+LocLongDescription="When Overdrive is active, shots no longer incur recoil penalties."
+LocHelpText="When Overdrive is active, shots no longer incur recoil penalties."
+LocPromotionPopupText="<Bullet/> Adaptive Aim eliminates the <Ability:Overdrive_RecoilPenalty/>% Aim penalty for consecutive shots when Overdrive is active.<br/>"
+
+
+; Fixed some "hardcoded" strings to be contextual
+[Solace X2AbilityTemplate]
+LocLongDescription="The <Ability:ClassName/> is surrounded by an aura that immediately extinguishes or blocks any mental impairments for themselves and any nearby squadmates."
+LocHelpText="The <Ability:ClassName/> is surrounded by an aura that immediately extinguishes or blocks any mental impairments for for themselves and any nearby squadmates."
+
+[SolaceCleanse X2AbilityTemplate]
+LocLongDescription="The <Ability:ClassName/> is surrounded by an aura that immediately extinguishes or blocks any mental impairments for themselves and any nearby squadmates."
+LocHelpText="The <Ability:ClassName/> is surrounded by an aura that immediately extinguishes or blocks any mental impairments for themselves and any nearby squadmates."
+
+[SolacePassive X2AbilityTemplate]
+LocLongDescription="The <Ability:ClassName/> is surrounded by an aura that immediately extinguishes or blocks any mental impairments for themselves and any nearby squadmates."
+LocHelpText="The <Ability:ClassName/> is surrounded by an aura that immediately extinguishes or blocks any mental impairments for themselves and any nearby squadmates."
+
+[FanFire X2AbilityTemplate]
+LocLongDescription="Fire your <Ability:SecondaryWeaponName/> three times at the same target."
+LocHelpText="Fire your <Ability:SecondaryWeaponName/> three times at a single target."
+
+[Faceoff X2AbilityTemplate]
+LocLongDescription="Fire once at every visible enemy with your <Ability:SecondaryWeaponName/>."
+LocHelpText="Fire once at every visible enemy with your <Ability:SecondaryWeaponName/>."
+
+[AidProtocol X2AbilityTemplate]
+LocLongDescription="Command your <Ability:SECONDARYWEAPONNAME/> to move to a friendly target. It grants that target a bonus to Defense until the start of the next player turn."
+LocHelpText="Send your <Ability:SECONDARYWEAPONNAME/> to an ally to grant them +<Ability:AidProtocolDefenseBonus/> Defense for a turn."
+LocDefaultSecondaryWeapon="GREMLIN"
+
+[MedicalProtocol X2AbilityTemplate]
+LocLongDescription="The <Ability:SECONDARYWEAPONNAME/> can perform healing actions remotely: GREMLIN Heal and GREMLIN Stabilize. The <Ability:SECONDARYWEAPONNAME/> has a single shared charge. If a medikit is equipped, the <Ability:SECONDARYWEAPONNAME/> will gain an additional charge."
+LocHelpText="The <Ability:SECONDARYWEAPONNAME/> now performs healing actions: GREMLIN Heal and GREMLIN Stabilize."
+LocDefaultSecondaryWeapon="GREMLIN"
+
+[GremlinHeal X2AbilityTemplate]
+LocLongDescription="Send your <Ability:SECONDARYWEAPONNAME/> out to heal an injured ally. Heals up to <Ability:GREMLINHEALHP/> HP with each use."
+LocHelpText="Send your <Ability:SECONDARYWEAPONNAME/> out to heal an injured ally."
+LocDefaultSecondaryWeapon="GREMLIN"
+
+[RevivalProtocol X2AbilityTemplate]
+LocLongDescription="Send your <Ability:SECONDARYWEAPONNAME/> to an ally to remove any negative mental status effects: Disoriented, Stunned, Panicked, or Unconscious."
+LocHelpText="Send your <Ability:SECONDARYWEAPONNAME/> to an ally to remove negative mental status effects."
+LocDefaultSecondaryWeapon="GREMLIN"
+
+[FieldMedic X2AbilityTemplate]
+LocPromotionPopupText="<Bullet/> If a <Ability:ClassName/> has the Medical Protocol ability, the <Ability:SECONDARYWEAPONNAME/> gains additional charges as well.<br/>"
+LocDefaultSecondaryWeapon="GREMLIN"
+
+[RestorativeMist X2AbilityTemplate]
+LocLongDescription="The <Ability:SECONDARYWEAPONNAME/> flies to each squad member, healing or reviving them as needed."
+LocHelpText="The <Ability:SECONDARYWEAPONNAME/> flies to each squad member, healing or reviving them as needed."
+LocDefaultSecondaryWeapon="GREMLIN"
+
+[CombatProtocol X2AbilityTemplate]
+LocLongDescription="Send the <Ability:SECONDARYWEAPONNAME/> to an enemy to jolt them, dealing guaranteed damage, which is increased against robotic enemies."
+LocHelpText="Send the <Ability:SECONDARYWEAPONNAME/> to an enemy to jolt them, dealing guaranteed damage, which is increased against robotic enemies."
+LocPromotionPopupText="<Bullet/> Combat Protocol has two charges per mission.<br/><Bullet/> Upgrading your GREMLIN will lead to more damage per charge.<br/><Bullet/> Combat Protocol can target enemies within squadmates' sight, provided there is line of sight to the target.<br/>"
+LocDefaultSecondaryWeapon="GREMLIN"
+
+[HaywireProtocol X2AbilityTemplate]
+LocLongDescription="You may target robotic and mechanical enemies with your <Ability:SECONDARYWEAPONNAME/>, attempting to hack them and seize control."
+LocDefaultSecondaryWeapon="GREMLIN"
+
+[ScanningProtocol X2AbilityTemplate]
+LocLongDescription="The <Ability:SECONDARYWEAPONNAME/> can trigger an instant scan of the area, increasing the <Ability:ClassName/>'s sight radius substantially for one turn, and revealing any hidden or disguised enemies in view."
+LocHelpText="Trigger a scan of the area with the <Ability:SECONDARYWEAPONNAME/>, increasing your sight radius, and revealing any hidden or disguised enemies in view."
+LocPromotionPopupText="<Bullet/> In addition to hidden and disguised enemies, enemies blocked from line of sight by walls or obstructions will also be revealed by Scanning Protocol.<br/><Bullet/> Scanning Protocol has two charges per mission.<br/><Bullet/> Upgrading your GREMLIN will add more Scanning Protocol charges.<br/>"
+LocDefaultSecondaryWeapon="GREMLIN"
+
+
+; Shorter Psionic Bomb description to prevent scrolling
+[PsiBombStage1 X2AbilityTemplate]
+LocLongDescription="Open a Psionic rift that disables the weapons of any units caught in its radius, and deals damage within that radius after one turn."
+LocHelpText="Open a Psionic rift that disables the weapons of any units caught in its radius, and deals damage within that radius after one turn."
+LocFlyOverText="Psionic Bomb"
+
+; Dark Event Return Fire was missing localization for the passive icon
+[DarkEventAbility_ReturnFire X2AbilityTemplate]
+LocFriendlyName="Dark Event: Return Fire"
+LocHelpText="When targeted by an enemy attack, automatically fire back with your <Ability:WeaponName/>."
+LocLongDescription="When targeted by an enemy attack, automatically fire back with your <Ability:WeaponName/>."
+LocPromotionPopupText="<Bullet/> Return Fire can be triggered by melee attacks and Area of Effect attacks.<br/><Bullet/> Return Fire will not trigger when targeted by Overwatch fire.<br/>"
+
+
+; Purifier Grenade fix was missing localization for the new grenade replacement, copied Firebomb strings over
+[PurifierGrenade X2GrenadeTemplate]
+FriendlyName="Incendiary Grenade"
+FriendlyNamePlural="Incendiary Grenades"
+BriefSummary="The Incendiary Grenade is a technical improvement to the improvised fire weapons the Resistance has been using for years. After the initial blast, most targets will be set aflame and suffer persistent burning damage."
+TacticalText="<Bullet/> Incendiary grenades will damage all units in the blast radius, and apply the \"burning\" effect to any units vulnerable to flame.\n<Bullet/> Incendiary grenades do more blast damage than all other grenades.\n<Bullet/> Some enemies, particularly metallic ones, are immune to fire and will not suffer the \"burning\" effect."
+ThrownAbilityName="Throw Incendiary Grenade"
+ThrownAbilityHelpText="Sets fire to the target area, along with affected units."
+LaunchedAbilityname="Launch Incendiary Grenade"
+LaunchedAbilityHelpText="Sets fire to the target area, along with affected units."
+
+
+; Superior Explosives had a typo here
+[PlasmaGrenadeMk3 X2GrenadeTemplate]
+BriefSummary="The Plasma Warhead, an upgraded version of the Plasma Grenade, does greater damage and is more effective at shredding enemy armor."
+
+
+; Basic PCS
+[CommonPCSSpeed X2EquipmentTemplate]
+FriendlyName="PCS: Basic Speed"
+FriendlyNamePlural="PCS: Basic Speed"
+
+[CommonPCSConditioning X2EquipmentTemplate]
+FriendlyName="PCS: Basic Conditioning"
+FriendlyNamePlural="PCS: Basic Conditioning"
+
+[CommonPCSFocus X2EquipmentTemplate]
+FriendlyName="PCS: Basic Focus"
+FriendlyNamePlural="PCS: Basic Focus"
+
+[CommonPCSPerception X2EquipmentTemplate]
+FriendlyName="PCS: Basic Perception"
+FriendlyNamePlural="PCS: Basic Perception"
+
+[CommonPCSAgility X2EquipmentTemplate]
+FriendlyName="PCS: Basic Agility"
+FriendlyNamePlural="PCS: Basic Agility"
+
+
+; Messed up photobooth quote, has also been copied to some mods
+[Sharpshooter X2SoldierClassTemplate]
+PhotoboothSoloBLines_Male[7]="Patience is bitter, but its fruit is sweet."
+
+[AlphaSniper X2SoldierClassTemplate]
+PhotoboothSoloBLines_Male[7]="Patience is bitter, but its fruit is sweet."
+
+[LightSharpshooter X2SoldierClassTemplate]
+PhotoboothSoloBLines_Male[7]="Patience is bitter, but its fruit is sweet."
+
+
+;  Would do this in Color Your Techs config but Honey's Heavy Support Items creates the template very questionably in a UIScreenListener which happens way after OnPostTemplatesCreated! >:(
+[HHSTechTemplate X2TechTemplate]
+DisplayName="<font color='#DA51D0'>Experimental Heavy Support Item</font>"
