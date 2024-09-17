@@ -14,6 +14,13 @@ LocHelpText = "Specialized Battery Pack helps the potency of the arcthrower."
 LocLongDescription = "Battery Pack helps the potency of the arcthrower."
 LocPromotionPopupText = "<font color='#CA7200'>LEVEL I</font> (gained at <Ability:RANKNAME1/> rank [1])<br/><Bullet/> Gains Breaching Maneuver perk.<br/><Bullet/> Gain immunity to electricity<br/><Bullet/> Gain 25 Hacking.<br/><br/><br/><font color='#CA7200'>LEVEL II</font> (gained at <Ability:RANKNAME3/> rank [3])<br/><Bullet/> Gain spare battery perk.<br/><Bullet/> Gains EMPulserPassive perk.<br/><Bullet/> Gain additional 30 Hacking.<br/><br/><br/><font color='#CA7200'>LEVEL III</font> (gained at <Ability:RANKNAME6/> rank [6]<br/><Bullet/> Selected Arcthrower perks no longer end turn.<br/><Bullet/> Gains Honed Edge perk.<br/><Bullet/> Gain additional 35 Hacking."
 
+[WOTC_APA_IntelligenceOfficer X2AbilityTemplate]
+LocFriendlyName = "Intelligence Officer"
+LocHelpText = "The Intelligence Officer's ability to infiltrate enemy territory, providing scouting support improves with experience."
+LocLongDescription = "The Intelligence Officer's ability to infiltrate enemy territory, providing scouting support improves with experience."
+LocPromotionPopupText = "<font color='#CA7200'>LEVEL I</font> (gained at <Ability:RANKNAME1/> rank [1])<br/><Bullet/> Gain Natural Leader, Failsafe, and Electronic Surveillance.<br/><Bullet/> Remain concealed when the squad breaks concealment.<br/><Bullet/> Reduce enemies' detection radius against you by <font color='#3ABD23'><Ability:INTEL_OFFICER_DETECTION_MODIFIER_1/>%</font>.<br/><br/><font color='#CA7200'>LEVEL II</font> (gained at <Ability:RANKNAME3/> rank [3])<br/><Bullet/> Gain Ambush, an ability that allows toggling whether or not to take overwatch shots while concealed.<br/><Bullet/> Gain the ability to re-conceal with a <font color='#CA7200'><Ability:INTEL_OFFICER_CONCEAL_COOLDOWN/></font>-turn cooldown.<br/><Bullet/> The radius that enemies will detect you is now reduced by a total of <font color='#3ABD23'><Ability:INTEL_OFFICER_DETECTION_MODIFIER_2/>%</font>.<br/><br/><font color='#CA7200'>LEVEL III</font> (gained at <Ability:RANKNAME6/> rank [6])<br/><Bullet/> Gain a bonus to vision range of <font color='#3ABD23'>+<Ability:INTEL_OFFICER_VISION_TILE_BONUS/></font> Tiles.<br/><Bullet/> The radius that enemies will detect you is now reduced by a total of <font color='#3ABD23'><Ability:INTEL_OFFICER_DETECTION_MODIFIER_3/>%</font>.<br/><br/>NOTES<br/><Bullet/> Reconceal has a cooldown instead of limited charges, but requires 1 action to use. It can be activated with<br/> either a standard or movement-only action point."
+
+
 ; - GTS Unlocks -
 
 [WOTCbrawlUnlock1 X2SoldierAbilityUnlockTemplate]
