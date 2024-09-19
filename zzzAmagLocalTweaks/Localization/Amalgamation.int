@@ -35,6 +35,15 @@ SpecSummary="The Infantry is the backbone of the resistance, taking and holding 
 SpecName="Samurai"
 SpecSummary="The Samurai is a master of melee combat with no equal. Even the most dangerous beasts fall to their blade."
 
+;  //////////////
+;  //  Scout   //
+;  //////////////
+
+[Ascout]
+SpecName="Scout"
+SpecSummary="The Scout is a reconnaissance unit, providing crucial battlefield intelligence while waiting for the opportune moment to strike."
+
+
 ;  ////////////////////
 ;  //  Sharpshooter  //
 ;  ////////////////////
