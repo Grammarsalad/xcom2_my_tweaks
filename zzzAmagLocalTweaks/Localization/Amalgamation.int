@@ -52,13 +52,6 @@ SpecSummary="The Scout is a reconnaissance unit, providing crucial battlefield i
 SpecName="Sharpshooter"
 SpecSummary="The Sharpshooter specializes in handling heavy rifles capable of delivering accurate fire over great distances."
 
-;  ///////////////
-;  //  Shinobi  //
-;  ///////////////
-
-[AShadow]
-SpecName="Shinobi"
-SpecSummary="The Shinobi specializes in melee and stealth, with a secondary focus on infultration and assassination."
 
 ;  ////////////////
 ;  //  Vanguard  //
@@ -126,6 +119,14 @@ SpecSummary="The Rifleman trains extensively in om tactics, bringing the fight t
 SpecName="Rifleman"
 SpecSummary="The Rifleman trains extensively in om tactics, bringing the fight to the aliens with the trusty rifle."
 
+;  ///////////////
+;  //  Shinobi  //
+;  ///////////////
+
+[AShadow]
+SpecName="Shinobi"
+SpecSummary="The Shinobi specializes in melee and stealth, with a secondary focus on infultration and assassination."
+
 ;***************************************
 ;Tertiary Classes 
 ;***************************************
@@ -147,6 +148,14 @@ SpecSummary="The Sentinel opts for a more defensive approach, providing accurate
 [ASentry]
 SpecName="Sentry"
 SpecSummary="The Sentry specializes in securing an area with a sniper rifle."
+
+;  ///////////
+;  // Snoop //
+;  ///////////
+
+[Cscout]
+SpecName="Snoop"
+SpecSummary="The Snoop excels at keeping a low profile, to both maintain self-preservation, and slipping behind enemy lines."
 
 
 ; CONTINUE
