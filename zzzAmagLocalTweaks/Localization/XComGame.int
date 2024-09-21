@@ -32,6 +32,27 @@ LocFriendlyName = "Shadow Meld"
 LocLongDescription = "The <Ability:ClassName/>'s ability to slip through, and strike from, the shadows increases with experience."
 LocPromotionPopupText = "<font color='#CA7200'>FOCUS MECHANIC:</font> Build up Shadow Stacks while concealed to enhance bonuses to Detection Radius and Critical Hit chance. Other <Ability:ClassName/> abilities can grant additional benefits based on active Shadow Stacks.<br/><Bullet/> Gain Fade. <br/><Bullet/> Detection Radius is decreased by <font color='#3ABD23'><Ability:SHADOW_STACK_VARIABLE_DETECTION_BONUS/>%</font> for each active Shadow Stack.<br/><Bullet/> Critical Hit chance is increased by <font color='#3ABD23'>+<Ability:SHADOW_STACK_CRIT_CHANCE_BONUS/>%</font> for each active Shadow Stack.<br/><Bullet/> At the beginning of each turn, if concealed, gain <font color='#3ABD23'>+<Ability:SHADOW_STACK_GAIN_PER_TURN/></font> Shadow Stack. Gain <font color='#3ABD23'>+<Ability:SHADOW_STACK_GAIN_HUNKER/></font> additional Shadow Stack if you<br/>  Hunkered Down and were concealed the previous turn.<br/><Bullet/> Attacks that do not break concealment through Silent Killer consume Shadow Stacks.<br/><br/><font color='#CA7200'>LEVEL I</font> (gained at <Ability:RANKNAME1/> rank [1])<br/><Bullet/> The <Ability:ClassName/> can attempt to hack into adjacent ADVENT security towers using their XPAD.<br/><Bullet/> Gain Ambush, an ability that allows toggling whether or not to take overwatch shots while concealed.<br/><Bullet/> Begin missions concealed with <font color='#3ABD23'><Ability:SHADOW_STACK_START_I/></font> active Shadow Stack.  Initial maximum is <font color='#3ABD23'><Ability:SHADOW_STACK_MAX_I/></font> Shadow Stacks.<br/><br/><font color='#CA7200'>LEVEL II</font> (gained at <Ability:RANKNAME3/> rank [3])<br/><Bullet/> Begin missions concealed with <font color='#3ABD23'><Ability:SHADOW_STACK_START_II/></font> active Shadow Stacks.  Maximum is increased to <font color='#3ABD23'><Ability:SHADOW_STACK_MAX_II/></font> Shadow Stacks.<br/><br/><font color='#CA7200'>LEVEL III</font> (gained at <Ability:RANKNAME6/> rank [6])<br/><Bullet/> Begin missions concealed with <font color='#3ABD23'><Ability:SHADOW_STACK_START_III/></font> active Shadow Stacks.  Maximum is increased to <font color='#3ABD23'><Ability:SHADOW_STACK_MAX_III/></font> Shadow Stacks."
 
+; rename so as not to confuse with shadow ops stalker:
+
+[WOTC_APA_Stalker X2AbilityTemplate]
+LocFriendlyName = "Hunter"
+LocFlyOverText = "Hunter"
+LocHelpText = "Gain <font color='#3ABD23'>+<Ability:STALKER_CRIT_CHANCE_BONUS/>%</font> Crit Chance against enemies that are flanked or cannot see you and the Hunt ability, a toggleable ability that lowers both the <Ability:ClassName/>'s mobility and detection radius while active."
+LocLongDescription = "Gain <font color='#3ABD23'>+<Ability:STALKER_CRIT_CHANCE_BONUS/>%</font> Crit Chance against enemies that are flanked or cannot see you and the Hunt ability, a toggleable ability that lowers both the <Ability:ClassName/>'s mobility and detection radius while active."
+LocPromotionPopupText = "Gain <font color='#3ABD23'>+<Ability:STALKER_CRIT_CHANCE_BONUS/>%</font> Crit Chance against enemies that are flanked or cannot see you and the Hunt ability, a toggleable ability that lowers both the <Ability:ClassName/>'s mobility and detection radius while active.<br/><br/><Bullet/> Stalk lets you move slower and more carefully (<font color='#CA7200'>-<Ability:STALK_MOBILITY_MODIFIER/>%</font> Mobility), reducing the radius that enemies will detect you by <font color='#3ABD23'><Ability:STALK_DETECTION_MODIFIER/>%</font> while active. Stalk can be toggled On/Off once per turn.<br/><Bullet/> The bonus Crit Chance against enemies that cannot see you applies to attacks from concealment as well as attacks from beyond an enemies vision range."
+
+[WOTC_APA_StalkOn X2AbilityTemplate]
+LocFriendlyName = "Hunt: Toggle On"
+LocFlyOverText = "Hunt"
+LocHelpText = "Begin Hunting, reducing Mobility by <font color='#CA7200'>-<Ability:STALK_MOBILITY_MODIFIER/>%</font> and reducing the radius that enemies will detect you by <font color='#3ABD23'><Ability:STALK_DETECTION_MODIFIER/>%</font> while active."
+LocLongDescription = "Begin Hunting, reducing Mobility by <font color='#CA7200'>-<Ability:STALK_MOBILITY_MODIFIER/>%</font> and reducing the radius that enemies will detect you by <font color='#3ABD23'><Ability:STALK_DETECTION_MODIFIER/>%</font> while active."
+
+[WOTC_APA_StalkOff X2AbilityTemplate]
+LocFriendlyName = "Hunt: Toggle Off"
+LocFlyOverText = "Hunt"
+LocHelpText = "Stop Hunting, returning Mobility and enemy detection radius back to normal."
+LocLongDescription = "Stop Hunting, returning Mobility and enemy detection radius back to normal."
+
 
 ; - GTS Unlocks -
 
