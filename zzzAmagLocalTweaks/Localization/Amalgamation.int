@@ -67,6 +67,17 @@ SpecSummary="Trained by Reapers, the Vanguard specializes in slipping through, a
 ;***************************************
 
 ;  ////////////////
+;  //  Arbalist  //
+;  ////////////////
+
+[AArbalist]
+SpecName="Arbalist"
+SpecSummary="The Arbalist specializes in the use of an unorthodox weapon: the crossbow. Arbalists excel at stealth and assassination."
+
+
+
+
+;  ////////////////
 ;  //  Commando  //
 ;  ////////////////
 

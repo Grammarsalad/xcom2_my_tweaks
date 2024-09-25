@@ -53,6 +53,26 @@ LocFlyOverText = "Hunt"
 LocHelpText = "Stop Hunting, returning Mobility and enemy detection radius back to normal."
 LocLongDescription = "Stop Hunting, returning Mobility and enemy detection radius back to normal."
 
+[WOTC_APA_Blindside X2AbilityTemplate]
+LocFriendlyName = "Blindside"
+LocFlyOverText = "Blindside"
+LocHelpText = "Take a shot that will disorient the target, and deal <font color='#CA7200'><Ability:BLINDSIDE_DAMAGE_MULTIPLIER/>%</font> damage (or <font color='#CA7200'><Ability:BLINDSIDE_CRIT_DAMAGE_MULTIPLIER/>%</font> damage on Critical Hits). If concealed, this shot will not break individual concealment, though it will break squad concealment. <font color='#CA7200'><Ability:BLINDSIDE_COOLDOWN/></font> turn cooldown."
+LocLongDescription = "Take a shot that will disorient the target, and deal <font color='#CA7200'><Ability:BLINDSIDE_DAMAGE_MULTIPLIER/>%</font> damage (or <font color='#CA7200'><Ability:BLINDSIDE_CRIT_DAMAGE_MULTIPLIER/>%</font> damage on Critical Hits). If concealed, this shot will not break individual concealment, though it will break squad concealment. <font color='#CA7200'><Ability:BLINDSIDE_COOLDOWN/></font> turn cooldown."
+LocPromotionPopupText = "Take a shot that will disorient the target, and deal <font color='#CA7200'><Ability:BLINDSIDE_DAMAGE_MULTIPLIER/>%</font> damage (or <font color='#CA7200'><Ability:BLINDSIDE_CRIT_DAMAGE_MULTIPLIER/>%</font> damage on Critical Hits). If concealed, this shot will not break individual concealment, though it will break squad concealment. <font color='#CA7200'><Ability:BLINDSIDE_COOLDOWN/></font> turn cooldown.<br/><br/><Bullet/> Blindside wont give away the <Ability:ClassName/>'s position, but it will alert enemies, breaking general squad concealment.<br/><Bullet/> Enemies that are immune to mental damage will not be disoriented."
+
+[WOTC_APA_BlindsideShot X2AbilityTemplate]
+LocFriendlyName = "Blindside"
+LocFlyOverText = "Blindside"
+LocHelpText = "Take a shot that will disorient the target, and deal <font color='#CA7200'><Ability:BLINDSIDE_DAMAGE_MULTIPLIER/>%</font> damage (or <font color='#CA7200'><Ability:BLINDSIDE_CRIT_DAMAGE_MULTIPLIER/>%</font> damage on Critical Hits). If concealed, this shot will not break individual concealment, though it will break squad concealment. <font color='#CA7200'><Ability:BLINDSIDE_COOLDOWN/></font> turn cooldown."
+LocLongDescription = "Take a shot that will disorient the target, and deal <font color='#CA7200'><Ability:BLINDSIDE_DAMAGE_MULTIPLIER/>%</font> damage (or <font color='#CA7200'><Ability:BLINDSIDE_CRIT_DAMAGE_MULTIPLIER/>%</font> damage on Critical Hits). If concealed, this shot will not break individual concealment, though it will break squad concealment. <font color='#CA7200'><Ability:BLINDSIDE_COOLDOWN/></font> turn cooldown."
+
+[MZSurefireShot X2AbilityTemplate]
+LocFriendlyName="Fire Bolt"
+LocLongDescription="Fire a searing bolt that's sure to hit. Deals fire damage and inflicts burning."
+LocHelpText="Fire a searing bolt that's sure to hit. Deals fire damage and inflicts burning."
+LocFlyOverText="Surefire Shot"
+LocPromotionPopupText="<Bullet/> Always hits, but cannot crit.<br/><Bullet/> Cannot be dodged or deflected.<br/><Bullet/> Weapon damage is converted to fire, so Surefire Shot cannot be used against fire immune foes.<br/><Bullet/> Has <Ability:SelfCharges/> charges."
+
 
 ; - GTS Unlocks -
 
