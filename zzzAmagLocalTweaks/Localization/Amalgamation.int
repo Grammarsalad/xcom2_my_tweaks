@@ -75,19 +75,6 @@ SpecName="Commando"
 SpecSummary="The Commando carries a Combat Knife for unexpected close range encounters and is trained in some of our more unconventional combat tactics."
 
 ;  ////////////////
-;  //  Fencer  //
-;  ////////////////
-
-[ABlademaster]
-SpecName="Fencer"
-SpecSummary="The Fencer is well trained in melee combat, and often prefers blades to firearms."
-
-[BBlademaster]
-SpecName="Fencer"
-SpecSummary="The Fencer is well trained in melee combat, and often prefers blades to firearms."
-
-
-;  ////////////////
 ;  //  Outrider  //
 ;  ////////////////
 
@@ -126,6 +113,15 @@ SpecSummary="The Shinobi specializes in melee and stealth, with a secondary focu
 ;***************************************
 ;Tertiary Classes 
 ;***************************************
+
+;  ////////////////
+;  //  Fencer  //
+;  ////////////////
+
+
+[BBlademaster]
+SpecName="Fencer"
+SpecSummary="The Fencer is well trained in melee combat, and often prefers blades to firearms."
 
 ;  //////////////
 ;  // Sentinel //
