@@ -10,6 +10,13 @@
 SpecName="Agent"
 SpecSummary="The Agent specializes in infiltration and stealth. They are masters of infiltrating enemy cities, gathering intelligence, and completing the mission."
 
+;  //////////////////////
+;  // Assault Infantry //
+;  //////////////////////
+
+[AAssault]
+SpecName="Assault"
+SpecSummary="The Assault serves as our front-line unit, delivering devastating close range firepower against unsuspecting aliens."
 
 ;  ////////////
 ;  // Gunner //
@@ -174,13 +181,6 @@ SpecSummary="The Snoop excels at keeping a low profile, to both maintain self-pr
 SpecName="Alchemist"
 SpecSummary="The Alchemist has a love for mixing mundane chemicals to create wide-spreading effects. They are equally adept at supporting their allies and controlling and damaging their foes."
 
-;  //////////////////////
-;  // Assault Infantry //
-;  //////////////////////
-
-[Assault]
-SpecName="Assault"
-SpecSummary="The Assault serves as our front-line unit, delivering devastating close range firepower against unsuspecting aliens."
 
 ;  ////////////////
 ;  // Apothecary //
