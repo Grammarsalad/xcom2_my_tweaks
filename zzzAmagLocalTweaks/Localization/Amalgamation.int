@@ -26,6 +26,14 @@ SpecSummary="The Assault serves as our front-line unit, delivering devastating c
 SpecName="Gunner"
 SpecSummary="A heavy weapons specialist, the Gunners specialize in taking and holding positions."
 
+;  ////////////////
+;  // Gunslinger //
+;  ////////////////
+
+[Gunny]
+SpecName="Gunslinger"
+SpecSummary="The Gunslinger is a wild card, unmatched with a handgun, and able to wield two guns simultaneously to deadly effect."
+
 ;  //////////////
 ;  // Infantry //
 ;  //////////////
@@ -225,13 +233,6 @@ SpecName="Gadgeteer"
 SpecSummary="A jack of all trades, the Gadgeteer specializes in problem solving. The Gadgeteer always seems to have a trick up his sleeve to save the day."
 
 
-;  ////////////////
-;  // Gunslinger //
-;  ////////////////
-
-[Gunny]
-SpecName="Gunslinger"
-SpecSummary="The Gunslinger is a wild card, unmatched with a handgun, and able to wield two guns simultaneously to deadly effect."
 
 
 

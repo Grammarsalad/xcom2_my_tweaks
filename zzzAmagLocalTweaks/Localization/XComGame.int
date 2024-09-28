@@ -73,6 +73,12 @@ LocHelpText="Fire a searing bolt that's sure to hit. Deals fire damage and infli
 LocFlyOverText="Surefire Shot"
 LocPromotionPopupText="<Bullet/> Always hits, but cannot crit.<br/><Bullet/> Cannot be dodged or deflected.<br/><Bullet/> Weapon damage is converted to fire, so Surefire Shot cannot be used against fire immune foes.<br/><Bullet/> Has <Ability:SelfCharges/> charges."
 
+[WOTC_KPP_FrontlineTraining X2AbilityTemplate]
+LocFriendlyName = "Frontline Training"
+LocHelpText = "The <Ability:ClassName/> gains perks that improve fighting and flanking enemies in close quarters and improves thier Arcthrower."
+LocLongDescription = "The <Ability:ClassName/> gains perks that improve fighting and flanking enemies in close quarters and improves their Arcthrower."
+LocPromotionPopupText = "<font color='#CA7200'>LEVEL I</font> (gained at <Ability:RANKNAME1/> rank [1])<br/><Bullet/> Gains Breaching Maneuver perk (Gain a half-movement action upon killing a flanked/stunned/disoriented enemy).<br/><Bullet/> Gains Take Cover perk(Hunker Down is a single action and can be used by a movement action or if only movement actions were used)<br/><Bullet/> Gain <font color='#3ABD23'><Ability:FRONTLINE_DEFENSE/></font> Defense.<br/><br/><font color='#CA7200'>LEVEL II</font> (gained at <Ability:RANKNAME3/> rank [3])<br/><Bullet/> Gains Trench Warfare perk (Killing an enemy provides Hunker Down).<br/><Bullet/> Certain Arcthrower perks are single actions.<br/><Bullet/> Gain <font color='#3ABD23'><Ability:FRONTLINE_MOBILITY/></font> Mobility.<br/><br/><font color='#CA7200'>LEVEL III</font> (gained at <Ability:RANKNAME6/> rank [6]<br/><Bullet/> Gains Quick Load perk (Hunkering Down automatically reloads <font color='#3ABD23'><Ability:QUICK_LOAD_AMMO_TO_RELOAD/></font> round in your Primary).<br/><Bullet/> Attacks now Shred Armor.<br/><Bullet/> Gain <font color='#3ABD23'><Ability:FRONTLINE_CRIT_CHANCE/></font> Crit Chance."
+
 
 ; - GTS Unlocks -
 
