@@ -32,6 +32,58 @@ LocFriendlyName = "Shadow Meld"
 LocLongDescription = "The <Ability:ClassName/>'s ability to slip through, and strike from, the shadows increases with experience."
 LocPromotionPopupText = "<font color='#CA7200'>FOCUS MECHANIC:</font> Build up Shadow Stacks while concealed to enhance bonuses to Detection Radius and Critical Hit chance. Other <Ability:ClassName/> abilities can grant additional benefits based on active Shadow Stacks.<br/><Bullet/> Gain Fade. <br/><Bullet/> Detection Radius is decreased by <font color='#3ABD23'><Ability:SHADOW_STACK_VARIABLE_DETECTION_BONUS/>%</font> for each active Shadow Stack.<br/><Bullet/> Critical Hit chance is increased by <font color='#3ABD23'>+<Ability:SHADOW_STACK_CRIT_CHANCE_BONUS/>%</font> for each active Shadow Stack.<br/><Bullet/> At the beginning of each turn, if concealed, gain <font color='#3ABD23'>+<Ability:SHADOW_STACK_GAIN_PER_TURN/></font> Shadow Stack. Gain <font color='#3ABD23'>+<Ability:SHADOW_STACK_GAIN_HUNKER/></font> additional Shadow Stack if you<br/>  Hunkered Down and were concealed the previous turn.<br/><Bullet/> Attacks that do not break concealment through Silent Killer consume Shadow Stacks.<br/><br/><font color='#CA7200'>LEVEL I</font> (gained at <Ability:RANKNAME1/> rank [1])<br/><Bullet/> The <Ability:ClassName/> can attempt to hack into adjacent ADVENT security towers using their XPAD.<br/><Bullet/> Gain Ambush, an ability that allows toggling whether or not to take overwatch shots while concealed.<br/><Bullet/> Begin missions concealed with <font color='#3ABD23'><Ability:SHADOW_STACK_START_I/></font> active Shadow Stack.  Initial maximum is <font color='#3ABD23'><Ability:SHADOW_STACK_MAX_I/></font> Shadow Stacks.<br/><br/><font color='#CA7200'>LEVEL II</font> (gained at <Ability:RANKNAME3/> rank [3])<br/><Bullet/> Begin missions concealed with <font color='#3ABD23'><Ability:SHADOW_STACK_START_II/></font> active Shadow Stacks.  Maximum is increased to <font color='#3ABD23'><Ability:SHADOW_STACK_MAX_II/></font> Shadow Stacks.<br/><br/><font color='#CA7200'>LEVEL III</font> (gained at <Ability:RANKNAME6/> rank [6])<br/><Bullet/> Begin missions concealed with <font color='#3ABD23'><Ability:SHADOW_STACK_START_III/></font> active Shadow Stacks.  Maximum is increased to <font color='#3ABD23'><Ability:SHADOW_STACK_MAX_III/></font> Shadow Stacks."
 
+
+[WOTC_KPP_FrontlineTraining X2AbilityTemplate]
+LocFriendlyName = "Frontline Training"
+LocHelpText = "The <Ability:ClassName/> gains perks that improve fighting and flanking enemies in close quarters and improves thier Arcthrower."
+LocLongDescription = "The <Ability:ClassName/> gains perks that improve fighting and flanking enemies in close quarters and improves their Arcthrower."
+LocPromotionPopupText = "<font color='#CA7200'>LEVEL I</font> (gained at <Ability:RANKNAME1/> rank [1])<br/><Bullet/> Gains Breaching Maneuver perk (Gain a half-movement action upon killing a flanked/stunned/disoriented enemy).<br/><Bullet/> Gains Take Cover perk(Hunker Down is a single action and can be used by a movement action or if only movement actions were used)<br/><Bullet/> Gain <font color='#3ABD23'><Ability:FRONTLINE_DEFENSE/></font> Defense.<br/><br/><font color='#CA7200'>LEVEL II</font> (gained at <Ability:RANKNAME3/> rank [3])<br/><Bullet/> Gains Trench Warfare perk (Killing an enemy provides Hunker Down).<br/><Bullet/> Certain Arcthrower perks are single actions.<br/><Bullet/> Gain <font color='#3ABD23'><Ability:FRONTLINE_MOBILITY/></font> Mobility.<br/><br/><font color='#CA7200'>LEVEL III</font> (gained at <Ability:RANKNAME6/> rank [6]<br/><Bullet/> Gains Quick Load perk (Hunkering Down automatically reloads <font color='#3ABD23'><Ability:QUICK_LOAD_AMMO_TO_RELOAD/></font> round in your Primary).<br/><Bullet/> Attacks now Shred Armor.<br/><Bullet/> Gain <font color='#3ABD23'><Ability:FRONTLINE_CRIT_CHANCE/></font> Crit Chance."
+
+[WOTC_APA_Harass X2AbilityTemplate]
+LocFriendlyName = "Unit Harassment"
+LocHelpText = "The <Ability:ClassName/>'s Combat abilitities improve with continued training"
+LocLongDescription = "The <Ability:ClassName/>'s training improves the effectiveness of their bullpup and the ability to avoid retaliation."
+LocFlyOverText="Unit Harassment"
+LocPromotionPopupText = "<font color='#CA7200'>LEVEL I</font> (gained at <Ability:RANKNAME1/> rank [1])<br/><Bullet/> Defensive Mine.<br/><Bullet/> Gain the Marauder Perk, allowing the <Ability:ClassName/> to shoot twice with their bullpup.<br/><Bullet/> Gain 2 to Pierce to primary weapon.<br/><Bullet/> Gain 10 to Dodge.<br/><br/><br/><font color='#CA7200'>LEVEL II</font> (gained at <Ability:RANKNAME3/> rank [3])<br/><Bullet/> Primary weapon can’t graze.<br/><Bullet/> Honed Edge skill. <br/><Bullet/> Gain 15 to Dodge.<br/><br/><br/><font color='#CA7200'>LEVEL III</font> (gained at <Ability:RANKNAME6/> rank [6]<br/><Bullet/> Gain 2 to Pierce to primary weapon.<br/><Bullet/> Gain 15 to Dodge. <br/><Bullet/> Gain the Ruthless perk.<br/><)"
+
+; - GTS Unlocks -
+
+[WOTCbrawlUnlock1 X2SoldierAbilityUnlockTemplate]
+DisplayName = "Heretic: Initiate"
+Summary = "All Heretic soldiers' gain level 2 training, regardless of rank.""
+
+[WOTCbrawlUnlock2 X2SoldierAbilityUnlockTemplate]
+DisplayName = "Heretic: Risen"
+Summary = "All Heretic soldiers' gain level 3 training, regardless of rank."<br/><br/><font color='#CA7200'>Requires Heretic Initiate Training</font>"
+
+[GrenadeLauncher_BM X2GrenadeLauncherTemplate]
+FriendlyName="Superior Grenade Launcher"
+FriendlyNamePlural="Superior Grenade Launchers"
+BriefSummary="The Superior Grenade Launcher combines our latest breakthroughs in beam technology to further enhance our launchers' range and to increase the effect radius of launched projectiles."
+TacticalText="<Bullet/> The Superior Grenade Launcher has an increased range over the Advanced Grenade Launcher."
+AbilityDescName="grenade launcher"
+
+[Inquisitor_RightBackAtYou X2AbilityTemplate]
+LocFriendlyName = "Right back at you!"
+LocHelpText = "The <Ability:ClassName/> returns fire at any visible target that directly damages them."
+LocLongDescription = "Upon being hit by any attack, return fire with your primary weapon. This shot has a <font color='#3ABD23'>+10%</font>/<font color='#b7bd1c'>+20%</font>/<font color='#d48013'>+30%</font> chance to hit, and can trigger once per individual enemy."
+LocPromotionPopupText = "<font color='#CA7200'>LEVEL I</font> (gained at Squaddie rank [1])<br/>Upon taking damage from an attack directly targeted at you, if visible, return fire with a <font color='#3ABD23'>+10%</font> chance to hit. This can trigger once per individual enemy.<br/><br/><font color='#CA7200'>LEVEL II</font> (gained at Captain rank [5])<br/><Bullet/>The bonus to hit is increased to <font color='#b7bd1c'>+20%</font>.<br/><br/><font color='#CA7200'>LEVEL III</font> (gained at Brigadier rank [8])<br/><Bullet/>The bonus to hit is further increased to <font color='#b7bd1c'>+30%</font>."
+
+
+; - Perks -
+
+[SKV_ResistFalling33 X2AbilityTemplate]
+LocFriendlyName = "Scouting Expertise"
+LocHelpText = "The <Ability:ClassName/> is experienced in reconnaissance, especially from elevated heights. Gain phantom, a single use of Grapple, and takes 33% less damage from falling."
+LocLongDescription = "Gain phantom, -1 Detection Radius, a single use of Grapple, and take 33% less damage from falling."
+LocPromotionPopupText = "Gain phantom, a single use of Grapple, and takes 33% less damage from falling."
+
+
+[B_Sneaky X2AbilityTemplate]
+LocFriendlyName="Sneaky"
+LocLongDescription="The soldier gets -1 Detection Radius."
+LocHelpText="The soldier gets -1 Detection Radius."
+
 ; rename so as not to confuse with shadow ops stalker:
 
 [WOTC_APA_Stalker X2AbilityTemplate]
@@ -73,50 +125,32 @@ LocHelpText="Fire a searing bolt that's sure to hit. Deals fire damage and infli
 LocFlyOverText="Surefire Shot"
 LocPromotionPopupText="<Bullet/> Always hits, but cannot crit.<br/><Bullet/> Cannot be dodged or deflected.<br/><Bullet/> Weapon damage is converted to fire, so Surefire Shot cannot be used against fire immune foes.<br/><Bullet/> Has <Ability:SelfCharges/> charges."
 
-[WOTC_KPP_FrontlineTraining X2AbilityTemplate]
-LocFriendlyName = "Frontline Training"
-LocHelpText = "The <Ability:ClassName/> gains perks that improve fighting and flanking enemies in close quarters and improves thier Arcthrower."
-LocLongDescription = "The <Ability:ClassName/> gains perks that improve fighting and flanking enemies in close quarters and improves their Arcthrower."
-LocPromotionPopupText = "<font color='#CA7200'>LEVEL I</font> (gained at <Ability:RANKNAME1/> rank [1])<br/><Bullet/> Gains Breaching Maneuver perk (Gain a half-movement action upon killing a flanked/stunned/disoriented enemy).<br/><Bullet/> Gains Take Cover perk(Hunker Down is a single action and can be used by a movement action or if only movement actions were used)<br/><Bullet/> Gain <font color='#3ABD23'><Ability:FRONTLINE_DEFENSE/></font> Defense.<br/><br/><font color='#CA7200'>LEVEL II</font> (gained at <Ability:RANKNAME3/> rank [3])<br/><Bullet/> Gains Trench Warfare perk (Killing an enemy provides Hunker Down).<br/><Bullet/> Certain Arcthrower perks are single actions.<br/><Bullet/> Gain <font color='#3ABD23'><Ability:FRONTLINE_MOBILITY/></font> Mobility.<br/><br/><font color='#CA7200'>LEVEL III</font> (gained at <Ability:RANKNAME6/> rank [6]<br/><Bullet/> Gains Quick Load perk (Hunkering Down automatically reloads <font color='#3ABD23'><Ability:QUICK_LOAD_AMMO_TO_RELOAD/></font> round in your Primary).<br/><Bullet/> Attacks now Shred Armor.<br/><Bullet/> Gain <font color='#3ABD23'><Ability:FRONTLINE_CRIT_CHANCE/></font> Crit Chance."
+[IRI_BH_Headhunter X2AbilityTemplate]
+LocFriendlyName="Headhunter"
+LocLongDescription="Killing an enemy with your <Ability:IRI_BoundWeaponName/> permanently increases its critical chance against other enemies of that type by +<Ability:IRI_BH_Headhunter_CritBonus/>. This bonus is cumulative."
+LocHelpText="Killing an enemy with your <Ability:IRI_BoundWeaponName/> permanently increases its critical chance against other enemies of that type by +<Ability:IRI_BH_Headhunter_CritBonus/>. This bonus is cumulative."
+LocPromotionPopupText="Current bonuses:<Ability:IRI_TAG_BH_Headhunter_Bonuses/>"
+LocFlyOverText="Headhunter: "
 
+[IRI_BH_Nightfall X2AbilityTemplate]
+LocFriendlyName="Nightfall"
+LocLongDescription="Activate to enter Nightfall for <Ability:IRI_BH_Nightfall_Duration/> turns, an advanced form of concealment with reduced detection radius. <Ability:SelfCooldown/> turn cooldown."
+LocHelpText="Activate to enter Nightfall for <Ability:IRI_BH_Nightfall_Duration/> turns, an advanced form of concealment with reduced detection radius."
+LocPromotionPopupText="<bullet/> Nightfall cannot be activated while you're flanked.<br/><bullet/> Nightfall has a very small detection radius, but otherwise functions like regular concealment, and without special training will be broken by attacking.<br/><bullet/> Nightfall is not broken when other soldiers in your squad break concealment.<br/><bullet/> If you are already concealed when Nightfall is activated, then your concealment will not be broken if Nightfall runs out naturally."
+LocFlyOverText="Nightfall"
 
-; - GTS Unlocks -
+[IRI_BH_Nightfall_Passive X2AbilityTemplate]
+LocFriendlyName="Dead of Night"
+LocLongDescription="Gain +<Ability:IRI_BH_Nightfall_CritChanceBonusWhenUnseen/> Crit Chance against enemies that do not see you.<br/>Gain +1 Crit Damage for every <Ability:IRI_BH_Nightfall_CritDamageBonusPerCritChanceOverflow/> of Crit Chance above 100%."
+LocHelpText="Gain +<Ability:IRI_BH_Nightfall_CritChanceBonusWhenUnseen/> Crit Chance against enemies that do not see you. Gain +1 Crit Damage for every <Ability:IRI_BH_Nightfall_CritDamageBonusPerCritChanceOverflow/> of Crit Chance above 100%."
+LocPromotionPopupText="<bullet/> Use Nightfall and flank enemies to boost your damage output."
+LocFlyOverText="Dead of Night"
 
-[WOTCbrawlUnlock1 X2SoldierAbilityUnlockTemplate]
-DisplayName = "Heretic: Initiate"
-Summary = "All Heretic soldiers' gain level 2 training, regardless of rank.""
-
-[WOTCbrawlUnlock2 X2SoldierAbilityUnlockTemplate]
-DisplayName = "Heretic: Risen"
-Summary = "All Heretic soldiers' gain level 3 training, regardless of rank."<br/><br/><font color='#CA7200'>Requires Heretic Initiate Training</font>"
-
-[GrenadeLauncher_BM X2GrenadeLauncherTemplate]
-FriendlyName="Superior Grenade Launcher"
-FriendlyNamePlural="Superior Grenade Launchers"
-BriefSummary="The Superior Grenade Launcher combines our latest breakthroughs in beam technology to further enhance our launchers' range and to increase the effect radius of launched projectiles."
-TacticalText="<Bullet/> The Superior Grenade Launcher has an increased range over the Advanced Grenade Launcher."
-AbilityDescName="grenade launcher"
-
-[Inquisitor_RightBackAtYou X2AbilityTemplate]
-LocFriendlyName = "Right back at you!"
-LocHelpText = "The <Ability:ClassName/> returns fire at any visible target that directly damages them."
-LocLongDescription = "Upon being hit by any attack, return fire with your primary weapon. This shot has a <font color='#3ABD23'>+10%</font>/<font color='#b7bd1c'>+20%</font>/<font color='#d48013'>+30%</font> chance to hit, and can trigger once per individual enemy."
-LocPromotionPopupText = "<font color='#CA7200'>LEVEL I</font> (gained at Squaddie rank [1])<br/>Upon taking damage from an attack directly targeted at you, if visible, return fire with a <font color='#3ABD23'>+10%</font> chance to hit. This can trigger once per individual enemy.<br/><br/><font color='#CA7200'>LEVEL II</font> (gained at Captain rank [5])<br/><Bullet/>The bonus to hit is increased to <font color='#b7bd1c'>+20%</font>.<br/><br/><font color='#CA7200'>LEVEL III</font> (gained at Brigadier rank [8])<br/><Bullet/>The bonus to hit is further increased to <font color='#b7bd1c'>+30%</font>."
-
-; - Perks -
-
-[SKV_ResistFalling33 X2AbilityTemplate]
-LocFriendlyName = "Scouting Expertise"
-LocHelpText = "The <Ability:ClassName/> is experienced in reconnaissance, especially from elevated heights. Gain phantom, a single use of Grapple, and takes 33% less damage from falling."
-LocLongDescription = "Gain phantom, -1 Detection Radius, a single use of Grapple, and take 33% less damage from falling."
-LocPromotionPopupText = "Gain phantom, a single use of Grapple, and takes 33% less damage from falling."
-
-
-[B_Sneaky X2AbilityTemplate]
-LocFriendlyName="Sneaky"
-LocLongDescription="The soldier gets -1 Detection Radius."
-LocHelpText="The soldier gets -1 Detection Radius."
-
+[INHIBITING_SHOT X2AbilityTemplate]
+LocFriendlyName="Inhibiting Shot"
+LocLongDescription="Fire a single shot. Successful hit reduces target movement for 2 turn by 8 tiles and disorientate for 1 turn. Cost 1 AP but ends turn, 3 ammo, 4 turn cooldown"
+LocHelpText="Reduces mobility by 8 for 3 turns and adds standard disorientate."
+LocFlyOverText="Inhibiting Shot"
 
 ;***************************************
 ;Equipment

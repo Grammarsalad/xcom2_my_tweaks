@@ -42,6 +42,15 @@ SpecSummary="The Gunslinger is a wild card, unmatched with a handgun, and able t
 SpecName="Infantry"
 SpecSummary="The Infantry is the backbone of the resistance, taking and holding position without the need for specialized weaponry."
 
+;  ///////////////
+;  // Marauder  //
+;  ///////////////
+
+[BMarauder]
+SpecName="Marauder"
+SpecSummary="The Marauder is a skirmisher par excellence. They move quick, getting into a flanking position, operate their primary weapon with utmost efficiency, shooting twice as often compared to other specializations."
+
+
 ;  //////////////
 ;  // Samurai  //
 ;  //////////////
@@ -89,9 +98,6 @@ SpecSummary="Trained by Reapers, the Vanguard specializes in slipping through, a
 SpecName="Arbalist"
 SpecSummary="The Arbalist specializes in the use of an unorthodox weapon: the crossbow. Arbalists excel at stealth and assassination."
 
-
-
-
 ;  ////////////////
 ;  //  Commando  //
 ;  ////////////////
@@ -99,6 +105,16 @@ SpecSummary="The Arbalist specializes in the use of an unorthodox weapon: the cr
 [Aarnold]
 SpecName="Commando"
 SpecSummary="The Commando carries a Combat Knife for unexpected close range encounters and is trained in some of our more unconventional combat tactics."
+
+;  ////////////
+;  // Hunter //
+;  ////////////
+; Get from orig description 
+
+[Hunty]
+SpecName="Hunter"
+SpecSummary="The Hunter specializes in eliminating priority targets by ambushing them with surprise attacks."
+
 
 ;  ////////////////
 ;  //  Outrider  //
@@ -233,10 +249,6 @@ SpecName="Gadgeteer"
 SpecSummary="A jack of all trades, the Gadgeteer specializes in problem solving. The Gadgeteer always seems to have a trick up his sleeve to save the day."
 
 
-
-
-
-
 ;  //////////////////////
 ;  //     Phalanx      //
 ;  //////////////////////
@@ -284,27 +296,6 @@ SpecSummary="The Quartermaster is responsible for ensuring that the soldiers of 
 
 
 ; Secondaries
-
-;  ////////////
-;  // Hunter //
-;  ////////////
-; Get from orig description 
-
-[Hunty]
-SpecName="Hunter"
-SpecSummary="The Hunter specializes in eliminating priority targets by ambushing them with surprise attacks."
-
-
-
-
-;  ///////////////
-;  // Marauder  //
-;  ///////////////
-
-[BMarauder]
-SpecName="Marauder"
-SpecSummary="The Marauder can operate their primary weapon with utmost efficiency, shooting twice as often compared to other specializations."
-
 
 
 ;  //////////////
