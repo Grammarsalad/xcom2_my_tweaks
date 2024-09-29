@@ -106,6 +106,17 @@ SpecSummary="The Arbalist specializes in the use of an unorthodox weapon: the cr
 SpecName="Commando"
 SpecSummary="The Commando carries a Combat Knife for unexpected close range encounters and is trained in some of our more unconventional combat tactics."
 
+
+
+;  ////////////////
+;  //  Executioner  //
+;  ////////////////
+
+[ExecutionerB]
+SpecName="Executioner"
+SpecSummary="The Executioner specializes in single target elimination up close and personal with their trusty sawed-off shotgun."
+
+
 ;  ////////////
 ;  // Hunter //
 ;  ////////////
