@@ -163,6 +163,14 @@ SpecSummary="The Rifleman trains extensively in om tactics, bringing the fight t
 SpecName="Shinobi"
 SpecSummary="The Shinobi specializes in melee and stealth, with a secondary focus on infiltration and assassination."
 
+;  //////////////
+;  // Scrapper //
+;  //////////////
+
+[BScrapper]
+SpecName="Scrapper"
+SpecSummary="The Scrapper is a mobile warrior, specializing in hit and run tactics."
+
 ;***************************************
 ;Tertiary Classes 
 ;***************************************
@@ -317,13 +325,6 @@ SpecSummary="The Quartermaster is responsible for ensuring that the soldiers of 
 SpecName="Scout"
 SpecSummary="The Scout is a reconnaissance unit, providing crucial battlefield intelligence while waiting for the opportune moment to strike."
 
-;  //////////////
-;  // Scrapper //
-;  //////////////
-
-[BScrapper]
-SpecName="Scrapper"
-SpecSummary="The Scrapper is a mobile warrior, specializing in hit and run tactics."
 
 
 ;  //////////////

@@ -152,6 +152,13 @@ LocLongDescription="Fire a single shot. Successful hit reduces target movement f
 LocHelpText="Reduces mobility by 8 for 3 turns and adds standard disorientate."
 LocFlyOverText="Inhibiting Shot"
 
+[WOTC_APA_KillerInstinct X2AbilityTemplate]
+LocFriendlyName = "Predator's Instinct"
+LocFlyOverText = "Predator's Instinct"
+LocHelpText = "Deal <font color='#3ABD23'>+<Ability:KILLER_INSTINCT_DAMAGE_BONUS/></font> Damage and <font color='#3ABD23'>+<Ability:KILLER_INSTINCT_CRITICAL_DAMAGE_MULTIPLIER/>%</font> total Damage on Critical Hits when Run and Gun is activated."
+LocLongDescription = "Deal <font color='#3ABD23'>+<Ability:KILLER_INSTINCT_DAMAGE_BONUS/></font> Damage and <font color='#3ABD23'>+<Ability:KILLER_INSTINCT_CRITICAL_DAMAGE_MULTIPLIER/>%</font> total Damage on Critical Hits when Run and Gun is activated."
+LocPromotionPopupText = "Deal <font color='#3ABD23'>+<Ability:KILLER_INSTINCT_DAMAGE_BONUS/></font> Damage and <font color='#3ABD23'>+<Ability:KILLER_INSTINCT_CRITICAL_DAMAGE_MULTIPLIER/>%</font> total Damage on Critical Hits when Run and Gun is activated.<br/><br/><Bullet/> The bonus Damage from activating Run and Gun will last until the beginning of your next turn.<br/><Bullet/> Predator's Instinct's damage bonus applies to attacks with either the primary or secondary weapon."
+
 ;***************************************
 ;Equipment
 ;***************************************
