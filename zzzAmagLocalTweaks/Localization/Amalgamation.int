@@ -163,13 +163,6 @@ SpecSummary="The Rifleman trains extensively in om tactics, bringing the fight t
 SpecName="Shinobi"
 SpecSummary="The Shinobi specializes in melee and stealth, with a secondary focus on infiltration and assassination."
 
-;  //////////////
-;  // Scrapper //
-;  //////////////
-
-[BScrapper]
-SpecName="Scrapper"
-SpecSummary="The Scrapper is a mobile warrior, specializing in hit and run tactics."
 
 ;***************************************
 ;Tertiary Classes 
@@ -210,6 +203,13 @@ SpecSummary="The Sentry specializes in securing an area with a sniper rifle."
 SpecName="Snoop"
 SpecSummary="The Snoop excels at keeping a low profile, to both maintain self-preservation, and slipping behind enemy lines."
 
+;  //////////////
+;  // Scrapper //
+;  //////////////
+
+[BScrapper]
+SpecName="Scrapper"
+SpecSummary="The Scrapper is a mobile warrior, specializing in hit and run tactics."
 
 ; CONTINUE
 
