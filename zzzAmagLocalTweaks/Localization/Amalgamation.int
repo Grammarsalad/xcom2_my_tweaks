@@ -168,10 +168,19 @@ SpecSummary="The Shinobi specializes in melee and stealth, with a secondary focu
 ;Tertiary Classes 
 ;***************************************
 
+
+;  ////////////////
+;  //  Akimbo  //
+;  ////////////////
+
+[BGunslinger]
+SpecName="Akimbo"
+SpecSummary="The Akimbo is a rare gunslinger that specializes in dual pistols."
+
+
 ;  ////////////////
 ;  //  Fencer  //
 ;  ////////////////
-
 
 [BBlademaster]
 SpecName="Fencer"
