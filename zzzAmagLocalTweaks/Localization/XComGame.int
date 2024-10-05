@@ -509,6 +509,26 @@ AbilityDescName="Energy AMR"
 ;------------------------------
 ;			Grenades
 
+FriendlyName="Healing Mist Grenade"
+FriendlyNamePlural="Healing Mist Grenades"
+BriefSummary="Heals non robotic units in radius"
+TacticalText="<Bullet/> Heals all non robotic units in radius.\n<Bullet/> Carrying a Heal Grenade grants immunity to poison.\n<Bullet/> Heal Grenades have a smaller radius than standard frag grenades. \n<Bullet/>Works with Heavy Ordnance, Salvo, and Field Medic abilities."
+ThrownAbilityName="Throw Healing Mist Grenade"
+ThrownAbilityHelpText="Heal all non robotic units in the target area for 3HP."
+LaunchedAbilityname="Launch Healing Mist Grenade"
+LaunchedAbilityHelpText="Heal all non robotic in the target area for 3HP."
+
+[HealBomb_Mk2 X2GrenadeTemplate]
+FriendlyName="Healing Mist Bomb"
+FriendlyNamePlural="Healing Mist Bombs"
+BriefSummary="Healing Mist Bombs, an upgrade from earlier Heal Grenades, heal for more health, and have a larger effective radius"
+TacticalText="<Bullet/> Heals all non robotic in radius for 6HP.\n<Bullet/> Carrying a Heal Bomb grants immunity to poison.\n<Bullet/> Works with Heavy Ordnance, Salvo, and Field Medic abilities."
+ThrownAbilityName="Throw Healing Mist Bomb"
+ThrownAbilityHelpText="Heal all non robotic units in the target area for 6HP."
+LaunchedAbilityname="Launch Healing Mist Bomb"
+LaunchedAbilityHelpText="Heal all non robotic in the target area for 6HP."
+
+
 ;BriefSummary="A high explosive grenade that deals extra damage to environments and shreds armor."
 ;TacticalText="<Bullet/> HE grenades are useful for removing, or \"shredding\" enemy armor.<br><Bullet/> They do only little damage, but do devastating damage to the environment.<br><Bullet/> Grenades can destroy targets' equipment, so relying on grenades too much will reduce our salvage opportunities."
 

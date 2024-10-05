@@ -116,6 +116,14 @@ SpecSummary="The Commando carries a Combat Knife for unexpected close range enco
 SpecName="Executioner"
 SpecSummary="The Executioner specializes in single target elimination up close and personal with their trusty sawed-off shotgun."
 
+;  ////////////////
+;  //  Grenadier //
+;  ////////////////
+
+[Grenadier]
+SpecName="Grenadier"
+SpecSummary="The Grenadier bears no regard for the environment, covering the battlefield in varying degrees of what were once considered war crimes."
+
 
 ;  ////////////
 ;  // Hunter //
