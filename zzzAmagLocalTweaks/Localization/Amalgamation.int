@@ -60,6 +60,15 @@ SpecName="Samurai"
 SpecSummary="The Samurai is a master of melee combat with no equal. Even the most dangerous beasts fall to their blade."
 
 ;  //////////////
+;  // Sapper  //
+;  //////////////
+
+[SappyPappy]
+SpecName="Sapper"
+SpecSummary="The Sapper provides long-range explosive support and is adept at disrupting enemy formations and fortifications."
+
+
+;  //////////////
 ;  //  Scout   //
 ;  //////////////
 
@@ -75,6 +84,14 @@ SpecSummary="The Scout is a reconnaissance unit, providing crucial battlefield i
 [ASharpshooter]
 SpecName="Sharpshooter"
 SpecSummary="The Sharpshooter specializes in handling heavy rifles capable of delivering accurate fire over great distances."
+
+;  ////////////////////
+;  //  Specialist  //
+;  ////////////////////
+
+[ASpecialist]
+SpecName="Specialist"
+SpecSummary="The Specialist embraces the most advanced technology, using an array of high-tech utilities to disrupt their enemies and support their allies from afar."
 
 
 ;  ////////////////
@@ -259,6 +276,15 @@ SpecSummary="The Apothecary is a support class tasked with healing allies and in
 [ComEng]
 SpecName="Combat Engineer"
 SpecSummary="The Combat Engineer is a problem solver employing a diverse set of tools to solve problems on the battlefield."
+
+;  /////////////////////
+;  // Combat Medic //
+;  /////////////////////
+
+[AMedic]
+SpecName="Combat Medic"
+SpecSummary="The Combat Medic is not equipped to provide extensive medical treatment, but you can count on him to keep you alive in the heat of battle."
+
 
 ;  //////////////////
 ;  //  Drone Pilot //
