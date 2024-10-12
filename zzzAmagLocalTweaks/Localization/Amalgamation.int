@@ -141,6 +141,14 @@ SpecSummary="The Executioner specializes in single target elimination up close a
 SpecName="Grenadier"
 SpecSummary="The Grenadier bears no regard for the environment, covering the battlefield in varying degrees of what were once considered war crimes."
 
+;  ////////////////
+;  //  Heavy //
+;  ////////////////
+
+[BRocky]
+SpecName="Heavy"
+SpecSummary="The Heavy operates the rocket launcher, either by itself, or integrated in the Gauntlet to provide area denial and explosive force."
+
 
 ;  ////////////
 ;  // Hunter //
@@ -168,15 +176,20 @@ SpecSummary="The Outrider specializes in stealth and mobility, filling many diff
 SpecName="Marksman"
 SpecSummary="The Marksman is trained in sniper rifles. Give them time to prepare, and they are deadly at long range."
 
+;  //////////////////////////
+;  //  Medical Technician  //
+;  //////////////////////////
+
+[BCombatMedic]
+SpecName="Medical Technician"
+SpecSummary="Mixing human ingenuity with the latest tech, the Medical Technician is trained in using the aliens' own tools against them."
+
+
 ;  ////////////////
 ;  //  Rifleman  //
 ;  ////////////////
 
 [BInfantry]
-SpecName="Rifleman"
-SpecSummary="The Rifleman trains extensively in om tactics, bringing the fight to the aliens with the trusty rifle."
-
-[CInfantry]
 SpecName="Rifleman"
 SpecSummary="The Rifleman trains extensively in om tactics, bringing the fight to the aliens with the trusty rifle."
 
@@ -201,6 +214,14 @@ SpecSummary="The Shinobi specializes in melee and stealth, with a secondary focu
 [BGunslinger]
 SpecName="Akimbo"
 SpecSummary="The Akimbo is a rare gunslinger that specializes in dual pistols."
+
+;  /////////////////
+;  // Electrician //
+;  /////////////////
+
+[AForcy]
+SpecName="Electrician"
+SpecSummary="The Electrician wields the Arc Thrower to pacify enemy personnel with shocking efficiency."
 
 
 ;  ////////////////
@@ -245,7 +266,15 @@ SpecSummary="The Snoop excels at keeping a low profile, to both maintain self-pr
 SpecName="Scrapper"
 SpecSummary="The Scrapper is a mobile warrior, specializing in hit and run tactics."
 
-; CONTINUE
+;  ////////////
+;  // Warden //
+;  ////////////
+
+
+[BGunner]
+SpecName="Warden"
+SpecSummary="The Warden specializes in holding a dangerous enemy at bay."
+
 
 
 
@@ -386,6 +415,14 @@ SpecSummary="The Witch is a rare natural psionic, specializing in mental manipul
 SpecName="Tesla Trooper"
 SpecSummary="When this Scientist went seemingly mad with power while toying with an Experimental Weapons Technology retrieved from a destroyed XCOM Base in Russia, Bradford ordered this questionably sane Crewmember to the front lines."
 
+;  //////////////
+;  //  Techie   //
+;  //////////////
+
+[ATechspert]
+SpecName="Techie"
+SpecSummary="The Techie operates the Gremlin to infiltrate enemy systems and carry out surprise attacks from within."
+
 
 ;  //////////////
 ;  // Support  //
@@ -423,12 +460,38 @@ SpecSummary="The Scavenger is always on the lookout for spare parts, discarded a
 ; Tertiaries
 
 ;  //////////////
-;  //  Pioneer //
+;  //  Demolitionist //
 ;  //////////////
 
-[Grenadier]
-SpecName="Pioneer"
-SpecSummary="The Pioneer specializes in grenades of all kinds, whether launched or thrown."
+[CSupport]
+SpecName="Demolitionist"
+SpecSummary="The Demolitionist specializes in grenades of all kinds, whether launched or thrown."
+
+;  //////////////
+;  // Corpsman //
+;  //////////////
+
+[Corpsman]
+SpecName="Corpsman"
+SpecSummary="The Corpsman's bag is a mobile hospital. No injury shall be left untended given time between confrontations."
+
+;  ////////////////////
+;  // Natural Leader //
+;  ////////////////////
+
+
+[Officer]
+SpecName="Natural Leader"
+SpecSummary="The Natural Leader is inherently charismatic, and other soldiers tend to follow them."
+
+
+;  //////////////
+;  // Support //
+;  //////////////
+
+[BSupport]
+SpecName="Support"
+SpecSummary="The Support provides non-lethal countermeasures against enemy personnel in form of defensive smoke and offensive stun grenades."
 
 
 [Officer]
@@ -436,10 +499,6 @@ SpecName="Officer"
 SpecSummary="The Officer uses the Holo-Targeter to coordinate fire on the battlefield which allows for a more cohesive operation for the whole squad."
 
 
-
-[Corpsman]
-SpecName="Corpsman"
-SpecSummary="The Corpsman's bag is a mobile hospital. No injury shall be left untended given time between confrontations."
 
 [Gunslinger]
 SpecName="Gunslinger"
