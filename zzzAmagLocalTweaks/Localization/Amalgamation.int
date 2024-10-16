@@ -123,8 +123,6 @@ SpecSummary="The Arbalist specializes in the use of an unorthodox weapon: the cr
 SpecName="Commando"
 SpecSummary="The Commando carries a Combat Knife for unexpected close range encounters and is trained in some of our more unconventional combat tactics."
 
-
-
 ;  ////////////////
 ;  //  Executioner  //
 ;  ////////////////
@@ -148,6 +146,14 @@ SpecSummary="The Grenadier bears no regard for the environment, covering the bat
 [BRocky]
 SpecName="Heavy"
 SpecSummary="The Heavy operates the rocket launcher, either by itself, or integrated in the Gauntlet to provide area denial and explosive force."
+
+;  ////////////////
+;  //  Hitman  //
+;  ////////////////
+
+[CGunslinger]
+SpecName="Hitman"
+SpecSummary="The Hitman specializes in stealth and target elimination."
 
 
 ;  ////////////
