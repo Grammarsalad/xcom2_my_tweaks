@@ -140,6 +140,15 @@ SpecName="Grenadier"
 SpecSummary="The Grenadier bears no regard for the environment, covering the battlefield in varying degrees of what were once considered war crimes."
 
 ;  ////////////////
+;  //  Guardian  //
+;  ////////////////
+
+[DaGuard]
+SpecName="Guardian"
+SpecSummary="The Guardian looks to both protect their allies, and intimidate their enemies."
+
+
+;  ////////////////
 ;  //  Heavy //
 ;  ////////////////
 
