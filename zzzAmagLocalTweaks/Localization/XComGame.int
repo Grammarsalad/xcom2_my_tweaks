@@ -650,30 +650,37 @@ LocFlyOverText="Guard"
 LocPromotionPopupText="Guard"
 
 [StanceFocus X2AbilityTemplate]
-LocFriendlyName="Aggression"
-LocLongDescription="Enter an aggressive state, boosting aim(+25), crit(+25), but at the cost of 5 will/turn, defense(-20) and mobility(70%)."
-LocHelpText="Enter an aggressive state, boosting aim (+25), crit(+25), but at the cost of 5 will/turn, defense(-20) and mobility(70%)."
-LocFlyOverText="Aggression"
-LocPromotionPopupText="Aggression"
+LocFriendlyName="Take Aim"
+LocLongDescription="Take a moment to set your sights. Boosts aim (+10), crit (+10), but at the cost of 2 will/turn and a penalty to dodge (-10). Cannot move while taking aim, but can exit the stance as a free action."
+LocHelpText="Take a moment to set your sights. Boosts aim (+10), crit (+10), but at the cost of 2 will/turn and a penalty to dodge (-10). Cannot move while taking aim, but can exit the stance as a free action."
+LocFlyOverText="Take Aim"
+LocPromotionPopupText="Take Aim"
 
 [StanceMeditate X2AbilityTemplate]
-LocFriendlyName="Meditate"
-LocLongDescription="Reach deep within to find calm and focus, boosting psi(125%), will(+20) and hack defense(+20), but at the cost of 4 will/turn and mobility(80%)."
-LocHelpText="Reach deep within to find calm and focus, boosting psi(+20), will(+20) and hack defense(+20), but at the cost of 4 will/turn and mobility(80%)."
-LocFlyOverText="Meditate"
-LocPromotionPopupText="Meditate"
+LocFriendlyName="Focus"
+LocLongDescription="Reach deep within to find calm and focus on the task at hand, boosting psi(115%), hacking(+10), will (+10) and hack defense(+10), but at the cost of 4 will/turn, defense (-10), and dodge (-20)."
+LocHelpText="Reach deep within to find calm and focus on the task at hand, boosting psi(125%), hacking(+20), will (+10) and hack defense(+20), but at the cost of 4 will/turn, defense (-10), and dodge (-20)."
+LocFlyOverText="Focus"
+LocPromotionPopupText="Focus"
 
 [StanceRush X2AbilityTemplate]
-LocFriendlyName="Rush"
-LocLongDescription="Push past your limits, boosting mobility(150%) and dodge(+10) but at the cost of 5 will/turn, stealth(+ 0.5 detection), aim(-10), psi(-10) and hacking(-10)."
-LocHelpText="Push past your limits, boosting mobility(150%) and dodge(+10) but at the cost of 5 will/turn, stealth(+ 0.5 tile detection), aim(-10), psi(-10) and hacking(-10)."
-LocFlyOverText="Rush"
-LocPromotionPopupText="Rush"
+LocFriendlyName="Sprint"
+LocLongDescription="Make a dash for it, boosting mobility(150%) and dodge(+20) but at the cost of 5 will/turn, stealth (120% detection range), sight(90%), detection (80%), and aim(-20)."
+LocHelpText="Make a dash for it, boosting mobility(150%) and dodge(+20) but at the cost of 5 will/turn, stealth (120% detection range), sight(80%), detection (80%), and aim(-20)."
+LocFlyOverText="Sprint"
+LocPromotionPopupText="Sprint"
 
 [StanceSneak X2AbilityTemplate]
+LocFriendlyName="Head Down"
+LocLongDescription="Keep your head down, boosting stealth (80% detection), defense (+2), but at the cost of 4 will/turn and some mobility(90%)."
+LocHelpText="Keep your head down, boosting stealth (80% detection), defense (+2), but at the cost of 4 will/turn and some mobility(90%)."
+LocFlyOverText="Head Down"
+LocPromotionPopupText="Head Down"
+
+[StanceFrosty X2AbilityTemplate]
 LocFriendlyName="Frosty"
 LocLongDescription="Stay alert, boosting sight(180%) and awareness(150%), but at the cost of 2 will/turn."
-LocHelpText="Stay alert and quiet, boosting stealth (-1.5 detection), sight (180%), awareness (150%), but at the cost of 2 will/turn and mobility(80%)."
+LocHelpText="Stay alert, boosting sight(180%) and awareness(150%), but at the cost of 2 will/turn."
 LocFlyOverText="Frosty"
 LocPromotionPopupText="Frosty"
 
