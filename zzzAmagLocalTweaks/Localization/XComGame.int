@@ -400,6 +400,51 @@ TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in th
 AbilityDescName="assault rifle"
 
 ;------------------------------
+;			Bullpup
+
+[Bullpup_CV X2WeaponTemplate]
+FriendlyName="Bullpup"
+FriendlyNamePlural="Bullpups"
+BriefSummary="At close range, these shotguns provide excellent stopping power, while the stock improves recovery time during extended firing."
+TacticalText="<Bullet/> Firing the Bullpup does not end the user's turn, and it can be fired twice in a single turn.\n<Bullet/> Bullpups are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Use upgrades looted from enemies to improve the Bullpup's tactical effectiveness."
+AbilityDescName="bullpup"
+
+[Bullpup_MG X2WeaponTemplate]
+FriendlyName="Mark II Bullpup"
+FriendlyNamePlural="Mark II Bullpups"
+BriefSummary="The introduction of a magnetic accelerator to the original Bullpup rifle provides an even more lethal punch to an already dangerous close-quarters weapon."
+TacticalText="<Bullet/> Magnetized weapon technology makes for an especially effective improvement of the user's Bullpup.\n<Bullet/> Firing a Bullpup does not end the user's turn, and it can be fired twice in a single turn.\n<Bullet/> Bullpup-style weapons are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Use upgrades looted from enemies to improve the Kal-15 Bullpup's tactical effectiveness."
+AbilityDescName="bullpup"
+
+[Bullpup_BM X2WeaponTemplate]
+FriendlyName="Mark III  Bullpup"
+FriendlyNamePlural="Mark III  Bullpups"
+BriefSummary="An energy-based rifle in Bullpup configuration, the scattered beam delivered by this modified variant of the standard bullpup is among the more advanced technology in use by their forces. While more elegant and perhaps less visceral than the projectile version, it is no less damaging in combat."
+TacticalText="<Bullet/> This is the most advanced Bullpup variant available in the XCOM arsenal.\n<Bullet/> Firing a Bullpup does not end the user's turn, and it can be fired twice in a single turn.\n<Bullet/>  Bullpup-style weapons are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Use upgrades looted from enemies to improve the Kal-90 Bullpup's tactical effectiveness."
+AbilityDescName="bullpup"
+
+[P90_T0 X2WeaponTemplate]
+FriendlyName="Heavy Bullpup"
+FriendlyNamePlural="P90 T0s"
+BriefSummary="This heavy variant of the standard bullpup provides exceptional stopping power, while still improving recovery time during extended firing."
+TacticalText="<Bullet/> Firing the Bullpup does not end the user's turn, and it can be fired twice in a single turn.\n<Bullet/> Bullpups are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Use upgrades looted from enemies to improve the Bullpup's tactical effectiveness."
+AbilityDescName="bullpup"
+
+[P90_T1 X2WeaponTemplate]
+FriendlyName="Mark II Heavy Bullpup"
+FriendlyNamePlural="P90 T1s"
+BriefSummary="The introduction of a magnetic accelerator to the original Skirmisher Bullpup rifle provides an even more lethal punch to an already dangerous close-quarters weapon."
+TacticalText="<Bullet/> Magnetized weapon technology makes for an especially effective improvement of the Skirmisher Bullpup.\n<Bullet/> Firing a Bullpup does not end the user's turn, and it can be fired twice in a single turn.\n<Bullet/> Bullpup-style weapons are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Use upgrades looted from enemies to improve the Kal-15 Bullpup's tactical effectiveness."
+AbilityDescName="bullpup"
+
+[P90_T2 X2WeaponTemplate]
+FriendlyName="Mark III Heavy Bullpup"
+FriendlyNamePlural="P90 T2s"
+BriefSummary="An energy-based rifle in Bullpup configuration, the scattered beam delivered by this modified variant of the standard bullpup is among the more advanced technology in use by their forces. While more elegant and perhaps less visceral than the projectile version, it is no less damaging in combat."
+TacticalText="<Bullet/> This is the most advanced Bullpup variant available in the XCOM arsenal.\n<Bullet/> Firing a Bullpup does not end the user's turn, and it can be fired twice in a single turn.\n<Bullet/>  Bullpup-style weapons are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Use upgrades looted from enemies to improve the Kal-90 Bullpup's tactical effectiveness."
+AbilityDescName="bullpup"
+
+;------------------------------
 ;			Cannons
 
 [TLE_Cannon_CV X2WeaponTemplate]
