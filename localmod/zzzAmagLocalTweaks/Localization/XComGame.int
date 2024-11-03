@@ -1,0 +1,1021 @@
+﻿;***************************************
+;New Ability Descriptions
+;***************************************
+
+[WOTC_APA_Brawl X2AbilityTemplate]
+LocFriendlyName = "Force of Will"
+LocHelpText = "Force of Will helps keep you in the fight for longer"
+LocLongDescription = "The <Ability:ClassName/>'s Force of Will helps keep them in the fight for longer."
+LocPromotionPopupText = "<font color='#CA7200'>LEVEL I</font> (gained at <Ability:RANKNAME1/> rank [1])<br/><Bullet/> Immunity to Viper crush<br/><Bullet/> Gain 1 armour.<br/><br/><br/><font color='#CA7200'>LEVEL II</font> (gained at <Ability:RANKNAME3/> rank [3])<br/><Bullet/> Immunity to Bleeding.<br/><Bullet/> Immunity to Disorientation.<br/><Bullet/> Gain 15 will.<br/><br/><br/><font color='#CA7200'>LEVEL III</font> (gained at <Ability:RANKNAME6/> rank [6]<br/><Bullet/> Immunity to Panic.<br/><Bullet/> Gains the survivor perk. <br/><Bullet/> Gain 1 armour.)"
+
+[WOTC_APA_ES X2AbilityTemplate]
+LocFriendlyName = "Battery Pack"
+LocHelpText = "Specialized Battery Pack helps the potency of the arcthrower."
+LocLongDescription = "Battery Pack helps the potency of the arcthrower."
+LocPromotionPopupText = "<font color='#CA7200'>LEVEL I</font> (gained at <Ability:RANKNAME1/> rank [1])<br/><Bullet/> Gains Breaching Maneuver perk.<br/><Bullet/> Gain immunity to electricity<br/><Bullet/> Gain 25 Hacking.<br/><br/><br/><font color='#CA7200'>LEVEL II</font> (gained at <Ability:RANKNAME3/> rank [3])<br/><Bullet/> Gain spare battery perk.<br/><Bullet/> Gains EMPulserPassive perk.<br/><Bullet/> Gain additional 30 Hacking.<br/><br/><br/><font color='#CA7200'>LEVEL III</font> (gained at <Ability:RANKNAME6/> rank [6]<br/><Bullet/> Selected Arcthrower perks no longer end turn.<br/><Bullet/> Gains Honed Edge perk.<br/><Bullet/> Gain additional 35 Hacking."
+
+[WOTC_APA_IntelligenceOfficer X2AbilityTemplate]
+LocFriendlyName = "Reconnaissance Specialist"
+LocHelpText = "The Reconnaissance Specialist's ability to silently scout out enemy positions improves with experience."
+LocLongDescription = "The Reconnaissance Specialist's ability to silently scout out enemy positions improves with experience."
+LocPromotionPopupText = "<font color='#CA7200'>LEVEL I</font> (gained at <Ability:RANKNAME1/> rank [1])<br/><Bullet/> Gain Natural Leader.<br/><Bullet/> Gain Parkour.<br/><Bullet/> Remain concealed when the squad breaks concealment.<br/><Bullet/> Reduce enemies' detection radius against you by <font color='#3ABD23'><Ability:INTEL_OFFICER_DETECTION_MODIFIER_1/>%</font>.<br/><br/><font color='#CA7200'>LEVEL II</font> (gained at <Ability:RANKNAME3/> rank [3])<br/><Bullet/> Gain Ambush, an ability that allows toggling whether or not to take overwatch shots while concealed.<br/><Bullet/> Gain the ability to re-conceal with a <font color='#CA7200'><Ability:INTEL_OFFICER_CONCEAL_COOLDOWN/></font>-turn cooldown.<br/><Bullet/> The radius that enemies will detect you is now reduced by a total of <font color='#3ABD23'><Ability:INTEL_OFFICER_DETECTION_MODIFIER_2/>%</font>.<br/><br/><font color='#CA7200'>LEVEL III</font> (gained at <Ability:RANKNAME6/> rank [6])<br/><Bullet/> Gain a bonus to vision range of <font color='#3ABD23'>+<Ability:INTEL_OFFICER_VISION_TILE_BONUS/></font> Tiles.<br/><Bullet/> The radius that enemies will detect you is now reduced by a total of <font color='#3ABD23'><Ability:INTEL_OFFICER_DETECTION_MODIFIER_3/>%</font>.<br/><br/>NOTES<br/><Bullet/> Reconceal has a cooldown instead of limited charges, but requires 1 action to use. It can be activated with<br/> either a standard or movement-only action point."
+
+[WOTC_Wandering_Eye X2AbilityTemplate]
+LocFriendlyName = "Intelligence Officer"
+LocHelpText = "The Intelligence Officer's ability to infiltrate enemy territory and silently gather intelligence improves with experience."
+LocLongDescription = "The Intelligence Officer's ability to infiltrate enemy territory and silently gather intelligence improves with experience."
+LocFlyOverText="Intelligence Officer"
+LocPromotionPopupText = "<font color='#CA7200'>LEVEL I</font> (gained at <Ability:RANKNAME1/> rank [1])<br/><Bullet/> 1 tile sight range increase.<br/><Bullet/> Gain Phantom.<br/><Bullet/> Electronic Surveillance.<br/><Bullet/> Gain Scanning protocol.<br/><br/><br/><font color='#CA7200'>LEVEL II</font> (gained at <Ability:RANKNAME3/> rank [3])<br/><Bullet/>  1 tile sight range increase.<br/><Bullet/> Gain Blend perk.<br/><Bullet/> Gain Combat Scanner perk.<br/><br/><br/><font color='#CA7200'>LEVEL III</font> (gained at <Ability:RANKNAME6/> rank [6]<br/><Bullet/>  1 tile sight range increase.<br/><Bullet/> Gain Conceal perk. <br/><Bullet/> Gain Improved perk.<br/><)"
+
+[WOTC_APA_Shadow X2AbilityTemplate]
+LocFriendlyName = "Shadow Meld"
+LocLongDescription = "The <Ability:ClassName/>'s ability to slip through, and strike from, the shadows increases with experience."
+LocPromotionPopupText = "<font color='#CA7200'>FOCUS MECHANIC:</font> Build up Shadow Stacks while concealed to enhance bonuses to Detection Radius and Critical Hit chance. Other <Ability:ClassName/> abilities can grant additional benefits based on active Shadow Stacks.<br/><Bullet/> Gain Fade. <br/><Bullet/> Detection Radius is decreased by <font color='#3ABD23'><Ability:SHADOW_STACK_VARIABLE_DETECTION_BONUS/>%</font> for each active Shadow Stack.<br/><Bullet/> Critical Hit chance is increased by <font color='#3ABD23'>+<Ability:SHADOW_STACK_CRIT_CHANCE_BONUS/>%</font> for each active Shadow Stack.<br/><Bullet/> At the beginning of each turn, if concealed, gain <font color='#3ABD23'>+<Ability:SHADOW_STACK_GAIN_PER_TURN/></font> Shadow Stack. Gain <font color='#3ABD23'>+<Ability:SHADOW_STACK_GAIN_HUNKER/></font> additional Shadow Stack if you<br/>  Hunkered Down and were concealed the previous turn.<br/><Bullet/> Attacks that do not break concealment through Silent Killer consume Shadow Stacks.<br/><br/><font color='#CA7200'>LEVEL I</font> (gained at <Ability:RANKNAME1/> rank [1])<br/><Bullet/> The <Ability:ClassName/> can attempt to hack into adjacent ADVENT security towers using their XPAD.<br/><Bullet/> Gain Ambush, an ability that allows toggling whether or not to take overwatch shots while concealed.<br/><Bullet/> Begin missions concealed with <font color='#3ABD23'><Ability:SHADOW_STACK_START_I/></font> active Shadow Stack.  Initial maximum is <font color='#3ABD23'><Ability:SHADOW_STACK_MAX_I/></font> Shadow Stacks.<br/><br/><font color='#CA7200'>LEVEL II</font> (gained at <Ability:RANKNAME3/> rank [3])<br/><Bullet/> Begin missions concealed with <font color='#3ABD23'><Ability:SHADOW_STACK_START_II/></font> active Shadow Stacks.  Maximum is increased to <font color='#3ABD23'><Ability:SHADOW_STACK_MAX_II/></font> Shadow Stacks.<br/><br/><font color='#CA7200'>LEVEL III</font> (gained at <Ability:RANKNAME6/> rank [6])<br/><Bullet/> Begin missions concealed with <font color='#3ABD23'><Ability:SHADOW_STACK_START_III/></font> active Shadow Stacks.  Maximum is increased to <font color='#3ABD23'><Ability:SHADOW_STACK_MAX_III/></font> Shadow Stacks."
+
+
+[WOTC_KPP_FrontlineTraining X2AbilityTemplate]
+LocFriendlyName = "Frontline Training"
+LocHelpText = "The <Ability:ClassName/> gains perks that improve fighting and flanking enemies in close quarters and improves thier Arcthrower."
+LocLongDescription = "The <Ability:ClassName/> gains perks that improve fighting and flanking enemies in close quarters and improves their Arcthrower."
+LocPromotionPopupText = "<font color='#CA7200'>LEVEL I</font> (gained at <Ability:RANKNAME1/> rank [1])<br/><Bullet/> Gains Breaching Maneuver perk (Gain a half-movement action upon killing a flanked/stunned/disoriented enemy).<br/><Bullet/> Gains Take Cover perk(Hunker Down is a single action and can be used by a movement action or if only movement actions were used)<br/><Bullet/> Gain <font color='#3ABD23'><Ability:FRONTLINE_DEFENSE/></font> Defense.<br/><br/><font color='#CA7200'>LEVEL II</font> (gained at <Ability:RANKNAME3/> rank [3])<br/><Bullet/> Gains Trench Warfare perk (Killing an enemy provides Hunker Down).<br/><Bullet/> Certain Arcthrower perks are single actions.<br/><Bullet/> Gain <font color='#3ABD23'><Ability:FRONTLINE_MOBILITY/></font> Mobility.<br/><br/><font color='#CA7200'>LEVEL III</font> (gained at <Ability:RANKNAME6/> rank [6]<br/><Bullet/> Gains Quick Load perk (Hunkering Down automatically reloads <font color='#3ABD23'><Ability:QUICK_LOAD_AMMO_TO_RELOAD/></font> round in your Primary).<br/><Bullet/> Attacks now Shred Armor.<br/><Bullet/> Gain <font color='#3ABD23'><Ability:FRONTLINE_CRIT_CHANCE/></font> Crit Chance."
+
+[WOTC_APA_Harass X2AbilityTemplate]
+LocFriendlyName = "Unit Harassment"
+LocHelpText = "The <Ability:ClassName/>'s Combat abilitities improve with continued training"
+LocLongDescription = "The <Ability:ClassName/>'s training improves the effectiveness of their bullpup and the ability to avoid retaliation."
+LocFlyOverText="Unit Harassment"
+LocPromotionPopupText = "<font color='#CA7200'>LEVEL I</font> (gained at <Ability:RANKNAME1/> rank [1])<br/><Bullet/> Defensive Mine.<br/><Bullet/> Gain the Marauder Perk, allowing the <Ability:ClassName/> to shoot twice with their bullpup.<br/><Bullet/> Gain 2 to Pierce to primary weapon.<br/><Bullet/> Gain 10 to Dodge.<br/><br/><br/><font color='#CA7200'>LEVEL II</font> (gained at <Ability:RANKNAME3/> rank [3])<br/><Bullet/> Primary weapon can’t graze.<br/><Bullet/> Honed Edge skill. <br/><Bullet/> Gain 15 to Dodge.<br/><br/><br/><font color='#CA7200'>LEVEL III</font> (gained at <Ability:RANKNAME6/> rank [6]<br/><Bullet/> Gain 2 to Pierce to primary weapon.<br/><Bullet/> Gain 15 to Dodge. <br/><Bullet/> Gain the Ruthless perk.<br/><)"
+
+; - GTS Unlocks -
+
+[WOTCbrawlUnlock1 X2SoldierAbilityUnlockTemplate]
+DisplayName = "Heretic: Initiate"
+Summary = "All Heretic soldiers' gain level 2 training, regardless of rank.""
+
+[WOTCbrawlUnlock2 X2SoldierAbilityUnlockTemplate]
+DisplayName = "Heretic: Risen"
+Summary = "All Heretic soldiers' gain level 3 training, regardless of rank."<br/><br/><font color='#CA7200'>Requires Heretic Initiate Training</font>"
+
+[GrenadeLauncher_BM X2GrenadeLauncherTemplate]
+FriendlyName="Superior Grenade Launcher"
+FriendlyNamePlural="Superior Grenade Launchers"
+BriefSummary="The Superior Grenade Launcher combines our latest breakthroughs in beam technology to further enhance our launchers' range and to increase the effect radius of launched projectiles."
+TacticalText="<Bullet/> The Superior Grenade Launcher has an increased range over the Advanced Grenade Launcher."
+AbilityDescName="grenade launcher"
+
+[Inquisitor_RightBackAtYou X2AbilityTemplate]
+LocFriendlyName = "Right back at you!"
+LocHelpText = "The <Ability:ClassName/> returns fire at any visible target that directly damages them."
+LocLongDescription = "Upon being hit by any attack, return fire with your primary weapon. This shot has a <font color='#3ABD23'>+10%</font>/<font color='#b7bd1c'>+20%</font>/<font color='#d48013'>+30%</font> chance to hit, and can trigger once per individual enemy."
+LocPromotionPopupText = "<font color='#CA7200'>LEVEL I</font> (gained at Squaddie rank [1])<br/>Upon taking damage from an attack directly targeted at you, if visible, return fire with a <font color='#3ABD23'>+10%</font> chance to hit. This can trigger once per individual enemy.<br/><br/><font color='#CA7200'>LEVEL II</font> (gained at Captain rank [5])<br/><Bullet/>The bonus to hit is increased to <font color='#b7bd1c'>+20%</font>.<br/><br/><font color='#CA7200'>LEVEL III</font> (gained at Brigadier rank [8])<br/><Bullet/>The bonus to hit is further increased to <font color='#b7bd1c'>+30%</font>."
+
+
+; - Perks -
+
+[SKV_ResistFalling33 X2AbilityTemplate]
+LocFriendlyName = "Scouting Expertise"
+LocHelpText = "The <Ability:ClassName/> is experienced in reconnaissance, especially from elevated heights. Gain phantom, a single use of Grapple, and takes 33% less damage from falling."
+LocLongDescription = "Gain phantom, -1 Detection Radius, a single use of Grapple, and take 33% less damage from falling."
+LocPromotionPopupText = "Gain phantom, a single use of Grapple, and takes 33% less damage from falling."
+
+
+[B_Sneaky X2AbilityTemplate]
+LocFriendlyName="Sneaky"
+LocLongDescription="The soldier gets -1 Detection Radius."
+LocHelpText="The soldier gets -1 Detection Radius."
+
+; rename so as not to confuse with shadow ops stalker:
+
+[WOTC_APA_Stalker X2AbilityTemplate]
+LocFriendlyName = "Hunter"
+LocFlyOverText = "Hunter"
+LocHelpText = "Gain <font color='#3ABD23'>+<Ability:STALKER_CRIT_CHANCE_BONUS/>%</font> Crit Chance against enemies that are flanked or cannot see you and the Hunt ability, a toggleable ability that lowers both the <Ability:ClassName/>'s mobility and detection radius while active."
+LocLongDescription = "Gain <font color='#3ABD23'>+<Ability:STALKER_CRIT_CHANCE_BONUS/>%</font> Crit Chance against enemies that are flanked or cannot see you and the Hunt ability, a toggleable ability that lowers both the <Ability:ClassName/>'s mobility and detection radius while active."
+LocPromotionPopupText = "Gain <font color='#3ABD23'>+<Ability:STALKER_CRIT_CHANCE_BONUS/>%</font> Crit Chance against enemies that are flanked or cannot see you and the Hunt ability, a toggleable ability that lowers both the <Ability:ClassName/>'s mobility and detection radius while active.<br/><br/><Bullet/> Stalk lets you move slower and more carefully (<font color='#CA7200'>-<Ability:STALK_MOBILITY_MODIFIER/>%</font> Mobility), reducing the radius that enemies will detect you by <font color='#3ABD23'><Ability:STALK_DETECTION_MODIFIER/>%</font> while active. Stalk can be toggled On/Off once per turn.<br/><Bullet/> The bonus Crit Chance against enemies that cannot see you applies to attacks from concealment as well as attacks from beyond an enemies vision range."
+
+[WOTC_APA_StalkOn X2AbilityTemplate]
+LocFriendlyName = "Hunt: Toggle On"
+LocFlyOverText = "Hunt"
+LocHelpText = "Begin Hunting, reducing Mobility by <font color='#CA7200'>-<Ability:STALK_MOBILITY_MODIFIER/>%</font> and reducing the radius that enemies will detect you by <font color='#3ABD23'><Ability:STALK_DETECTION_MODIFIER/>%</font> while active."
+LocLongDescription = "Begin Hunting, reducing Mobility by <font color='#CA7200'>-<Ability:STALK_MOBILITY_MODIFIER/>%</font> and reducing the radius that enemies will detect you by <font color='#3ABD23'><Ability:STALK_DETECTION_MODIFIER/>%</font> while active."
+
+[WOTC_APA_StalkOff X2AbilityTemplate]
+LocFriendlyName = "Hunt: Toggle Off"
+LocFlyOverText = "Hunt"
+LocHelpText = "Stop Hunting, returning Mobility and enemy detection radius back to normal."
+LocLongDescription = "Stop Hunting, returning Mobility and enemy detection radius back to normal."
+
+[WOTC_APA_Blindside X2AbilityTemplate]
+LocFriendlyName = "Blindside"
+LocFlyOverText = "Blindside"
+LocHelpText = "Take a shot that will disorient the target, and deal <font color='#CA7200'><Ability:BLINDSIDE_DAMAGE_MULTIPLIER/>%</font> damage (or <font color='#CA7200'><Ability:BLINDSIDE_CRIT_DAMAGE_MULTIPLIER/>%</font> damage on Critical Hits). If concealed, this shot will not break individual concealment, though it will break squad concealment. <font color='#CA7200'><Ability:BLINDSIDE_COOLDOWN/></font> turn cooldown."
+LocLongDescription = "Take a shot that will disorient the target, and deal <font color='#CA7200'><Ability:BLINDSIDE_DAMAGE_MULTIPLIER/>%</font> damage (or <font color='#CA7200'><Ability:BLINDSIDE_CRIT_DAMAGE_MULTIPLIER/>%</font> damage on Critical Hits). If concealed, this shot will not break individual concealment, though it will break squad concealment. <font color='#CA7200'><Ability:BLINDSIDE_COOLDOWN/></font> turn cooldown."
+LocPromotionPopupText = "Take a shot that will disorient the target, and deal <font color='#CA7200'><Ability:BLINDSIDE_DAMAGE_MULTIPLIER/>%</font> damage (or <font color='#CA7200'><Ability:BLINDSIDE_CRIT_DAMAGE_MULTIPLIER/>%</font> damage on Critical Hits). If concealed, this shot will not break individual concealment, though it will break squad concealment. <font color='#CA7200'><Ability:BLINDSIDE_COOLDOWN/></font> turn cooldown.<br/><br/><Bullet/> Blindside wont give away the <Ability:ClassName/>'s position, but it will alert enemies, breaking general squad concealment.<br/><Bullet/> Enemies that are immune to mental damage will not be disoriented."
+
+[WOTC_APA_BlindsideShot X2AbilityTemplate]
+LocFriendlyName = "Blindside"
+LocFlyOverText = "Blindside"
+LocHelpText = "Take a shot that will disorient the target, and deal <font color='#CA7200'><Ability:BLINDSIDE_DAMAGE_MULTIPLIER/>%</font> damage (or <font color='#CA7200'><Ability:BLINDSIDE_CRIT_DAMAGE_MULTIPLIER/>%</font> damage on Critical Hits). If concealed, this shot will not break individual concealment, though it will break squad concealment. <font color='#CA7200'><Ability:BLINDSIDE_COOLDOWN/></font> turn cooldown."
+LocLongDescription = "Take a shot that will disorient the target, and deal <font color='#CA7200'><Ability:BLINDSIDE_DAMAGE_MULTIPLIER/>%</font> damage (or <font color='#CA7200'><Ability:BLINDSIDE_CRIT_DAMAGE_MULTIPLIER/>%</font> damage on Critical Hits). If concealed, this shot will not break individual concealment, though it will break squad concealment. <font color='#CA7200'><Ability:BLINDSIDE_COOLDOWN/></font> turn cooldown."
+
+[MZSurefireShot X2AbilityTemplate]
+LocFriendlyName="Fire Bolt"
+LocLongDescription="Fire a searing bolt that's sure to hit. Deals fire damage and inflicts burning."
+LocHelpText="Fire a searing bolt that's sure to hit. Deals fire damage and inflicts burning."
+LocFlyOverText="Surefire Shot"
+LocPromotionPopupText="<Bullet/> Always hits, but cannot crit.<br/><Bullet/> Cannot be dodged or deflected.<br/><Bullet/> Weapon damage is converted to fire, so Surefire Shot cannot be used against fire immune foes.<br/><Bullet/> Has <Ability:SelfCharges/> charges."
+
+[IRI_BH_Headhunter X2AbilityTemplate]
+LocFriendlyName="Headhunter"
+LocLongDescription="Killing an enemy with your <Ability:IRI_BoundWeaponName/> permanently increases its critical chance against other enemies of that type by +<Ability:IRI_BH_Headhunter_CritBonus/>. This bonus is cumulative."
+LocHelpText="Killing an enemy with your <Ability:IRI_BoundWeaponName/> permanently increases its critical chance against other enemies of that type by +<Ability:IRI_BH_Headhunter_CritBonus/>. This bonus is cumulative."
+LocPromotionPopupText="Current bonuses:<Ability:IRI_TAG_BH_Headhunter_Bonuses/>"
+LocFlyOverText="Headhunter: "
+
+[IRI_BH_Nightfall X2AbilityTemplate]
+LocFriendlyName="Nightfall"
+LocLongDescription="Activate to enter Nightfall for <Ability:IRI_BH_Nightfall_Duration/> turns, an advanced form of concealment with reduced detection radius. <Ability:SelfCooldown/> turn cooldown."
+LocHelpText="Activate to enter Nightfall for <Ability:IRI_BH_Nightfall_Duration/> turns, an advanced form of concealment with reduced detection radius."
+LocPromotionPopupText="<bullet/> Nightfall cannot be activated while you're flanked.<br/><bullet/> Nightfall has a very small detection radius, but otherwise functions like regular concealment, and without special training will be broken by attacking.<br/><bullet/> Nightfall is not broken when other soldiers in your squad break concealment.<br/><bullet/> If you are already concealed when Nightfall is activated, then your concealment will not be broken if Nightfall runs out naturally."
+LocFlyOverText="Nightfall"
+
+[IRI_BH_Nightfall_Passive X2AbilityTemplate]
+LocFriendlyName="Dead of Night"
+LocLongDescription="Gain +<Ability:IRI_BH_Nightfall_CritChanceBonusWhenUnseen/> Crit Chance against enemies that do not see you.<br/>Gain +1 Crit Damage for every <Ability:IRI_BH_Nightfall_CritDamageBonusPerCritChanceOverflow/> of Crit Chance above 100%."
+LocHelpText="Gain +<Ability:IRI_BH_Nightfall_CritChanceBonusWhenUnseen/> Crit Chance against enemies that do not see you. Gain +1 Crit Damage for every <Ability:IRI_BH_Nightfall_CritDamageBonusPerCritChanceOverflow/> of Crit Chance above 100%."
+LocPromotionPopupText="<bullet/> Use Nightfall and flank enemies to boost your damage output."
+LocFlyOverText="Dead of Night"
+
+[INHIBITING_SHOT X2AbilityTemplate]
+LocFriendlyName="Inhibiting Shot"
+LocLongDescription="Fire a single shot. Successful hit reduces target movement for 2 turn by 8 tiles and disorientate for 1 turn. Cost 1 AP but ends turn, 3 ammo, 4 turn cooldown"
+LocHelpText="Reduces mobility by 8 for 3 turns and adds standard disorientate."
+LocFlyOverText="Inhibiting Shot"
+
+[WOTC_APA_KillerInstinct X2AbilityTemplate]
+LocFriendlyName = "Predator's Instinct"
+LocFlyOverText = "Predator's Instinct"
+LocHelpText = "Deal <font color='#3ABD23'>+<Ability:KILLER_INSTINCT_DAMAGE_BONUS/></font> Damage and <font color='#3ABD23'>+<Ability:KILLER_INSTINCT_CRITICAL_DAMAGE_MULTIPLIER/>%</font> total Damage on Critical Hits when Run and Gun is activated."
+LocLongDescription = "Deal <font color='#3ABD23'>+<Ability:KILLER_INSTINCT_DAMAGE_BONUS/></font> Damage and <font color='#3ABD23'>+<Ability:KILLER_INSTINCT_CRITICAL_DAMAGE_MULTIPLIER/>%</font> total Damage on Critical Hits when Run and Gun is activated."
+LocPromotionPopupText = "Deal <font color='#3ABD23'>+<Ability:KILLER_INSTINCT_DAMAGE_BONUS/></font> Damage and <font color='#3ABD23'>+<Ability:KILLER_INSTINCT_CRITICAL_DAMAGE_MULTIPLIER/>%</font> total Damage on Critical Hits when Run and Gun is activated.<br/><br/><Bullet/> The bonus Damage from activating Run and Gun will last until the beginning of your next turn.<br/><Bullet/> Predator's Instinct's damage bonus applies to attacks with either the primary or secondary weapon."
+
+;***************************************
+;Equipment
+;***************************************
+
+;--------------------------------------------
+; 
+;			        ARMOR
+;
+;--------------------------------------------
+
+
+[ZGS_Dozer_Armor X2ArmorTemplate]
+FriendlyName="Bulldozer Armor"
+FriendlyNamePlural="Bulldozer Armors"
+BriefSummary="The pinnacle of pre-invasion protection. Huge survivability, slows you to a crawl, and makes you easier to hit."
+TacticalText="The pinnacle of pre-invasion protection. Huge survivability, slows you to a crawl, and makes you easier to hit."
+
+[GS_Proto_Light_Alloy_Armor X2ArmorTemplate]
+FriendlyName="Prototype Light Integrated Armor"
+FriendlyNamePlural="Prototype Light Integrated Armor"
+BriefSummary="This is a first attempt to integrate alien alloys with existing light kevlar armor. The result is a bit more protection with the same freedom of movement; a definite improvement."
+TacticalText="This is a first attempt to integrate alien alloys with existing light kevlar armor. The result is a bit more protection with the same freedom of movement; a definite improvement."
+
+[GS_Proto_Dozer_Alloy_Armor X2ArmorTemplate]
+FriendlyName="Prototype Dozer Integrated Armor"
+FriendlyNamePlural="Prototype Dozer Integrated Armor"
+BriefSummary="This is a first attempt to integrate alien alloys with existing dozer armor. The result is the same first-rate protection in a lighter frame, granting some additional freedom of movement; a definite improvement."
+TacticalText="This is a first attempt to integrate alien alloys with existing dozer armor. The result is the same first-rate protection in a lighter frame, granting some additional freedom of movement; a definite improvement."
+
+[GS_Proto_Heavy_Alloy_Armor X2ArmorTemplate]
+FriendlyName="Prototype Heavy Integrated Armor"
+FriendlyNamePlural="Prototype Heavy Integrated Armor"
+BriefSummary="This is a first attempt to integrate alien alloys with existing heavy kevlar armor. The result is a bit more protection and greater freedom of movement; a definite improvement."
+TacticalText="This is a first attempt to integrate alien alloys with existing heavy kevlar armor. The result is a bit more protection and greater freedom of movement; a definite improvement."
+
+
+[SectoidArmor X2ArmorTemplate]
+FriendlyName="Sectoid Coating"
+BriefSummary="Sectoid Coating"
+TacticalText="<Bullet/>Sectoid coating is psionically reinforced to prevent bullets from penetrating."
+AbilityDescName="Sectoid Coating"
+
+[PlatedSectoidArmor X2ArmorTemplate]
+FriendlyName="Sectoid Reinforced Coating"
+BriefSummary="Sectoid Reinforced Coating"
+TacticalText="<Bullet/>Sectoid coating is psionically reinforced to prevent bullets from penetrating. The coating now has a thin layer of alien alloys over it."
+AbilityDescName="Sectoid Reinforced Coating"
+
+[PoweredSectoidArmor X2ArmorTemplate]
+FriendlyName="Sectoid Elerium Coating"
+BriefSummary="Sectoid Elerium Coating"
+TacticalText="<Bullet/>Sectoid coating is psionically reinforced to prevent bullets from penetrating. The coating now has a thin weave of alien alloys and elerium, boosting the psionic reinforcement."
+AbilityDescName="Sectoid Elerium Coating"
+
+[ViperArmor X2ArmorTemplate]
+FriendlyName="Viper Armor"
+BriefSummary="Viper Armor"
+TacticalText="<Bullet/>Standard issue armour given to the average Viper operative."
+AbilityDescName="Viper Armor"
+
+[PlatedViperArmor X2ArmorTemplate]
+FriendlyName="Viper Alloy Armor"
+BriefSummary="Viper Alloy Armor"
+TacticalText="<Bullet/>Viper armour reinforced with XCOM application of alien alloys. This does raise questions why this isn't given to normal Viper operatives..."
+AbilityDescName="Viper Alloy Armor"
+
+[PoweredViperArmor X2ArmorTemplate]
+FriendlyName="Powered Viper Armor"
+BriefSummary="Powered Viper Armor"
+TacticalText="<Bullet/>Viper armour on par with XCOM's powered armour designs. The Vipers working with us can make quick mockery of their counterparts with this."
+AbilityDescName="Powered Viper Armor"
+
+;--------------------------------------------
+; 
+;			      WEAPONS
+;
+;--------------------------------------------
+
+;------------------------------
+;			Pistols
+
+[IRI_NoahRevolver X2WeaponTemplate]
+FriendlyName="Big-Bore Revolver"
+FriendlyNamePlural="Big-Bore Revolvers"
+BriefSummary="This is a high caliber revolver with impressive stopping power."
+TacticalText="This is a high caliber revolver with impressive stopping power.<br/><Bullet/> Pistols can be much more than a sidearm in the hands of a trained Sharpshooter.\n<Bullet/> Unlike the sniper rifle, pistols can be fired with a single action.\n<Bullet/> Sharpshooters can train several abilities that dramatically enhance their use of pistols."
+AbilityDescName="pistol"
+
+[High_Cal_Pistol_CV X2WeaponTemplate]
+FriendlyName="Snubnose Pistol"
+FriendlyNamePlural="Snubnose Pistols"
+BriefSummary="This weapon is light, easily concealable and accurate, but falls short in penetration and stopping power."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Pistol's tactical effectiveness."
+AbilityDescName="pistol"
+
+[High_Cal_Pistol_MG X2WeaponTemplate]
+FriendlyName="Ballistic Snubnose"
+FriendlyNamePlural="Ballistic Snubnose Pistols"
+BriefSummary="This weapon is light, easily concealable and accurate, but pack a surprisingly strong punch for such a little weapon."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Pistol's tactical effectiveness."
+AbilityDescName="pistol"
+
+[High_Cal_Pistol_BM X2WeaponTemplate]
+FriendlyName="High Caliber Ballistic Snubnose"
+FriendlyName="High Caliber Ballistic Snubnoses"
+BriefSummary="This weapon is light, easily concealable and accurate, but pack a surprisingly devastating punch for such a little weapon."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Pistol's tactical effectiveness."
+AbilityDescName="pistol"
+
+
+[WP_M5Phalanx X2WeaponTemplate]
+FriendlyName="Phalanx Heavy Pistol"
+FriendlyNamePlural="Phalanx Heavy Pistols"
+BriefSummary="The Phalanx is the product of the Alliance's Offensive Handgun Project, an alien design of some unknown or lost species. The weapon propels an exceptionally small projectile at extremely high velocity, resulting in slightly less stopping power, but with increased penetration."
+TacticalText="<Bullet/> Firing this gun will the end soldiers turn, unless they have special training.\n<Bullet/>\n<Bullet/>"
+AbilityDescName="M-5 Phalanx Heavy Pistol"
+
+[WP_M5Phalanx_MG X2WeaponTemplate]
+FriendlyName="Phalanx Pistol MK II"
+FriendlyNamePlural="Phalanx MK II Heavy Pistols"
+BriefSummary="Advanced Ballistic capabilites allows the Phalanx to shoot higher velocity rounds with greater penetration power."
+TacticalText="<Bullet/> Firing this gun will the end soldiers turn, unless they have special training.\n<Bullet/>\n<Bullet/>"
+AbilityDescName="M-5 Phalanx Heavy Pistol"
+
+[WP_M5Phalanx_BM X2WeaponTemplate]
+FriendlyName="Phalanx Heavy Pistol MK III"
+FriendlyNamePlural="Phalanx MK III Heavy Pistols"
+BriefSummary="Advanced Beam capabilites allows the Phalanx to shoot higher velocity rounds with greater penetration power."
+TacticalText="<Bullet/> Firing this gun will the end soldiers turn, unless they have special training.\n<Bullet/>\n<Bullet/>"
+AbilityDescName="M-5 Phalanx Heavy Pistol"
+
+[TLP_V_Pistol_CV X2WeaponTemplate]
+FriendlyName="XCOM Handgun"
+FriendlyNamePlural="XCOM Handguns"
+BriefSummary="This weapon is of an old design, the same as XCOM's old arsenal; it's a heavy caliber, designed for maximum damage if not reliability or concealment. Normally they would be too old to equip modern upgrades, but modern techniques good old fashion elbow grease has made them better than before."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Pistol's tactical effectiveness."
+AbilityDescName="pistol"
+
+[TLP_V_Pistol_MG X2WeaponTemplate]
+FriendlyName="XCOM Handgun MK II"
+FriendlyNamePlural="XCOM MK II Handguns"
+BriefSummary="This weapon is of an old design, the same as XCOM's old arsenal; it's a heavy caliber, designed for maximum damage if not reliability or concealment. Normally they would be too old to equip modern upgrades, but modern techniques good old fashion elbow grease has made them better than before."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Pistol's tactical effectiveness."
+AbilityDescName="pistol"
+
+[TLP_V_Pistol_BM X2WeaponTemplate]
+FriendlyName="XCOM Handgun MK III"
+FriendlyNamePlural="XCOM MK III Handguns"
+BriefSummary="This weapon is of an old design, the same as XCOM's old arsenal; it's a heavy caliber, designed for maximum damage if not reliability or concealment. Normally they would be too old to equip modern upgrades, but modern techniques good old fashion elbow grease has made them better than before."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Pistol's tactical effectiveness."
+AbilityDescName="pistol"
+
+
+;------------------------------
+;			Assault Rifles
+
+[TLE_AssaultRifle_CV X2WeaponTemplate]
+FriendlyName="Old-world Assault Rifle"
+FriendlyNamePlural="Old-world Assault Rifles"
+BriefSummary="We've managed to salvage a variety of standard infantry small arms; this is the most common variety, similar to the rifle used twenty years before. Compared to the standard assault rifle, it does lower if more consistant damage, but with a higher capacity and easier infiltration."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Old-world Assault Rifle"
+
+[TLE_AssaultRifle_MG X2WeaponTemplate]
+FriendlyName="Improvised Magnetic Rifle"
+FriendlyNamePlural="Improvised Magnetic Rifles"
+BriefSummary="Magnetized projectile tech has enabled us to create rifle-style slugthrowers. They represent a substantial improvement in power relative to conventional assault rifles."
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn, in the absence of special training.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Improvised Magnetic Rifle"
+
+[TLE_AssaultRifle_BM X2WeaponTemplate]
+FriendlyName="Prototype Plasma Rifle"
+FriendlyNamePlural="Prototype Plasma Rifles"
+BriefSummary="Now that we've finally deciphered the aliens' devastating weapon technology and can develop beam weapons of our own, we can build rifles that will be the match of any enemy our soldiers encounter in the field."
+TacticalText="<Bullet/> The Plasma Rifle is a general purpose, supremely powerful primary infantry weapons system.\n<Bullet/> Firing the primary weapon always ends the soldier's turn.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Prototype Plasma Rifle"
+
+[TLP_V_Rifle_CV X2WeaponTemplate]
+FriendlyName="XCOM Assault Rifle"
+FriendlyNamePlural="XCOM Assault Rifles"
+BriefSummary="This weapon is of an old design, the same as XCOM's old arsenal; it's a heavy caliber, designed for maximum damage if not reliability or concealment. Normally they would be too old to equip modern upgrades, but modern techniques good old fashion elbow grease has made them better than before."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Assault Rifle's tactical effectiveness."
+AbilityDescName="assault rifle"
+
+[TLP_V_Rifle_MG X2WeaponTemplate]
+FriendlyName="XCOM Assault Rifle MK II"
+FriendlyNamePlural="XCOM MK II Assault Rifles"
+BriefSummary="This weapon is of an old design, the same as XCOM's old arsenal; it's a heavy caliber, designed for maximum damage if not reliability or concealment. Normally they would be too old to equip modern upgrades, but modern techniques good old fashion elbow grease has made them better than before."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Assault Rifle's tactical effectiveness."
+AbilityDescName="assault rifle"
+
+[TLP_V_Rifle_BM X2WeaponTemplate]
+FriendlyName="XCOM Assault Rifle MK III"
+FriendlyNamePlural="XCOM MK III Assault Rifles"
+BriefSummary="This weapon is of an old design, the same as XCOM's old arsenal; it's a heavy caliber, designed for maximum damage if not reliability or concealment. Normally they would be too old to equip modern upgrades, but modern techniques good old fashion elbow grease has made them better than before."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Assault Rifle's tactical effectiveness."
+AbilityDescName="assault rifle"
+
+[TLP_V_2_AssaultRifle_CV X2WeaponTemplate]
+FriendlyName="XCOM Magnetic Assault Rifle"
+FriendlyNamePlural="XCOM Magnetic Assault Rifles"
+BriefSummary="This weapon is of an old design, the same as XCOM's old arsenal; it's a heavy caliber, designed for maximum damage if not reliability or concealment. Normally they would be too old to equip modern upgrades, but modern techniques good old fashion elbow grease has made them better than before."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Assault Rifle's tactical effectiveness."
+AbilityDescName="assault rifle"
+
+[TLP_V_2_AssaultRifle_MG X2WeaponTemplate]
+FriendlyName="XCOM Magnetic Assault Rifle MK II"
+FriendlyNamePlural="XCOM MK II Magnetic Assault Rifles"
+BriefSummary="This weapon is of an old design, the same as XCOM's old arsenal; it's a heavy caliber, designed for maximum damage if not reliability or concealment. Normally they would be too old to equip modern upgrades, but modern techniques good old fashion elbow grease has made them better than before."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Assault Rifle's tactical effectiveness."
+AbilityDescName="assault rifle"
+
+[TLP_V_2_AssaultRifle_BM X2WeaponTemplate]
+FriendlyName="XCOM Magnetic Assault Rifle MK III"
+FriendlyNamePlural="XCOM MK III Magnetic Assault Rifles"
+BriefSummary="This weapon is of an old design, the same as XCOM's old arsenal; it's a heavy caliber, designed for maximum damage if not reliability or concealment. Normally they would be too old to equip modern upgrades, but modern techniques good old fashion elbow grease has made them better than before."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Assault Rifle's tactical effectiveness."
+AbilityDescName="assault rifle"
+
+[TLP_V_3_Rifle_CV X2WeaponTemplate]
+FriendlyName="XCOM Plasma Assault Rifle"
+FriendlyNamePlural="XCOM Plasma Assault Rifles"
+BriefSummary="This weapon is of an old design, the same as XCOM's old arsenal; it's a heavy caliber, designed for maximum damage if not reliability or concealment. Normally they would be too old to equip modern upgrades, but modern techniques good old fashion elbow grease has made them better than before."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Assault Rifle's tactical effectiveness."
+AbilityDescName="assault rifle"
+
+[TLP_V_3_Rifle_MG X2WeaponTemplate]
+FriendlyName="XCOM Plasma Assault Rifle MK II"
+FriendlyNamePlural="XCOM MK II Plasma Assault Rifles"
+BriefSummary="This weapon is of an old design, the same as XCOM's old arsenal; it's a heavy caliber, designed for maximum damage if not reliability or concealment. Normally they would be too old to equip modern upgrades, but modern techniques good old fashion elbow grease has made them better than before."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Assault Rifle's tactical effectiveness."
+AbilityDescName="assault rifle"
+
+[TLP_V_3_Rifle_BM X2WeaponTemplate]
+FriendlyName="XCOM Plasma Assault Rifle MK III"
+FriendlyNamePlural="XCOM MK III Plasma Assault Rifles"
+BriefSummary="This weapon is of an old design, the same as XCOM's old arsenal; it's a heavy caliber, designed for maximum damage if not reliability or concealment. Normally they would be too old to equip modern upgrades, but modern techniques good old fashion elbow grease has made them better than before."
+TacticalText="<Bullet/> Firing the primary weapon ends the soldier's turn, in the absence of special training.\n<Bullet/> Use upgrades looted from enemies to improve the Assault Rifle's tactical effectiveness."
+AbilityDescName="assault rifle"
+
+;------------------------------
+;			Bullpup
+
+[Bullpup_CV X2WeaponTemplate]
+FriendlyName="Bullpup"
+FriendlyNamePlural="Bullpups"
+BriefSummary="At close range, these shotguns provide excellent stopping power, while the stock improves recovery time during extended firing."
+TacticalText="<Bullet/> Firing the Bullpup does not end the user's turn, and it can be fired twice in a single turn.\n<Bullet/> Bullpups are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Use upgrades looted from enemies to improve the Bullpup's tactical effectiveness."
+AbilityDescName="bullpup"
+
+[Bullpup_MG X2WeaponTemplate]
+FriendlyName="Mark II Bullpup"
+FriendlyNamePlural="Mark II Bullpups"
+BriefSummary="The introduction of a magnetic accelerator to the original Bullpup rifle provides an even more lethal punch to an already dangerous close-quarters weapon."
+TacticalText="<Bullet/> Magnetized weapon technology makes for an especially effective improvement of the user's Bullpup.\n<Bullet/> Firing a Bullpup does not end the user's turn, and it can be fired twice in a single turn.\n<Bullet/> Bullpup-style weapons are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Use upgrades looted from enemies to improve the Kal-15 Bullpup's tactical effectiveness."
+AbilityDescName="bullpup"
+
+[Bullpup_BM X2WeaponTemplate]
+FriendlyName="Mark III  Bullpup"
+FriendlyNamePlural="Mark III  Bullpups"
+BriefSummary="An energy-based rifle in Bullpup configuration, the scattered beam delivered by this modified variant of the standard bullpup is among the more advanced technology in use by their forces. While more elegant and perhaps less visceral than the projectile version, it is no less damaging in combat."
+TacticalText="<Bullet/> This is the most advanced Bullpup variant available in the XCOM arsenal.\n<Bullet/> Firing a Bullpup does not end the user's turn, and it can be fired twice in a single turn.\n<Bullet/>  Bullpup-style weapons are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Use upgrades looted from enemies to improve the Kal-90 Bullpup's tactical effectiveness."
+AbilityDescName="bullpup"
+
+[P90_T0 X2WeaponTemplate]
+FriendlyName="Heavy Bullpup"
+FriendlyNamePlural="P90 T0s"
+BriefSummary="This heavy variant of the standard bullpup provides exceptional stopping power, while still improving recovery time during extended firing."
+TacticalText="<Bullet/> Firing the Bullpup does not end the user's turn, and it can be fired twice in a single turn.\n<Bullet/> Bullpups are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Use upgrades looted from enemies to improve the Bullpup's tactical effectiveness."
+AbilityDescName="bullpup"
+
+[P90_T1 X2WeaponTemplate]
+FriendlyName="Mark II Heavy Bullpup"
+FriendlyNamePlural="P90 T1s"
+BriefSummary="The introduction of a magnetic accelerator to the original Skirmisher Bullpup rifle provides an even more lethal punch to an already dangerous close-quarters weapon."
+TacticalText="<Bullet/> Magnetized weapon technology makes for an especially effective improvement of the Skirmisher Bullpup.\n<Bullet/> Firing a Bullpup does not end the user's turn, and it can be fired twice in a single turn.\n<Bullet/> Bullpup-style weapons are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Use upgrades looted from enemies to improve the Kal-15 Bullpup's tactical effectiveness."
+AbilityDescName="bullpup"
+
+[P90_T2 X2WeaponTemplate]
+FriendlyName="Mark III Heavy Bullpup"
+FriendlyNamePlural="P90 T2s"
+BriefSummary="An energy-based rifle in Bullpup configuration, the scattered beam delivered by this modified variant of the standard bullpup is among the more advanced technology in use by their forces. While more elegant and perhaps less visceral than the projectile version, it is no less damaging in combat."
+TacticalText="<Bullet/> This is the most advanced Bullpup variant available in the XCOM arsenal.\n<Bullet/> Firing a Bullpup does not end the user's turn, and it can be fired twice in a single turn.\n<Bullet/>  Bullpup-style weapons are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Use upgrades looted from enemies to improve the Kal-90 Bullpup's tactical effectiveness."
+AbilityDescName="bullpup"
+
+;------------------------------
+;			Cannons
+
+[TLE_Cannon_CV X2WeaponTemplate]
+FriendlyName="Light Machine Gun"
+FriendlyNamePlural="Light Machine Guns"
+BriefSummary="The Cannon is the heaviest portible weapon available, specialized for high volume fire. Compared to the standard LMG, the cannon does more damage and can even shred some armor, though it impedes movement slightly more than normal and is harder to conceal."
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Light Machine Gun"
+
+[TLE_Cannon_MG X2WeaponTemplate]
+FriendlyName="Magnetic Support Machine Gun"
+FriendlyNamePlural="Magnetic Support Machine Guns"
+BriefSummary="Magnetic weapons tech will let us deploy a rapid-fire version of the cannon. Our soldiers will be able to lay down a much deadlier volume of fire."
+TacticalText="<Bullet/> The Magnetic Support Cannon is a much more powerful, yet equally deployable, version of the conventional LMG.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Magnetic Support Machine Gun"
+
+[TLE_Cannon_BM X2WeaponTemplate]
+FriendlyName="Energy Machine Gun"
+FriendlyNamePlural="Energy Machine Guns"
+BriefSummary="Devising a more powerful, high-volume beam weapon for our soldiers required substantial effort, but the firepower it brings is unquestioned."
+TacticalText="<Bullet/> The Energy Cannon is the most powerful combat support weapon human forces can deploy.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Energy Machine Gun"
+
+
+;------------------------------
+;			Shotguns
+
+[TLE_Shotgun_CV X2WeaponTemplate]
+FriendlyName="Scattergun"
+FriendlyNamePlural="Scatterguns"
+BriefSummary="We've managed to salvage a variety of standard infantry small arms; this is a specialized weapon for close range engagement. Compared to the standard shotgun, it is more accurate, doing marginally more damage, though with a bit less consistancy."
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn.\n<Bullet/> Shotguns are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Scattergun"
+
+[TLE_Shotgun_MG X2WeaponTemplate]
+FriendlyName="Augmented Shotgun"
+FriendlyNamePlural="Augmented Shotguns"
+BriefSummary="Magnetic weapons technology will let us synthesize alien alloy fragments into a spray-style projectile, and our Rangers can use it to dramatic effect: the closer the better."
+TacticalText="<Bullet/> Magnetized weapon technology makes for an especially effective improvement of XCOM's combat shotgun.\n<Bullet/> Shotgun-style weapons are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Augmented Shotgun"
+
+[TLE_Shotgun_BM X2WeaponTemplate]
+FriendlyName="Energy Sweeper"
+FriendlyNamePlural="Energy Sweepers"
+BriefSummary="The Energy Sweeper fires a concentrated set of beam pulses, piercing and melting the target across a substantial surface area."
+TacticalText="<Bullet/> This is the most advanced shotgun-style weapon available in the XCOM arsenal.\n<Bullet/> Shotgun-style weapons are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Energy Sweeper"
+
+
+[LongShotgun_SA_CV X2WeaponTemplate]
+FriendlyName="Combat Shotgun"
+FriendlyNamePlural="Combat Shotguns"
+BriefSummary="We've managed to salvage a variety of standard infantry small arms; this is a specialized weapon for close range engagement. Compared to the standard shotgun, this weapon does substantially more damage, if less accurate."
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn.\n<Bullet/> Shotguns are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Use upgrades looted from enemies to improve the Shotgun's tactical effectiveness."
+AbilityDescName="shotgun"
+
+[LongShotgun_SA_MG X2WeaponTemplate]
+FriendlyName="Combat Shotgun MK II"
+FriendlyNamePlural="MK II Combat Shotguns"
+BriefSummary="We've managed to salvage a variety of standard infantry small arms; this is a specialized weapon for close range engagement. Compared to the standard shotgun, this weapon does substantially more damage, if less accurate."
+TacticalText="<Bullet/> Using knowledge gained from magnetized weapon technology we've managed to improve the effectiveness of XCOM's combat shotguns.\n<Bullet/> Shotgun-style weapons are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Use upgrades looted from enemies to improve the Shard Gun's tactical effectiveness."
+AbilityDescName="shotgun"
+
+[LongShotgun_SA_BM X2WeaponTemplate]
+FriendlyName="Combat Shotgun MK III"
+FriendlyNamePlural="MK III Combat Shotguns"
+BriefSummary="We've managed to salvage a variety of standard infantry small arms; this is a specialized weapon for close range engagement. Compared to the standard shotgun, this weapon does substantially more damage, if less accurate."
+TacticalText="<Bullet/> This variant is the most we will ever get out of the combat shotgun.\n<Bullet/> Shotgun-style weapons are extremely effective at close range, but their accuracy drops off quickly at longer range.\n<Bullet/> Use upgrades looted from enemies to improve the Storm Gun's tactical effectiveness."
+AbilityDescName="shotgun"
+
+;------------------------------
+;	Verge's Special Gun
+
+[TLP_V_2_Shotgun_CV X2WeaponTemplate]
+FriendlyName="Verge's Special Gun"
+FriendlyNamePlural="Verge's Special Gun"
+BriefSummary="This is an experimental upgrade of a standard Sectoid Blaster that Verge somehow managed to get ahold of. It packs quite a punch, but is difficult to aim due to it's size and bulk.<Bullet/> Not usable by human soldiers -- DNA check is tuned for Sectoids"
+TacticalText="<Bullet/> Firing the primary weapon always ends the soldier's turn.\n<Bullet/> The range of this weapon is comparible to a shotgun. It's extremely effective at close range, but accuracy drops off quickly at longer range."
+AbilityDescName="Blaster"
+
+
+
+;------------------------------
+;			Sniper Rifles
+
+[TLE_SniperRifle_CV X2WeaponTemplate]
+FriendlyName="Marksman's Rifle"
+FriendlyNamePlural="Marksman's Rifles"
+BriefSummary="We've managed to salvage a variety of standard infantry small arms; this is a specialized weapon for medium to long range engagement. Compared to the standard shotgun, this weapon does somewhat more damage, though is less accurate and has fewer rounds."
+TacticalText="<Bullet/> The sniper rifle always takes two actions to fire.\n<Bullet/> The sniper rifle suffers a penalty to hit at close range.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Marksman's Rifle"
+
+[TLE_SniperRifle_MG X2WeaponTemplate]
+FriendlyName="Anti-Materiel Rifle"
+FriendlyNamePlural="Anti-Materiel Rifles"
+BriefSummary="We've managed to salvage a variety of standard infantry small arms; this is a specialized weapon for medium to long range engagement. Compared to the standard shotgun, this weapon does somewhat more damage, though is less accurate and has fewer rounds."
+TacticalText="<Bullet/> Sniper rifles always require both actions to fire.\n<Bullet/> They are less accurate at close range, but deadly at a distance.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Anti-Materiel Rifle"
+
+[TLE_SniperRifle_BM X2WeaponTemplate]
+FriendlyName="Energy AMR"
+FriendlyNamePlural="Energy AMRs"
+BriefSummary="We've managed to salvage a variety of standard infantry small arms; this is a specialized weapon for medium to long range engagement. Compared to the standard shotgun, this weapon does somewhat more damage, though is less accurate and has fewer rounds."
+TacticalText="<Bullet/> This is the apex of sniper rifle technology.\n<Bullet/> Sniper rifles always require both actions to fire.\n<Bullet/> They are less accurate at close range, but deadly at a distance.\n<Bullet/> Modern upgrades are unavailable due to the weapon's age."
+AbilityDescName="Energy AMR"
+
+;------------------------------
+;			Grenades
+
+FriendlyName="Healing Mist Grenade"
+FriendlyNamePlural="Healing Mist Grenades"
+BriefSummary="Heals non robotic units in radius"
+TacticalText="<Bullet/> Heals all non robotic units in radius.\n<Bullet/> Carrying a Heal Grenade grants immunity to poison.\n<Bullet/> Heal Grenades have a smaller radius than standard frag grenades. \n<Bullet/>Works with Heavy Ordnance, Salvo, and Field Medic abilities."
+ThrownAbilityName="Throw Healing Mist Grenade"
+ThrownAbilityHelpText="Heal all non robotic units in the target area for 3HP."
+LaunchedAbilityname="Launch Healing Mist Grenade"
+LaunchedAbilityHelpText="Heal all non robotic in the target area for 3HP."
+
+[HealBomb_Mk2 X2GrenadeTemplate]
+FriendlyName="Healing Mist Bomb"
+FriendlyNamePlural="Healing Mist Bombs"
+BriefSummary="Healing Mist Bombs, an upgrade from earlier Heal Grenades, heal for more health, and have a larger effective radius"
+TacticalText="<Bullet/> Heals all non robotic in radius for 6HP.\n<Bullet/> Carrying a Heal Bomb grants immunity to poison.\n<Bullet/> Works with Heavy Ordnance, Salvo, and Field Medic abilities."
+ThrownAbilityName="Throw Healing Mist Bomb"
+ThrownAbilityHelpText="Heal all non robotic units in the target area for 6HP."
+LaunchedAbilityname="Launch Healing Mist Bomb"
+LaunchedAbilityHelpText="Heal all non robotic in the target area for 6HP."
+
+
+;BriefSummary="A high explosive grenade that deals extra damage to environments and shreds armor."
+;TacticalText="<Bullet/> HE grenades are useful for removing, or \"shredding\" enemy armor.<br><Bullet/> They do only little damage, but do devastating damage to the environment.<br><Bullet/> Grenades can destroy targets' equipment, so relying on grenades too much will reduce our salvage opportunities."
+
+
+[FragGrenade X2GrenadeTemplate]
+FriendlyName="Frag Grenade"
+FriendlyNamePlural="Frag Grenades"
+BriefSummary="A standard issue grenade that deals moderate to high damage to unarmored enemies, and is also moderately effective at shredding armor. Deals moderate damage to structres and the environment."
+TacticalText="<Bullet/> Frag grenades are moderately useful for both antipersonnel purposes or \"shredding\" enemy armor.<br><Bullet/> Deals moderate damage to structres and the environment.<br><Bullet/> Grenades can destroy targets' equipment, so relying on grenades too much will reduce our salvage opportunities."
+ThrownAbilityName="Throw Frag Grenade"
+ThrownAbilityHelpText="Throw a frag grenade at target area. Shreds armor, destroys cover."
+LaunchedAbilityname="Launch Frag Grenade"
+LaunchedAbilityHelpText="Launch a frag grenade at target area. Shreds armor, destroys cover."
+
+[FlechetteGrenade X2GrenadeTemplate]
+FriendlyName="Flechette Grenade"
+FriendlyNamePlural="Flechette Grenades"
+BriefSummary="A shrapnel grenade that deals high damage to enemies, piercing their armor. Deals less damage to environment, even compared to frag grenades."
+TacticalText="<Bullet/> Flechette grenades can deal a lot of damage to multiple enemies.<br><Bullet/> Flechette grenades pierce enemy armor through weak points, and do not shred armor.<br><Bullet/> Grenades can destroy targets' equipment, so relying on grenades too much will reduce our salvage opportunities."
+ThrownAbilityName="Throw Flechette Grenade"
+ThrownAbilityHelpText="Throw a flechette grenade at target area. Pierces armor, moderate to low cover damage."
+LaunchedAbilityname="Launch Flechette Grenade"
+LaunchedAbilityHelpText="Launch a flechette grenade at target area. Pierces armor, moderate to low cover damage."
+
+[RM_APGrenade X2GrenadeTemplate]
+FriendlyName="HE Grenade"
+FriendlyNamePlural="HE Grenades"
+BriefSummary="A high explosive grenade that deals extra damage to environments and shreds armor."
+TacticalText="<Bullet/> HE grenades are useful for removing, or \"shredding\" enemy armor.<br><Bullet/> They do relatively little damage, but do devastating damage to the environment.<br><Bullet/> Grenades can destroy targets' equipment, so relying on grenades too much will reduce our salvage opportunities."
+ThrownAbilityName="Throw HE Grenade"
+ThrownAbilityHelpText="Throw an HE grenade at target area."
+LaunchedAbilityname="Launch HE Grenade"
+LaunchedAbilityHelpText="Launch an HE grenade at target area."
+
+[RM_APGrenade_MK2 X2GrenadeTemplate]
+FriendlyName="Alloy Grenade"
+FriendlyNamePlural="Alloy Grenades"
+BriefSummary="A high explosive anti-personnel grenade augmented with scavenged alien alloys, and an Elerium-based detonator."
+TacticalText="<Bullet/> Alloy grenades are on the frag grenade's damage capabilities."
+ThrownAbilityName="Throw Alloy Grenade"
+ThrownAbilityHelpText="Throw an Alloy grenade at target area."
+LaunchedAbilityname="Launch Alloy Grenade"
+LaunchedAbilityHelpText="Launch an Alloy grenade at target area."
+
+[AlienGrenade X2GrenadeTemplate]
+FriendlyName="Plasma Grenade"
+FriendlyNamePlural="Plasma Grenades"
+BriefSummary="A concussive grenade augmented by alien energy pulse tech, the Plasma Grenade does more damage than the standard Frag or Alloy Grenade, and is more effective at shredding enemy armor."
+TacticalText="<Bullet/> Plasma grenades improve on the frag grenade's damage and armor shredding capabilities."
+ThrownAbilityName="Throw Plasma Grenade"
+ThrownAbilityHelpText="Throw a plasma grenade at target area. Shreds armor."
+LaunchedAbilityname="Launch Plasma Grenade"
+LaunchedAbilityHelpText="Launch a plasma grenade at target area. Shreds armor."
+
+;	==========================================
+;	==	Stukov's War - Utility Items Pack	==
+;	==========================================
+; --------------------------------
+;        Respirator
+; --------------------------------
+
+[SKV_Respirator_Implant X2EquipmentTemplate]
+FriendlyName="<font color='#ecb6dc'>Respirator</font>"
+FriendlyNamePlural="<font color='#ecb6dc'>Respirator</font>"
+BriefSummary="We can fabricate a module that will automatically detect chemical and physical threats to a soldier's oxygen supply, and deploy uncomfortable but potentially life-saving oxygen tube shunts in a matter of seconds."
+TacticalText="<Bullet/> Provides Immunity to Viper Crush and Poison. <Bullet/> We can fabricate a module that will automatically detect chemical and physical threats to a soldier's oxygen supply, and deploy uncomfortable but potentially life-saving oxygen tube shunts in a matter of seconds."
+
+; --------------------------------
+;        Sidearm Holster
+; --------------------------------
+[SKV_SideArmHolster X2EquipmentTemplate]
+FriendlyName="Sidearm Holster"
+FriendlyNamePlural="Sidearm Holsters"
+BriefSummary="Allows you to draw your weapon in an instant as needed. Effectively allows a bit more mobility."
+TacticalText="Provides +1 mobility"
+
+; --------------------------------
+;         Viper Trophy
+; --------------------------------
+[GS_Viper_Trophy X2EquipmentTemplate]
+FriendlyName="<font color='#ecb6de'>Viper Trophy</font>"
+FriendlyNamePlural="<font color='#ecb6dc'>Viper Trophies</font>"
+BriefSummary="A viper skull. It shows us we can beat them. Gives immunity to Panic."
+TacticalText="<Bullet/> Grants Immunity to Panic"
+
+; --------------------------------
+;         Muton Trophy
+; --------------------------------
+[GS_Muton_Trophy X2EquipmentTemplate]
+FriendlyName="<font color='#ecb6de'>Muton Trophy</font>"
+FriendlyNamePlural="<font color='#ecb6dc'>Muton Trophies</font>"
+BriefSummary="A muton skull. It shows us we can beat them. Gives immunity to Panic."
+TacticalText="<Bullet/> Grants Immunity to Panic"
+
+; --------------------------------
+;        Infiltrator Pack
+; --------------------------------
+[SKV_BurglarPack X2EquipmentTemplate]
+FriendlyName="<font color='#ecb6dc'>Infiltrator Pack</font>"
+FriendlyNamePlural="<font color='#ecb6dc'>Infiltrator Packs</font>"
+BriefSummary="Gain Lightning Reflexes and +40 hacking."
+TacticalText="<Bullet/>Gain Lightning Reflexes and +40 hacking."
+
+;***************************************
+;Misc. 
+;***************************************
+
+;--------------------------------------------
+; 
+;			        STANCES
+;
+;--------------------------------------------
+
+[StanceGuard X2AbilityTemplate]
+LocFriendlyName="Guard"
+LocLongDescription="Get into a defensive position, boosting defense(+15) and dodge(+30), but at the cost of 2 will/turn, aim(-10), crit(50%) and mobility(70%)."
+LocHelpText="Get into a defensive position, boosting defense(+15) and dodge(+30), but at the cost of 2 will/turn, aim(-10), crit(50%) and mobility(70%)."
+LocFlyOverText="Guard"
+LocPromotionPopupText="Guard"
+
+[StanceFocus X2AbilityTemplate]
+LocFriendlyName="Take Aim"
+LocLongDescription="Take a moment to set your sights. Boosts aim (+10), crit (+10), but at the cost of 2 will/turn and a penalty to dodge (-10). Cannot move while taking aim, but can exit the stance as a free action."
+LocHelpText="Take a moment to set your sights. Boosts aim (+10), crit (+10), but at the cost of 2 will/turn and a penalty to dodge (-10). Cannot move while taking aim, but can exit the stance as a free action."
+LocFlyOverText="Take Aim"
+LocPromotionPopupText="Take Aim"
+
+[StanceMeditate X2AbilityTemplate]
+LocFriendlyName="Focus"
+LocLongDescription="Reach deep within to find calm and focus on the task at hand, boosting psi(115%), hacking(+10), will (+10) and hack defense(+10), but at the cost of 4 will/turn, defense (-10), and dodge (-20)."
+LocHelpText="Reach deep within to find calm and focus on the task at hand, boosting psi(125%), hacking(+20), will (+10) and hack defense(+20), but at the cost of 4 will/turn, defense (-10), and dodge (-20)."
+LocFlyOverText="Focus"
+LocPromotionPopupText="Focus"
+
+[StanceRush X2AbilityTemplate]
+LocFriendlyName="Sprint"
+LocLongDescription="Make a dash for it, boosting mobility(150%) and dodge(+20) but at the cost of 5 will/turn, stealth (120% detection range), sight(90%), detection (80%), and aim(-20)."
+LocHelpText="Make a dash for it, boosting mobility(150%) and dodge(+20) but at the cost of 5 will/turn, stealth (120% detection range), sight(80%), detection (80%), and aim(-20)."
+LocFlyOverText="Sprint"
+LocPromotionPopupText="Sprint"
+
+[StanceSneak X2AbilityTemplate]
+LocFriendlyName="Head Down"
+LocLongDescription="Keep your head down, boosting stealth (80% detection), defense (+2), but at the cost of 4 will/turn and some mobility(90%)."
+LocHelpText="Keep your head down, boosting stealth (80% detection), defense (+2), but at the cost of 4 will/turn and some mobility(90%)."
+LocFlyOverText="Head Down"
+LocPromotionPopupText="Head Down"
+
+[StanceFrosty X2AbilityTemplate]
+LocFriendlyName="Frosty"
+LocLongDescription="Stay alert, boosting sight(180%) and awareness(150%), but at the cost of 2 will/turn."
+LocHelpText="Stay alert, boosting sight(180%) and awareness(150%), but at the cost of 2 will/turn."
+LocFlyOverText="Frosty"
+LocPromotionPopupText="Frosty"
+
+[NerdFocus X2AbilityTemplate]
+LocFriendlyName="Egghead"
+LocLongDescription="Focus on your studies, boosting hacking(150%), but at the cost of 5 will/turn and mobility(50%)."
+LocHelpText="Focus on your studies, boosting hacking(150%), but at the cost of 5 will/turn and mobility(50%)."
+LocFlyOverText="Egghead"
+LocPromotionPopupText="Egghead"
+
+; from Zelfana's Assorted Fixes Config
+
+[XComPresentationLayer]
+; Changed move to action as it allows more than just moving
+m_strMomentumActionPointRemaining="Momentum action available"
+; Capitalized And to match ability name formatting
+m_strRunAndGunActionPointRemaining="Run And Gun action available"
+
+
+[XComGame.XLocalizedData]
+[XLocalizedData]
+; Some clearer and shortened text to fit without scrolling
+OffenseStat="Base Aim"
+RecoilPenalty="Recoil"
+HeightAdvantage="High Ground"
+HeightDisadvantage="Low Ground"
+WeaponRange="Range"
+FlankingCritBonus="Exposed"
+FlankingAimBonus="Exposed"
+WeaponAimBonus="Weapon Aim"
+CharCritChance="Base Crit"
+SmokeDefenseBonus="Smoke"
+
+; More generalized message for loud noise as they are not always explosions with mods
+LostLoudNoiseMessage="The loud noise draws a Lost Swarm closer!"
+
+
+[XComGame.X2TacticalGameRulesetDataStructures]
+[X2TacticalGameRulesetDataStructures]
+; Adding missing labels for some stats
+CharStatLabels[eStat_Invalid]=INVALID STAT
+CharStatLabels[eStat_UtilityItems]=UTILITY ITEMS
+CharStatLabels[eStat_FlightFuel]=FLIGHT FUEL
+CharStatLabels[eStat_AlertLevel]=ALERT LEVEL
+CharStatLabels[eStat_BackpackSize]=BACKPACK SIZE
+CharStatLabels[eStat_ArmorChance]=ARMOR CHANCE
+CharStatLabels[eStat_ArmorMitigation]=ARMOR
+CharStatLabels[eStat_ArmorPiercing]=ARMOR PIERCE
+CharStatLabels[eStat_HackDefense]=HACK DEFENSE
+CharStatLabels[eStat_DetectionRadius]=DETECTION RADIUS
+CharStatLabels[eStat_DetectionModifier]=DETECTION MODIFIER
+CharStatLabels[eStat_CritChance]=CRIT
+CharStatLabels[eStat_Strength]=STRENGTH
+CharStatLabels[eStat_SeeMovement]=SEE MOVEMENT
+CharStatLabels[eStat_HearingRadius]=HEARING RADIUS
+CharStatLabels[eStat_CombatSims]=PCS SLOTS
+CharStatLabels[eStat_FlankingCritChance]=FLANKING CRIT
+CharStatLabels[eStat_ShieldHP]=SHIELD HP
+CharStatLabels[eStat_Job]=JOB
+CharStatLabels[eStat_FlankingAimBonus]=FLANKING AIM
+
+m_aCharStatLabels[eStat_Invalid]="Invalid Stat"
+m_aCharStatLabels[eStat_UtilityItems]="Utility Items"
+m_aCharStatLabels[eStat_FlightFuel]="Flight Fuel"
+m_aCharStatLabels[eStat_AlertLevel]="Alert Level"
+m_aCharStatLabels[eStat_BackpackSize]="Backpack Size"
+m_aCharStatLabels[eStat_ArmorChance]="Armor Chance"
+m_aCharStatLabels[eStat_ArmorMitigation]="Armor"
+m_aCharStatLabels[eStat_ArmorPiercing]="Armor Pierce"
+m_aCharStatLabels[eStat_HackDefense]="Hack Defense"
+m_aCharStatLabels[eStat_DetectionRadius]="Detection Radius"
+m_aCharStatLabels[eStat_DetectionModifier]="Detection Modifier"
+m_aCharStatLabels[eStat_CritChance]="Crit"
+m_aCharStatLabels[eStat_SeeMovement]="See Movement"
+m_aCharStatLabels[eStat_HearingRadius]="Hearing Radius"
+m_aCharStatLabels[eStat_CombatSims]="PCS Slots"
+m_aCharStatLabels[eStat_FlankingCritChance]="Flanking Crit"
+m_aCharStatLabels[eStat_ShieldHP]="Shield HP"
+m_aCharStatLabels[eStat_Job]="Job"
+m_aCharStatLabels[eStat_FlankingAimBonus]="Flanking Aim"
+
+
+[X2AbilityTemplateManager]
+;AbilityAvailabilityCodes="AA_RunAndGunUsed"
+AbilityAvailabilityStrings[78]="Cannot use after activating Run And Gun."
+
+
+; Battle Scanner was still mentioned as a grenade, lol
+[HeavyOrdnance X2AbilityTemplate]
+LocPromotionPopupText="<Bullet/> All grenades are viable for Heavy Ordnance, even non-offensive grenades like Smoke Grenades.<br/>"
+
+
+; Clarify how Implacable works, it doesn't prevent further attacks
+[Implacable X2AbilityTemplate]
+LocLongDescription="Gain a maximum of one bonus move per turn after scoring a kill."
+LocHelpText="Gain a maximum of one bonus move per turn after scoring a kill."
+LocPromotionPopupText="<Bullet/> Bonus movement is used first if moving with other action points available.<br/><Bullet/> The bonus move is lost if you take a normally turn-ending action without using the move first even if you get to continue the turn by getting actions refunded.<br/><Bullet/> Implacable can only be triggered once per turn.<br/>"
+
+
+; Rapid Fire description was missing its ammo cost and cooldown, took the same text from Chain Shot
+[RapidFire X2AbilityTemplate]
+LocPromotionPopupText="<Bullet/> Rapid Fire requires <Ability:SelfAmmoCost/> ammo points, and has a <Ability:SelfCooldown/> turn cooldown.<br/><Bullet/> Rapid Fire is a devastating ability for dealing ranged damage.<br/>"
+
+
+; Clarify Untouchable
+[Untouchable X2AbilityTemplate]
+LocLongDescription="If you score a kill during your turn, the first attack against you during the enemy turn will miss."
+LocHelpText="If you score a kill during your turn, the first attack against you during the enemy turn will miss."
+LocPromotionPopupText="<Bullet/> When Untouchable is triggered, the <Ability:ClassName/> is immune to the first damage dealing attack directed at them during the enemy turn, even Area of Effect attacks.<br/><Bullet/> Untouchable can only be triggered once per turn.<br/>"
+
+
+; Reword Parry to clarify it can be stacked
+[Parry X2AbilityTemplate]
+LocLongDescription="After attacking with Rend, prevent all damage from an attack made against you during the enemy turn instead of moving."
+LocHelpText="After attacking with Rend, prevent all damage from an attack made against you during the enemy turn instead of moving."
+LocPromotionPopupText="<Bullet/> Parry will prevent damage from both melee and ranged attacks but not Area of Effect attacks.<br/><Bullet/> Parry will use the action granted by Momentum.<br/><Bullet/> Using Parry more than once in the same turn will prevent damage from the same number of attacks during the enemy turn.<br/>"
+
+[ParryActivate X2AbilityTemplate]
+LocLongDescription="Parry a melee or ranged attack made against you during the enemy turn, preventing all damage."
+LocHelpText="Parry a melee or ranged attack made against you during the enemy turn, preventing all damage."
+
+
+; Mention limitations in all mutually exclusive abilities, not just Reaper
+; Also clarify how Run And Gun actually works
+[RunAndGun X2AbilityTemplate]
+LocLongDescription="Gain an additional action point usable on any action except movement."
+LocHelpText="Gain an additional action point usable on any action except movement."
+LocPromotionPopupText="<Bullet/> Run And Gun action point stays available after using both normal actions for movement.<br/><Bullet/> Run And Gun action point is used first if taking actions that do not end the turn.<br/><Bullet/> You can take three actions without moving if the first two are not turn-ending.<br/><Bullet/> Run And Gun has a <Ability:SelfCooldown/> turn cooldown.<br/><Bullet/> Run And Gun cannot be used on the same turn as Reaper or Serial.<br/>"
+
+[Reaper X2AbilityTemplate]
+LocPromotionPopupText="<Bullet/> Reaper has a <Ability:SelfCooldown/> turn cooldown.<br/><Bullet/> Reaper cannot be used on the same turn as Run And Gun or Serial.<br/><Bullet/> As the damage with each successful Reaper strike is reduced, careful ordering of targets may be required to ensure the longest chain of attacks.<br/>"
+
+; Also removing the remark about Serial lowering crit chance as it does not actually do that
+[InTheZone X2AbilityTemplate]
+LocPromotionPopupText="<Bullet/> Serial is meant to chain enemy kills in a single action, as every kill is essentially free.<br/><Bullet/> Serial has a <Ability:SelfCooldown/> turn cooldown.<br/><Bullet/> Serial cannot be used on the same turn as Run And Gun or Reaper.<br/>"
+
+
+; Added missing concealed Kill Zone description
+[KillZone X2AbilityTemplate]
+LocLongDescriptionWhenConcealed="Enhanced squadsight overwatch in a cone of fire but only if revealed."
+
+
+; Changed flyover text to match others, getting it to display a special "Deep Cover: Aim" message would require overwriting a class in code
+[SharpshooterAim X2AbilityTemplate]
+LocFlyOverText="Hunker Down: Aim"
+
+
+; Changed Overdrive and Adaptive Aim descriptions to clarify the aim penalty applies to all shots in case the Spark has other shots added by mods
+[Overdrive X2AbilityTemplate]
+LocLongDescription="Take three actions this turn, and no action is turn-ending. An increasing recoil penalty is incurred after each shot taken."
+LocHelpText="Take three actions this turn, and no action is turn-ending. An increasing recoil penalty is incurred after each shot taken."
+LocPromotionPopupText="<Bullet/> A stacking recoil penalty of <Ability:Overdrive_RecoilPenalty/>% Aim is applied after each shot while Overdrive is active.<br/><Bullet/> Other actions such as moving or firing heavy weapons do not incur penalties.<br/><Bullet/> Overdrive has no cost to activate, but has a <Ability:SelfCooldown/> turn cooldown.<br/>"
+
+[AdaptiveAim X2AbilityTemplate]
+LocLongDescription="When Overdrive is active, shots no longer incur recoil penalties."
+LocHelpText="When Overdrive is active, shots no longer incur recoil penalties."
+LocPromotionPopupText="<Bullet/> Adaptive Aim eliminates the <Ability:Overdrive_RecoilPenalty/>% Aim penalty for consecutive shots when Overdrive is active.<br/>"
+
+
+; Fixed some "hardcoded" strings to be contextual
+[Solace X2AbilityTemplate]
+LocLongDescription="The <Ability:ClassName/> is surrounded by an aura that immediately extinguishes or blocks any mental impairments for themselves and any nearby squadmates."
+LocHelpText="The <Ability:ClassName/> is surrounded by an aura that immediately extinguishes or blocks any mental impairments for for themselves and any nearby squadmates."
+
+[SolaceCleanse X2AbilityTemplate]
+LocLongDescription="The <Ability:ClassName/> is surrounded by an aura that immediately extinguishes or blocks any mental impairments for themselves and any nearby squadmates."
+LocHelpText="The <Ability:ClassName/> is surrounded by an aura that immediately extinguishes or blocks any mental impairments for themselves and any nearby squadmates."
+
+[SolacePassive X2AbilityTemplate]
+LocLongDescription="The <Ability:ClassName/> is surrounded by an aura that immediately extinguishes or blocks any mental impairments for themselves and any nearby squadmates."
+LocHelpText="The <Ability:ClassName/> is surrounded by an aura that immediately extinguishes or blocks any mental impairments for themselves and any nearby squadmates."
+
+[FanFire X2AbilityTemplate]
+LocLongDescription="Fire your <Ability:SecondaryWeaponName/> three times at the same target."
+LocHelpText="Fire your <Ability:SecondaryWeaponName/> three times at a single target."
+
+[Faceoff X2AbilityTemplate]
+LocLongDescription="Fire once at every visible enemy with your <Ability:SecondaryWeaponName/>."
+LocHelpText="Fire once at every visible enemy with your <Ability:SecondaryWeaponName/>."
+
+[AidProtocol X2AbilityTemplate]
+LocLongDescription="Command your <Ability:SECONDARYWEAPONNAME/> to move to a friendly target. It grants that target a bonus to Defense until the start of the next player turn."
+LocHelpText="Send your <Ability:SECONDARYWEAPONNAME/> to an ally to grant them +<Ability:AidProtocolDefenseBonus/> Defense for a turn."
+LocDefaultSecondaryWeapon="GREMLIN"
+
+[MedicalProtocol X2AbilityTemplate]
+LocLongDescription="The <Ability:SECONDARYWEAPONNAME/> can perform healing actions remotely: GREMLIN Heal and GREMLIN Stabilize. The <Ability:SECONDARYWEAPONNAME/> has a single shared charge. If a medikit is equipped, the <Ability:SECONDARYWEAPONNAME/> will gain an additional charge."
+LocHelpText="The <Ability:SECONDARYWEAPONNAME/> now performs healing actions: GREMLIN Heal and GREMLIN Stabilize."
+LocDefaultSecondaryWeapon="GREMLIN"
+
+[GremlinHeal X2AbilityTemplate]
+LocLongDescription="Send your <Ability:SECONDARYWEAPONNAME/> out to heal an injured ally. Heals up to <Ability:GREMLINHEALHP/> HP with each use."
+LocHelpText="Send your <Ability:SECONDARYWEAPONNAME/> out to heal an injured ally."
+LocDefaultSecondaryWeapon="GREMLIN"
+
+[RevivalProtocol X2AbilityTemplate]
+LocLongDescription="Send your <Ability:SECONDARYWEAPONNAME/> to an ally to remove any negative mental status effects: Disoriented, Stunned, Panicked, or Unconscious."
+LocHelpText="Send your <Ability:SECONDARYWEAPONNAME/> to an ally to remove negative mental status effects."
+LocDefaultSecondaryWeapon="GREMLIN"
+
+[FieldMedic X2AbilityTemplate]
+LocPromotionPopupText="<Bullet/> If a <Ability:ClassName/> has the Medical Protocol ability, the <Ability:SECONDARYWEAPONNAME/> gains additional charges as well.<br/>"
+LocDefaultSecondaryWeapon="GREMLIN"
+
+[RestorativeMist X2AbilityTemplate]
+LocLongDescription="The <Ability:SECONDARYWEAPONNAME/> flies to each squad member, healing or reviving them as needed."
+LocHelpText="The <Ability:SECONDARYWEAPONNAME/> flies to each squad member, healing or reviving them as needed."
+LocDefaultSecondaryWeapon="GREMLIN"
+
+[CombatProtocol X2AbilityTemplate]
+LocLongDescription="Send the <Ability:SECONDARYWEAPONNAME/> to an enemy to jolt them, dealing guaranteed damage, which is increased against robotic enemies."
+LocHelpText="Send the <Ability:SECONDARYWEAPONNAME/> to an enemy to jolt them, dealing guaranteed damage, which is increased against robotic enemies."
+LocPromotionPopupText="<Bullet/> Combat Protocol has two charges per mission.<br/><Bullet/> Upgrading your GREMLIN will lead to more damage per charge.<br/><Bullet/> Combat Protocol can target enemies within squadmates' sight, provided there is line of sight to the target.<br/>"
+LocDefaultSecondaryWeapon="GREMLIN"
+
+[HaywireProtocol X2AbilityTemplate]
+LocLongDescription="You may target robotic and mechanical enemies with your <Ability:SECONDARYWEAPONNAME/>, attempting to hack them and seize control."
+LocDefaultSecondaryWeapon="GREMLIN"
+
+[ScanningProtocol X2AbilityTemplate]
+LocLongDescription="The <Ability:SECONDARYWEAPONNAME/> can trigger an instant scan of the area, increasing the <Ability:ClassName/>'s sight radius substantially for one turn, and revealing any hidden or disguised enemies in view."
+LocHelpText="Trigger a scan of the area with the <Ability:SECONDARYWEAPONNAME/>, increasing your sight radius, and revealing any hidden or disguised enemies in view."
+LocPromotionPopupText="<Bullet/> In addition to hidden and disguised enemies, enemies blocked from line of sight by walls or obstructions will also be revealed by Scanning Protocol.<br/><Bullet/> Scanning Protocol has two charges per mission.<br/><Bullet/> Upgrading your GREMLIN will add more Scanning Protocol charges.<br/>"
+LocDefaultSecondaryWeapon="GREMLIN"
+
+
+; Shorter Psionic Bomb description to prevent scrolling
+[PsiBombStage1 X2AbilityTemplate]
+LocLongDescription="Open a Psionic rift that disables the weapons of any units caught in its radius, and deals damage within that radius after one turn."
+LocHelpText="Open a Psionic rift that disables the weapons of any units caught in its radius, and deals damage within that radius after one turn."
+LocFlyOverText="Psionic Bomb"
+
+; Dark Event Return Fire was missing localization for the passive icon
+[DarkEventAbility_ReturnFire X2AbilityTemplate]
+LocFriendlyName="Dark Event: Return Fire"
+LocHelpText="When targeted by an enemy attack, automatically fire back with your <Ability:WeaponName/>."
+LocLongDescription="When targeted by an enemy attack, automatically fire back with your <Ability:WeaponName/>."
+LocPromotionPopupText="<Bullet/> Return Fire can be triggered by melee attacks and Area of Effect attacks.<br/><Bullet/> Return Fire will not trigger when targeted by Overwatch fire.<br/>"
+
+
+; Purifier Grenade fix was missing localization for the new grenade replacement, copied Firebomb strings over
+[PurifierGrenade X2GrenadeTemplate]
+FriendlyName="Incendiary Grenade"
+FriendlyNamePlural="Incendiary Grenades"
+BriefSummary="The Incendiary Grenade is a technical improvement to the improvised fire weapons the Resistance has been using for years. After the initial blast, most targets will be set aflame and suffer persistent burning damage."
+TacticalText="<Bullet/> Incendiary grenades will damage all units in the blast radius, and apply the \"burning\" effect to any units vulnerable to flame.\n<Bullet/> Incendiary grenades do more blast damage than all other grenades.\n<Bullet/> Some enemies, particularly metallic ones, are immune to fire and will not suffer the \"burning\" effect."
+ThrownAbilityName="Throw Incendiary Grenade"
+ThrownAbilityHelpText="Sets fire to the target area, along with affected units."
+LaunchedAbilityname="Launch Incendiary Grenade"
+LaunchedAbilityHelpText="Sets fire to the target area, along with affected units."
+
+
+; Superior Explosives had a typo here
+[PlasmaGrenadeMk3 X2GrenadeTemplate]
+BriefSummary="The Plasma Warhead, an upgraded version of the Plasma Grenade, does greater damage and is more effective at shredding enemy armor."
+
+
+; Basic PCS
+[CommonPCSSpeed X2EquipmentTemplate]
+FriendlyName="PCS: Basic Speed"
+FriendlyNamePlural="PCS: Basic Speed"
+
+[CommonPCSConditioning X2EquipmentTemplate]
+FriendlyName="PCS: Basic Conditioning"
+FriendlyNamePlural="PCS: Basic Conditioning"
+
+[CommonPCSFocus X2EquipmentTemplate]
+FriendlyName="PCS: Basic Focus"
+FriendlyNamePlural="PCS: Basic Focus"
+
+[CommonPCSPerception X2EquipmentTemplate]
+FriendlyName="PCS: Basic Perception"
+FriendlyNamePlural="PCS: Basic Perception"
+
+[CommonPCSAgility X2EquipmentTemplate]
+FriendlyName="PCS: Basic Agility"
+FriendlyNamePlural="PCS: Basic Agility"
+
+
+; Messed up photobooth quote, has also been copied to some mods
+[Sharpshooter X2SoldierClassTemplate]
+PhotoboothSoloBLines_Male[7]="Patience is bitter, but its fruit is sweet."
+
+[AlphaSniper X2SoldierClassTemplate]
+PhotoboothSoloBLines_Male[7]="Patience is bitter, but its fruit is sweet."
+
+[LightSharpshooter X2SoldierClassTemplate]
+PhotoboothSoloBLines_Male[7]="Patience is bitter, but its fruit is sweet."
+
+
+;  Would do this in Color Your Techs config but Honey's Heavy Support Items creates the template very questionably in a UIScreenListener which happens way after OnPostTemplatesCreated! >:(
+[HHSTechTemplate X2TechTemplate]
+DisplayName="<font color='#DA51D0'>Experimental Heavy Support Item</font>"
