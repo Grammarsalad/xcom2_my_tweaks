@@ -1,29 +1,41 @@
 ;***************************************
 ;Primary Classes 
 ;***************************************
+
+;  ///////////////
+;  // Alchemist //
+;  ///////////////
+
+[Alchemist]
+SpecName="Alchemist"
+SpecSummary="The Alchemist has a love for mixing mundane chemicals to create wide-spreading effects. They are equally adept at supporting their allies and controlling and damaging their foes."
+
 [Assault]
 SpecName="Assault"
 SpecSummary="The Assault serves as our front line unit, delivering devastating close range firepower against unsuspecting aliens."
-
-[Infantry]
-SpecName="Infantry"
-SpecSummary="The Infantry is the backbone of the resistance, carrying out skirmish tactics without the need for specialized weaponry."
 
 [Gunner]
 SpecName="Gunner"
 SpecSummary="The Gunner is trained in heavy armaments and excels at establishing fire superiority with ample use of munitions."
 
-[Sharpshooter]
-SpecName="Sharpshooter"
-SpecSummary="The Sharpshooter specializes in handling heavy rifles capable of delivering accurate fire over great distances."
+[Infantry]
+SpecName="Infantry"
+SpecSummary="The Infantry is the backbone of the resistance, carrying out skirmish tactics without the need for specialized weaponry."
 
 [Marauder]
 SpecName="Marauder"
 SpecSummary="The Marauder can operate their primary weapon with utmost efficiency, shooting twice as often compared to other specializations."
 
 [Shadow]
-SpecName="Shadow"
-SpecSummary="The Shadow is our primary reconnaissance unit, providing crucial battlefield intelligence while waiting for the opportune moment to strike."
+SpecName="Scout"
+SpecSummary="The Scout is a reconnaissance unit, providing crucial battlefield intelligence while waiting for the opportune moment to strike."
+
+
+[Sharpshooter]
+SpecName="Sharpshooter"
+SpecSummary="The Sharpshooter specializes in handling heavy rifles capable of delivering accurate fire over great distances."
+
+
 
 ;***************************************
 ;Secondary Classes 
