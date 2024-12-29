@@ -1,0 +1,566 @@
+;***************************************
+;Primary Classes 
+;***************************************
+
+;  ///////////////
+;  // Agent //
+;  ///////////////
+
+[BAgent]
+SpecName="Agent"
+SpecSummary="The Agent specializes in infiltration and stealth. They are masters of infiltrating enemy cities, gathering intelligence, and completing the mission."
+
+;  //////////////////////
+;  // Assault Infantry //
+;  //////////////////////
+
+[AAssault]
+SpecName="Assault"
+SpecSummary="The Assault serves as our front-line unit, delivering devastating close range firepower against unsuspecting aliens."
+
+;  ////////////
+;  // Gunner //
+;  ////////////
+
+[AGunner]
+SpecName="Gunner"
+SpecSummary="A heavy weapons specialist, the Gunners specialize in taking and holding positions."
+
+;  ////////////////
+;  // Gunslinger //
+;  ////////////////
+
+[Gunny]
+SpecName="Gunslinger"
+SpecSummary="The Gunslinger is a wild card, unmatched with a handgun, and able to wield two guns simultaneously to deadly effect."
+
+;  //////////////
+;  // Infantry //
+;  //////////////
+
+[AInfantry]
+SpecName="Infantry"
+SpecSummary="The Infantry is the backbone of the resistance, taking and holding position without the need for specialized weaponry."
+
+;  ///////////////
+;  // Marauder  //
+;  ///////////////
+
+[BMarauder]
+SpecName="Marauder"
+SpecSummary="The Marauder is a skirmisher par excellence. They move quick, getting into a flanking position, operate their primary weapon with utmost efficiency, shooting twice as often compared to other specializations."
+
+
+;  //////////////
+;  // Samurai  //
+;  //////////////
+
+[BSammi]
+SpecName="Samurai"
+SpecSummary="The Samurai is a master of melee combat with no equal. Even the most dangerous beasts fall to their blade."
+
+;  //////////////
+;  // Sapper  //
+;  //////////////
+
+[SappyPappy]
+SpecName="Sapper"
+SpecSummary="The Sapper provides long-range explosive support and is adept at disrupting enemy formations and fortifications."
+
+
+;  //////////////
+;  //  Scout   //
+;  //////////////
+
+[Ascout]
+SpecName="Scout"
+SpecSummary="The Scout is a reconnaissance unit, providing crucial battlefield intelligence while waiting for the opportune moment to strike."
+
+
+;  ////////////////////
+;  //  Sharpshooter  //
+;  ////////////////////
+
+[ASharpshooter]
+SpecName="Sharpshooter"
+SpecSummary="The Sharpshooter specializes in handling heavy rifles capable of delivering accurate fire over great distances."
+
+;  ////////////////////
+;  //  Specialist  //
+;  ////////////////////
+
+[ASpecialist]
+SpecName="Specialist"
+SpecSummary="The Specialist embraces the most advanced technology, using an array of high-tech utilities to disrupt their enemies and support their allies from afar."
+
+
+;  ////////////////
+;  //  Vanguard  //
+;  ////////////////
+
+[AVanguard]
+SpecName="Vanguard"
+SpecSummary="Trained by Reapers, the Vanguard specializes in slipping through, and striking from, the shadows."
+
+
+;***************************************
+;Secondary Classes 
+;***************************************
+
+;  ////////////////
+;  //  Arbalist  //
+;  ////////////////
+
+[AArbalist]
+SpecName="Arbalist"
+SpecSummary="The Arbalist specializes in the use of an unorthodox weapon: the crossbow. Arbalists excel at stealth and assassination."
+
+;  ////////////////
+;  //  Commando  //
+;  ////////////////
+
+[Aarnold]
+SpecName="Commando"
+SpecSummary="The Commando carries a Combat Knife for unexpected close range encounters and is trained in some of our more unconventional combat tactics."
+
+;  ////////////////
+;  //  Executioner  //
+;  ////////////////
+
+[ExecutionerB]
+SpecName="Executioner"
+SpecSummary="The Executioner specializes in single target elimination up close and personal with their trusty sawed-off shotgun."
+
+;  ////////////////
+;  //  Grenadier //
+;  ////////////////
+
+[Grenadier]
+SpecName="Grenadier"
+SpecSummary="The Grenadier bears no regard for the environment, covering the battlefield in varying degrees of what were once considered war crimes."
+
+;  ////////////////
+;  //  Guardian  //
+;  ////////////////
+
+[DaGuard]
+SpecName="Guardian"
+SpecSummary="The Guardian looks to both protect their allies, and intimidate their enemies."
+
+
+;  ////////////////
+;  //  Heavy //
+;  ////////////////
+
+[BRocky]
+SpecName="Heavy"
+SpecSummary="The Heavy operates the rocket launcher, either by itself, or integrated in the Gauntlet to provide area denial and explosive force."
+
+;  ////////////////
+;  //  Hitman  //
+;  ////////////////
+
+[CGunslinger]
+SpecName="Hitman"
+SpecSummary="The Hitman specializes in stealth and target elimination."
+
+
+;  ////////////
+;  // Hunter //
+;  ////////////
+; Get from orig description 
+
+[Hunty]
+SpecName="Hunter"
+SpecSummary="The Hunter specializes in eliminating priority targets by ambushing them with surprise attacks."
+
+
+;  ////////////////
+;  //  Outrider  //
+;  ////////////////
+
+[BVanguard]
+SpecName="Outrider"
+SpecSummary="The Outrider specializes in stealth and mobility, filling many different roles as needed."
+
+;  ////////////////
+;  //  Marksman  //
+;  ////////////////
+
+[BSharpshooter]
+SpecName="Marksman"
+SpecSummary="The Marksman is trained in sniper rifles. Give them time to prepare, and they are deadly at long range."
+
+;  //////////////////////////
+;  //  Medical Technician  //
+;  //////////////////////////
+
+[BCombatMedic]
+SpecName="Medical Technician"
+SpecSummary="Mixing human ingenuity with the latest tech, the Medical Technician is trained in using the aliens' own tools against them."
+
+
+;  ////////////////
+;  //  Rifleman  //
+;  ////////////////
+
+[BInfantry]
+SpecName="Rifleman"
+SpecSummary="The Rifleman trains extensively in om tactics, bringing the fight to the aliens with the trusty rifle."
+
+;  ///////////////
+;  //  Shinobi  //
+;  ///////////////
+
+[AShadow]
+SpecName="Shinobi"
+SpecSummary="The Shinobi specializes in melee and stealth, with a secondary focus on infiltration and assassination."
+
+
+;***************************************
+;Tertiary Classes 
+;***************************************
+
+
+;  ////////////////
+;  //  Akimbo  //
+;  ////////////////
+
+[BGunslinger]
+SpecName="Akimbo"
+SpecSummary="The Akimbo is a rare gunslinger that specializes in dual pistols."
+
+;  /////////////////
+;  // Electrician //
+;  /////////////////
+
+[AForcy]
+SpecName="Electrician"
+SpecSummary="The Electrician wields the Arc Thrower to pacify enemy personnel with shocking efficiency."
+
+
+;  ////////////////
+;  //  Fencer  //
+;  ////////////////
+
+[BBlademaster]
+SpecName="Fencer"
+SpecSummary="The Fencer is well trained in melee combat, and often prefers blades to firearms."
+
+;  //////////////
+;  // Sentinel //
+;  //////////////
+
+
+[ASentinel]
+SpecName="Sentinel"
+SpecSummary="The Sentinel opts for a more defensive approach, providing accurate reaction fire across the battlefield."
+
+
+;  //////////////
+;  //  Sentry  //
+;  //////////////
+
+[ASentry]
+SpecName="Sentry"
+SpecSummary="The Sentry specializes in securing an area with a sniper rifle."
+
+;  ///////////
+;  // Snoop //
+;  ///////////
+
+[Cscout]
+SpecName="Snoop"
+SpecSummary="The Snoop excels at keeping a low profile, to both maintain self-preservation, and slipping behind enemy lines."
+
+;  //////////////
+;  // Scrapper //
+;  //////////////
+
+[BScrapper]
+SpecName="Scrapper"
+SpecSummary="The Scrapper is a mobile warrior, specializing in hit and run tactics."
+
+;  ////////////
+;  // Warden //
+;  ////////////
+
+
+[BGunner]
+SpecName="Warden"
+SpecSummary="The Warden specializes in holding a dangerous enemy at bay."
+
+
+
+
+
+;  ///////////////
+;  // Alchemist //
+;  ///////////////
+
+[Alchy]
+SpecName="Alchemist"
+SpecSummary="The Alchemist has a love for mixing mundane chemicals to create wide-spreading effects. They are equally adept at supporting their allies and controlling and damaging their foes."
+
+
+;  ////////////////
+;  // Apothecary //
+;  ////////////////
+
+; text credit: stukov
+[BApothecary]
+SpecName="Apothecary"
+SpecSummary="The Apothecary is a support class tasked with healing allies and inflicting status effects on foes."
+
+
+;  /////////////////////
+;  // Combat Engineer //
+;  /////////////////////
+
+[ComEng]
+SpecName="Combat Engineer"
+SpecSummary="The Combat Engineer is a problem solver employing a diverse set of tools to solve problems on the battlefield."
+
+;  /////////////////////
+;  // Combat Medic //
+;  /////////////////////
+
+[AMedic]
+SpecName="Combat Medic"
+SpecSummary="The Combat Medic is not equipped to provide extensive medical treatment, but you can count on him to keep you alive in the heat of battle."
+
+
+;  //////////////////
+;  //  Drone Pilot //
+;  //////////////////
+
+[Dronz]
+SpecName="Drone Pilot"
+SpecSummary="The Drone Pilot embraces the most advanced technology, using a high-tech BIT to take the fight to their enemies and support their allies from afar."
+
+;  ////////////////////////////
+;  //     Electroraider      //
+;  ////////////////////////////
+
+[Electro]
+SpecName="Electroraider"
+SpecSummary="The Electroraider is a technical genius that specializes in the creative delivery of electricty."
+
+;  ////////////////
+;  // Gadgeteer //
+;  ////////////////
+
+[GadgetMan]
+SpecName="Gadgeteer"
+SpecSummary="A jack of all trades, the Gadgeteer specializes in problem solving. The Gadgeteer always seems to have a trick up his sleeve to save the day."
+
+
+;  //////////////////////
+;  //     Phalanx      //
+;  //////////////////////
+
+[ShieldGuy]
+SpecName="Phalanx"
+SpecSummary="Using a shield to protect themselves or others via Shield Wall/Hunker Down, the Phalanx specialises in holding ground or rushing in to objectives otherwise too dangerous for other units."
+
+;  //////////////////////
+;  //    Rocketeer     //
+;  //////////////////////
+
+[Rocky]
+SpecName="Rocketeer"
+SpecSummary="Rocketeers are heavy weapons units that support their team through the application of overwhelming heavy ordnance."
+
+
+;  //////////////
+;  //  Gunner  //
+;  //////////////
+
+[Gunner]
+SpecName="Gunner"
+SpecSummary="The Gunner is trained in heavy armaments and excels at establishing fire superiority with ample use of munitions."
+
+;  /////////////////////////
+;  //  Resistance Leader  //
+;  /////////////////////////
+
+[Occifer]
+SpecName="Resistance Leader"
+SpecSummary="The Resistance Leader leads other troops in battle, supporting them, and raising morale."
+
+;  /////////////////
+;  //  Quartermaster  //
+;  /////////////////
+
+[BScav]
+SpecName="Quartermaster"
+SpecSummary="The Quartermaster is responsible for ensuring that the soldiers of XCom are well equipped."
+
+
+
+
+
+
+; Secondaries
+
+
+;  //////////////
+;  //  Scout   //
+;  //////////////
+
+[Scout]
+SpecName="Scout"
+SpecSummary="The Scout is a reconnaissance unit, providing crucial battlefield intelligence while waiting for the opportune moment to strike."
+
+
+
+;  //////////////
+;  //  Witch   //
+;  //////////////
+
+[Witchy]
+SpecName="Witch"
+SpecSummary="The Witch is a rare natural psionic, specializing in mental manipulation and control."
+
+;  //////////////
+;  //  Tesla   //
+;  //////////////
+
+[BTesla]
+SpecName="Tesla Trooper"
+SpecSummary="When this Scientist went seemingly mad with power while toying with an Experimental Weapons Technology retrieved from a destroyed XCOM Base in Russia, Bradford ordered this questionably sane Crewmember to the front lines."
+
+;  //////////////
+;  //  Techie   //
+;  //////////////
+
+[ATechspert]
+SpecName="Techie"
+SpecSummary="The Techie operates the Gremlin to infiltrate enemy systems and carry out surprise attacks from within."
+
+
+;  //////////////
+;  // Support  //
+;  //////////////
+
+[Support]
+SpecName="Support"
+SpecSummary="The Support provides non-lethal countermeasures against enemy personnel in form of defensive smoke and offensive stun grenades."
+
+;  /////////////
+;  //  Techie //
+;  /////////////
+
+[Techspert]
+SpecName="Techie"
+SpecSummary="The Techie operates the Gremlin to infiltrate enemy systems and carry out surprise attacks from within."
+
+;  //////////////////////////
+;  //  Medical Technician  //
+;  //////////////////////////
+
+[CombatMedic]
+SpecName="Medical Technician"
+SpecSummary="The Medical Technician combines high tech medical equipment with experties. They are not equipped to provide extensive medical treatment, but you can count on them to keep you alive in the heat of battle."
+
+;  /////////////////
+;  //  Scavenger  //
+;  /////////////////
+
+[BQuartermaster]
+SpecName="Scavenger"
+SpecSummary="The Scavenger is always on the lookout for spare parts, discarded and broken weapons, alien materials: anything to help the resistance."
+
+
+; Tertiaries
+
+;  //////////////
+;  //  Demolitionist //
+;  //////////////
+
+[CSupport]
+SpecName="Demolitionist"
+SpecSummary="The Demolitionist specializes in grenades of all kinds, whether launched or thrown."
+
+;  //////////////
+;  // Corpsman //
+;  //////////////
+
+[Corpsman]
+SpecName="Corpsman"
+SpecSummary="The Corpsman's bag is a mobile hospital. No injury shall be left untended given time between confrontations."
+
+;  ////////////////////
+;  // Natural Leader //
+;  ////////////////////
+
+
+[Officer]
+SpecName="Natural Leader"
+SpecSummary="The Natural Leader is inherently charismatic, and other soldiers tend to follow them."
+
+
+;  //////////////
+;  // Support //
+;  //////////////
+
+[BSupport]
+SpecName="Support"
+SpecSummary="The Support provides non-lethal countermeasures against enemy personnel in form of defensive smoke and offensive stun grenades."
+
+
+[Officer]
+SpecName="Officer"
+SpecSummary="The Officer uses the Holo-Targeter to coordinate fire on the battlefield which allows for a more cohesive operation for the whole squad."
+
+
+
+[Gunslinger]
+SpecName="Gunslinger"
+SpecSummary="The Gunslinger prefers to carry a secondary firearm over our more advanced equipment. While not the most common choice, it can definitely save you in a pinch."
+
+[Blademaster]
+SpecName="Blademaster"
+SpecSummary="Intrigued by the eastern regions of the old world, the Blademaster prefers cold hard steel over conventional firearms."
+
+; Tertiaries
+
+[Officer]
+SpecName="Officer"
+SpecSummary="The Officer uses the Holo-Targeter to coordinate fire on the battlefield which allows for a more cohesive operation for the whole squad."
+
+
+[Executioner]
+SpecName="Executioner"
+SpecSummary="The Executioner prefers to avoid pointless suffering. For this he carries a Sawed-Off Shotgun sure to end the life of whatever it's pointed at."
+
+[Engineer]
+SpecName="Engineer"
+SpecSummary="The Engineer wields the Arc Thrower to pacify enemy personnel with shocking efficiency."
+
+[Heavy]
+SpecName="Heavy"
+SpecSummary="The Heavy operates both flamethrower and rocket launcher integrated in the Gauntlet to provide area denial and explosive force."
+
+
+; Localization for GTS UI weapon categories
+
+[UIWeaponCat]
+shotgun="Shotgun"
+rifle="Assault Rifle"
+cannon="Cannon"
+sniper_rifle="Sniper Rifle"
+bullpup="Bullpup"
+vektor_rifle="Vektor Rifle"
+
+grenade_launcher="Grenade Launcher"
+gremlin="Gremlin"
+sidearm="Autopistol"
+pistol="Pistol"
+sword="Sword"
+
+holotargeter="Holotargeter"
+combatknife="Combat Knife"
+sawedoffshotgun="Sawed-Off"
+ArcThrower="Arc Thrower"
+lw_gauntlet="Gauntlet"
